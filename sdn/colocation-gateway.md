@@ -37,12 +37,14 @@ SDDC Platform 사용자에게 제공되는 Colocation Gateway 상품에 대한 �
 1. 신청자에게 개별 연락하여, Colocation Gateway 신청에 대한 상세 내용을 문의합니다.
 2. 신청내역을 선택하고 **\[처리]** 버튼을 클릭하여, 승인/반려 처리를 합니다.
 
-이미지
+<figure><img src="../.gitbook/assets/image (567).png" alt="" width="453"><figcaption></figcaption></figure>
 
 3. 승인 처리를 한 경우, 신청 내용을 바탕으로  [PathGroup](pathgroup.md) / [Gateway Info](gateway-info.md)를 생성합니다.
 4. 다시 **\[처리]** 버튼을 클릭하여, Gateway를 생성합니다. 3번에서 생성한 Gateway Info를 선택하여 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (560).png" alt="" width="336"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (569).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. **\[생성 내역 관리]** 탭을 클릭하여, 생성된 Colocation Gateway를 확인합니다.
 
