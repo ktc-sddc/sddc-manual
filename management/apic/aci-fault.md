@@ -56,5 +56,3 @@ ACI Fault 정보를 실시간 동기화하는 기능입니다.\
 <figure><img src="../../.gitbook/assets/스크린샷 2024-01-30 오후 4.42.11.png" alt=""><figcaption></figcaption></figure>
 
 4. 팝업 창이 닫히고, 실시간 동기화 된 ACI Fault 전체 목록이 조회됩니다.
-
-## FAQ

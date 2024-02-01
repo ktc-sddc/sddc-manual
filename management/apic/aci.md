@@ -24,5 +24,3 @@ SDDC 플랫폼 네트워크 리소스와 밀접하게 연결되어 관리가 필
 4. **\[조회]** 버튼을 클릭하여 특정 기간 동안 리소스 생성 추이를 조회합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.58.07.png" alt=""><figcaption></figcaption></figure>
-
-## FAQ
