@@ -31,7 +31,7 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리를 클릭합니다.
 2. 코드 그룹을 조회합니다. 코드는 코드 그룹 선택 후 조회합니다.
 
-<figure><img src="../../.gitbook/assets/image (279).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.21.58.png" alt=""><figcaption></figcaption></figure>
 
 ### 코드 그룹 생성
 
@@ -40,7 +40,7 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리 메뉴를 클릭합니다.
 2. 코드 그룹 영역의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.22.13.png" alt=""><figcaption></figcaption></figure>
 
 3. 생성 팝업 창에서 정보를 입력 및 선택합니다.
    * 코드 그룹 ID : 규칙에 맞게 코드 그룹을 입력합니다.
@@ -60,7 +60,7 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리 메뉴를 클릭합니다.
 2. 코드 그룹 영역의 수정할 코드 그룹을 선택 후 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.23.12.png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 팝업 창에서 정보를 입력 및 선택합니다.
    * 코드 그룹 이름 : 코드 그룹 이름을 입력합니다.
@@ -68,7 +68,7 @@ layout:
    * 설명 : 해당 코드 그룹의 설명을 작성합니다.
 4. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (283).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.30.02.png" alt=""><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 수정한 코드 그룹을 코드 그룹 영역에서 확인 할 수 있습니다.
 
@@ -85,11 +85,11 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리 메뉴를 클릭합니다.
 2. 코드 그룹 영역의 삭제할 코드 그룹을 선택 후 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.23.37.png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (285).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.30.12.png" alt=""><figcaption></figcaption></figure>
 
 4. 팝업 창이 닫히고, 삭제한 코드 그룹을 코드 그룹 영역에서 확인 할 수 있습니다.
 
@@ -101,7 +101,9 @@ layout:
 2. 코드 그룹 영역에서 코드 그룹을 선택하면 코드 영역에 해당 코드그룹에 속한 코드가 조회됩니다.
 3. 이후 코드 영역의 생성 버튼이 활성화 됩니다. **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.22.48.png" alt=""><figcaption></figcaption></figure>
+
+
 
 4. 생성 팝업 창에서 정보를 입력 및 선택합니다.
    * 코드 : 코드를 입력합니다.
@@ -123,7 +125,7 @@ layout:
 2. 코드 그룹 영역에서 코드 그룹을 선택하면 코드 영역에 해당 코드그룹에 속한 코드가 조회됩니다.
 3. 수정할 코드를 선택 후 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.24.12.png" alt=""><figcaption></figcaption></figure>
 
 4. 수정 팝업 창에서 정보를 입력 및 선택합니다.
    * 코드 : 코드를 입력합니다.
@@ -133,7 +135,7 @@ layout:
    * 설명 : 해당 코드 그룹의 설명을 작성합니다.
 5. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (289).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.30.28.png" alt=""><figcaption></figcaption></figure>
 
 6. 팝업 창이 닫히고, 수정한 코드는 코드 영역에서 확인 할 수 있습니다.
 
@@ -150,11 +152,11 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리 메뉴를 클릭합니다.
 2. 화면에서 코드 영역의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.24.27.png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (291).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.30.38.png" alt=""><figcaption></figcaption></figure>
 
 4. 팝업 창이 닫히고, 삭제한 코드를 코드 영역에서 확인 할 수 있습니다.
 
