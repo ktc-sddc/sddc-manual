@@ -52,7 +52,7 @@
     * [Service Graph](vnf-mgmt/vnf/service-graph.md)
     * [Static Route](vnf-mgmt/vnf/static-route.md)
 * [⚙ SDN 관리](sdn/README.md)
-  * [PathGroup(생성/수정 이미지 변경)](sdn/pathgroup.md)
+  * [PathGroup](sdn/pathgroup.md)
   * [Gateway Info](sdn/gateway-info.md)
   * [Colocation Gateway 관리(이미지 변경)](sdn/colocation-gateway.md)
   * [Shared Colocation Gateway 관리(이미지 변경)](sdn/cloud-connect.md)
