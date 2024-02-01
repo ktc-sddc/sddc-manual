@@ -54,7 +54,7 @@
 * [⚙ SDN 관리](sdn/README.md)
   * [PathGroup](sdn/pathgroup.md)
   * [Gateway Info](sdn/gateway-info.md)
-  * [Colocation Gateway 관리(이미지 변경)](sdn/colocation-gateway.md)
+  * [Colocation Gateway 관리](sdn/colocation-gateway.md)
   * [Shared Colocation Gateway 관리(이미지 변경)](sdn/cloud-connect.md)
 * [⚒ 시스템 관리](management/README.md)
   * [운영 정책 관리](management/policy/README.md)
