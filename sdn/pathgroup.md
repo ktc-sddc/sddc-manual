@@ -64,12 +64,13 @@ PathGroup을 생성하는 기능입니다.
    * PathGroup 이름 : PathGroup의 이름을 입력합니다.
    * PathGroup 유형 : [PathGroup의 유형](pathgroup.md#pathgroup)을 선택합니다.
    * Domain 이름 : PathGroup 유형에 맞게 Cisco ACI에 사전 정의된 Domain을 선택합니다
+   * VLAN 범위 : VLAN Pool 범위내에서 사용할 VLAN 설정이 가능합니다. (default : VLAN Pool 전체)&#x20;
    * PathEndpoint 구성 : PathGroup으로 그룹화할 Path Endpoint 정보를 추가합니다\
      \* 목록에 등록된 PathEndpoint를 삭제하고자 할 경우, 휴지통 🗑 버튼을 클릭합니다.
    * 설명 : PathGroup에 대한 설명을 입력합니다.
 4. 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. PathGroup 목록에서 생성한 PathGroup 을 확인합니다.
 
@@ -85,7 +86,7 @@ PathGroup을 수정하는 기능입니다.
 3. PathGroup 수정에 필요한 정보를 입력합니다. [PathGroup 생성](pathgroup.md#pathgroup-2)을 참고해주십시오.
 4. 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. PathGroup 목록에서 수정한 PathGroup 정보를 확인합니다.
 
