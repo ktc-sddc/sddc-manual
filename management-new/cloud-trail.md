@@ -19,10 +19,10 @@
 |         | Network Interface |   |
 |         | Security Group    |   |
 | Storage | Block Storage     |   |
-|         | Volume            |   |
-|         | Volume Snapshot   |   |
-|         |                   |   |
-|         |                   |   |
+|         | Share Storage     |   |
+| Network | Tenant            |   |
+|         | VPC               |   |
+|         | VPCs              |   |
 |         |                   |   |
 |         |                   |   |
 |         |                   |   |

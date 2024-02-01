@@ -16,7 +16,7 @@ layout:
 
 ## 개요
 
-[다른 네트워크 서버 환경](two-subnet.md)에 추가적으로 SDDC Platform 밖의 네트워크 환경과 통신할 수 있는 연결을 [Cloud Connect](broken-reference)를 활용하여 구성해보도록 하겠습니다.
+[다른 네트워크 서버 환경](subnet.md)에 추가적으로 SDDC Platform 밖의 네트워크 환경과 통신할 수 있는 연결을 [Cloud Connect](broken-reference)를 활용하여 구성해보도록 하겠습니다.
 
 #### 네트워크 구성도
 
