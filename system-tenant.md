@@ -61,13 +61,13 @@ Tenant는 서비스 정책을 관리하는 최상위 그룹입니다.
 
 4. 팝업 창이 닫히고 Tenant가 생성된 후 대시보드 화면으로 전환됩니다.
 
-\[대시보드 full 크기 화면 이미지]
+<figure><img src=".gitbook/assets/스크린샷 2024-02-01 오후 5.55.02.png" alt=""><figcaption></figcaption></figure>
 
 ### Tenant 목록 조회
 
 메뉴에서 Tenant 옆의 더보기 아이콘을 클릭하여 나오는 Tenant 관리 메뉴를 클릭하여 Tenant 목록을 조회합니다.
 
-
+<figure><img src=".gitbook/assets/스크린샷 2024-02-01 오후 5.55.34.png" alt=""><figcaption></figcaption></figure>
 
 ### Tenant 공유 권한 확인
 
@@ -83,12 +83,12 @@ Tenant는 서비스 정책을 관리하는 최상위 그룹입니다.
 1. 메뉴에서 Tenant 옆의 더보기 아이콘을 클릭합니다.
 2. Tenant 관리 메뉴를 클릭하여 Tenant 목록을 조회합니다.
 
-
+<figure><img src=".gitbook/assets/스크린샷 2024-02-01 오후 5.55.48.png" alt=""><figcaption></figcaption></figure>
 
 3. 화면에서 권한 조회할 Tenant를 선택 후 목록 상단에서 **\[공유 권한 확인]** 버튼을 클릭합니다.
 4. 팝업 창에서 공유 받은 권한을 확인합니다.
 
-
+<figure><img src=".gitbook/assets/스크린샷 2024-02-01 오후 5.55.55.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
