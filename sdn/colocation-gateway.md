@@ -30,7 +30,7 @@ SDDC Platform 사용자에게 제공되는 Colocation Gateway 상품에 대한 �
 2. **\[신청목록 관리]** 탭을 클릭합니다.
 3. **\[미처리 내역]** 탭과 **\[전체]** 탭을 통하여 신청 목록을 조회 합니다.
 
-이미지
+<figure><img src="../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
 
 ### Colocation Gateway 신청 내역 처리
 
@@ -42,7 +42,7 @@ SDDC Platform 사용자에게 제공되는 Colocation Gateway 상품에 대한 �
 3. 승인 처리를 한 경우, 신청 내용을 바탕으로  [PathGroup](pathgroup.md) / [Gateway Info](gateway-info.md)를 생성합니다.
 4. 다시 **\[처리]** 버튼을 클릭하여, Gateway를 생성합니다. 3번에서 생성한 Gateway Info를 선택하여 생성합니다.
 
-이미지
+<figure><img src="../.gitbook/assets/image (560).png" alt="" width="336"><figcaption></figcaption></figure>
 
 5. **\[생성 내역 관리]** 탭을 클릭하여, 생성된 Colocation Gateway를 확인합니다.
 
@@ -52,7 +52,7 @@ SDDC Platform 사용자에게 제공되는 Colocation Gateway 상품에 대한 �
 
 메뉴 SDN 관리 > Colocation Gateway 관리의 **\[생성 내역 관리]** 탭에서 전체 Colocation Gateway 목록을 조회합니다.
 
-이미지
+<figure><img src="../.gitbook/assets/image (561).png" alt=""><figcaption></figcaption></figure>
 
 ### Colocation Gateway 생성
 
@@ -60,7 +60,7 @@ Colocation Gateway를 생성하는 기능입니다.&#x20;
 
 1. 메뉴 SDN 관리 > Colocation Gateway 관리의 **\[생성 내역 관리]** 탭에서, **\[생성]** 버튼을 클릭합니다.
 
-이미지
+<figure><img src="../.gitbook/assets/image (564).png" alt=""><figcaption></figcaption></figure>
 
 2.  Colocation Gateway 생성 팝업 창이 나타나면, Colocation Gateway 생성 정보를 입력합니다.
 
@@ -71,7 +71,7 @@ Colocation Gateway를 생성하는 기능입니다.&#x20;
 
 3. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-생성 팝업 이미지
+<figure><img src="../.gitbook/assets/image (563).png" alt="" width="453"><figcaption></figcaption></figure>
 
 4. 팝업 창이 닫히고, 생성한 Colocation Gateway가 추가된 것을 확인합니다.
 
@@ -79,19 +79,19 @@ Colocation Gateway를 생성하는 기능입니다.&#x20;
 
 Tenant에 생성된 Colocation Gateway를 삭제하는 기능입니다.
 
-{% hint style="danger" %}
-**주의**
+{% hint style="warning" %}
+주의
 
-* Colocation Gateway 삭제 시, Subnet 연결 정보도 함께 삭제됩니다.
+연결된 Subnet이 있는 경우, Colocation Gateway 삭제 할 수 없습니다.
 {% endhint %}
 
 1. 메뉴 SDN 관리 > Colocation Gateway 관리의 **\[생성 내역 관리]** 탭에서, 삭제할 Colocation Gateway를 선택하고 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (565).png" alt=""><figcaption></figcaption></figure>
 
 2. Colocation Gateway 삭제 팝업 창이 나타나면, 팝업 창 우측 하단의 삭제 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (253).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (566).png" alt="" width="336"><figcaption></figcaption></figure>
 
 3. 삭제 팝업 창이 닫히고, Colocation Gateway가 삭제되었는지 확인합니다.
 
