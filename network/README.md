@@ -22,7 +22,7 @@ Network 리소스와 연결 기능을 제공합니다.
 * [Subnet](subnet.md)
 * [Routing](routing.md)
 * [VPC Peering](vpc-peering.md)
-* [Internet Gateway](internet-gateway-new.md)
+* [Internet Gateway](internet-gateway.md)
 * [Colocation Gateway](colocation-gateway-routing.md)
 * [Cloud Connect](broken-reference)
 * [Load balancer](load-balancer-new/)

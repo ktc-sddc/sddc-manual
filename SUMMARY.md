@@ -2,6 +2,7 @@
 
 * [SDDC Platform](README.md)
 * [대시보드](undefined.md)
+* [Tenant 관리](system-tenant.md)
 * [Tenant 권한 관리](tenant-member.md)
 * [💻 COMPUTE](compute/README.md)
   * [Server](compute/server.md)
@@ -22,7 +23,7 @@
   * [Subnet](network/subnet.md)
   * [Routing](network/routing.md)
   * [VPC Peering](network/vpc-peering.md)
-  * [Internet Gateway(new)](network/internet-gateway-new.md)
+  * [Internet Gateway](network/internet-gateway.md)
   * [Colocation Gateway (이미지 작업)](network/colocation-gateway-routing.md)
   * [Shared Colocation Gateway(이미지 작업)](network/cloud-connect-routing.md)
   * [Load balancer(new)](network/load-balancer-new/README.md)
