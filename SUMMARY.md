@@ -36,7 +36,7 @@
   * [User Activity](management-new/user-activity.md)
   * [Quota](management-new/quota.md)
   * [Cloud Canvas](management-new/cloud-canvas.md)
-* [📦 VNF 관리(개편 - 전체적 수정 필요)](vnf-mgmt/README.md)
+* [📦 VNF 관리](vnf-mgmt/README.md)
   * [License](vnf-mgmt/license.md)
   * [VIM](vnf-mgmt/vim.md)
   * [NFV Farm](vnf-mgmt/nfv-farm.md)
