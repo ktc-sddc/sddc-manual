@@ -29,7 +29,7 @@ Tenant 내에 등록되어 있는 Init Script 목록을 조회할 수 있습니�
 1. Compute > Init Script를 클릭합니다.
 2. Init Script 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Init Script 생성
 
@@ -47,9 +47,9 @@ Init Script를 생성합니다.
 1. Compute > Init Script를 클릭합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (381).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.45.38 2.png" alt=""><figcaption></figcaption></figure>
 
-3. 생성 팝업 창에서 필요한 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
+1. 생성 팝업 창에서 필요한 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (382).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -69,9 +69,9 @@ Init Script를 생성합니다.
 2. 수정할 Init Script를 선택합니다.
 3. 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.45.38 2 2 (1).png" alt=""><figcaption></figcaption></figure>
 
-4. 수정 팝업 창에서 수정할 정보(이름, Script, 설명)를 입력하고 **\[수정]** 버튼을 클릭합니다.
+1. 수정 팝업 창에서 수정할 정보(이름, Script, 설명)를 입력하고 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (384).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -89,7 +89,7 @@ Init Script를 생성합니다.
 2. 삭제할 Init Script를 선택합니다.
 3. 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (385).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.45.38.png" alt=""><figcaption></figcaption></figure>
 
 4. 삭제 팝업 창에서 삭제 대상 정보를 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
