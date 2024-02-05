@@ -82,7 +82,7 @@ Share을 삭제하는 기능입니다.
 
 ### Share 마운트
 
-####
+#### 마운트 경로 확인
 
 Server에 추가 Share을 연결하는 기능입니다.\
 대상 Server에 접속하여 마운트 작업을 수행해야 사용이 가능합니다.
@@ -92,13 +92,7 @@ Server에 추가 Share을 연결하는 기능입니다.\
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.30.20 (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-
-#### **연결된** Share **사용하기**
+#### Server에 마운트 하기
 
 연결된 Share 를 사용하기 위해서는 Server 콘솔을 통하여 Mount 과정을 거쳐야 합니다.
 
@@ -107,41 +101,24 @@ Server에 추가 Share을 연결하는 기능입니다.\
 
 <figure><img src="../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
 
-3. Server 콘솔에서 연결된 Share 정보를 확인합니다.
+3. 마운트 경로를 생성하고, 해당 Share를 경로에 마운트 합니다.
 
-<figure><img src="../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
-
-4. Mount 위치를 생성하고, 연결된 Volume에 대해 포맷 및 파일시스템 생성 후 Mount 작업을 수행합니다.
-
-<figure><img src="../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
-
-5. (옵션) 추가로 Mount된 Volume에 대해 Server 부팅 시 자동 Mount 설정을 추가하기 위하여 /etc/fstab에 추가합니다.
-
-<figure><img src="../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
+```
+$ mkdir /mnt/share
+$ mount -t nfs {mount path} /mnt/share
+$ df -h
+```
 
 #### **서버 마운트 해제**
 
-Server로부터 Volume을 연결 해제하는 기능입니다.
-
-{% hint style="danger" %}
-**주의**
-
-* ROOT Volume은 서버 연결 해제가 불가능합니다.
-* Server 실행 중에 해제가 가능하지만, 마운트된 상태로 해제할 경우 일부 데이터가 손상될 수 있습니다.
-{% endhint %}
+Server로부터 Share의 마운트를 해제하는 기능입니다.
 
 1. Server 콘솔에서 Mount된 Volume을 Unmount 합니다.
 
-<figure><img src="../../.gitbook/assets/image (549).png" alt=""><figcaption></figcaption></figure>
-
-2. Storage > Block Storage > Volume 메뉴를 클릭합니다.
-3. 대상 Volume을 선택하여 **\[해제]** 버튼을 클릭합니다.
-
-<figure><img src="../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
-
-3. Server 연결 해제 팝업 창에서 해제 대상을 확인한 후 **\[연결 해제]** 버튼을 클릭합니다.
-
-<figure><img src="../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
+```
+$ umount /mnt/share
+$ df -h
+```
 
 ## FAQ
 
