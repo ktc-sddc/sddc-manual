@@ -28,4 +28,4 @@ Compute Node 모니터링 기능을 제공합니다.
 
 > **Q. Compute Node가 하나도 보이지 않아요.**
 >
-> **A.**[ **OpenS**](undefined.md)
+> **A.**
