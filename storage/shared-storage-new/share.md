@@ -82,15 +82,21 @@ Share을 삭제하는 기능입니다.
 
 ### Share 마운트
 
-#### **서버에 마운트**
+####
 
-Server에 추가 Volume을 연결하는 기능입니다.\
-Volume을 Server에 연결한 후 대상 서버에 접속하여 Volume 마운트 작업을 수행해야 사용이 가능합니다.
+Server에 추가 Share을 연결하는 기능입니다.\
+대상 Server에 접속하여 마운트 작업을 수행해야 사용이 가능합니다.
 
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
-2. 대상 Volume을 선택하여 **\[연결]** 버튼을 클릭합니다.
+2. Mount Path 를 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.30.20 (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
 
 #### **연결된** Share **사용하기**
 
