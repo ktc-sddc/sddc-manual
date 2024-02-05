@@ -50,27 +50,27 @@ Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 �
 1. Compute > Security Group 버튼을 클릭합니다.
 2. Security Group 목록을 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
 
 ### Security Group 생성
 
 1. Compute > Security Group 버튼을 클릭합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.54.32.png" alt=""><figcaption></figcaption></figure>
 
-3. 생성 팝업 창에서 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
+1. 생성 팝업 창에서 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (400).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.56.37.png" alt=""><figcaption></figcaption></figure>
 
 ### Security Group 수정
 
 1. Compute > Security Group 버튼을 클릭합니다.
 2. 수정할 Security Group을 선택하고 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.54.32 2.png" alt=""><figcaption></figcaption></figure>
 
-3. 수정 팝업 창에서 정보를 입력하고 **\[수정]** 버튼을 클릭합니다. 현재는 이름만 수정 가능합니다.
+1. 수정 팝업 창에서 정보를 입력하고 **\[수정]** 버튼을 클릭합니다. 현재는 이름만 수정 가능합니다.
 
 <figure><img src="../../.gitbook/assets/image (404).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -86,11 +86,11 @@ Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 �
 1. Compute > Security Group 버튼을 클릭합니다.
 2. 삭제할 Security Group을 선택하고 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.54.32 3.png" alt=""><figcaption></figcaption></figure>
 
-3. 삭제 팝업 창에서 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
+1. 삭제 팝업 창에서 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (403).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.57.19.png" alt=""><figcaption></figcaption></figure>
 
 ### [Security Rule 관리](security-rule.md)
 
