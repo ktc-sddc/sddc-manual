@@ -32,7 +32,7 @@ CIDR Block 은 SDDC Platform 내에서 사용 가능한 CIDR 을 관리하여 �
 
 메뉴에서 시스템 관리 > 운영 정책 관리 > CIDR 관리 를 클릭하여 CIDR Block 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.01.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.55.11.png" alt=""><figcaption></figcaption></figure>
 
 ### CIDR Block 생성
 

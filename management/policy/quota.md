@@ -34,7 +34,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 메뉴에서 시스템 관리 > 운영 정책 관리 > Quota 관리 를 클릭하여 기본 Quota 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 1.53.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.55.53.png" alt=""><figcaption></figcaption></figure>
 
 ### 기본 Quota 생성
 
@@ -95,7 +95,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 메뉴에서 시스템 관리 > 운영 정책 관리 > Quota 관리 를 클릭 후 Tenant Quota 현황 탭을 선택하여 Tenant Quota 현황을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 1.55.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.56.07.png" alt=""><figcaption></figcaption></figure>
 
 ### Tenant Quota 생성
 
@@ -150,7 +150,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 메뉴에서 시스템 관리 > 운영 정책 관리 > Quota 관리 를 클릭 후, 변경 요청 내역 탭을 선택하여 변경 요청 내역을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.13.44.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.56.17.png" alt=""><figcaption></figcaption></figure>
 
 ### 변경 요청 승인
 

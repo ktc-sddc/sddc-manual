@@ -12,7 +12,7 @@ SDDC 플랫폼 네트워크 리소스와 밀접하게 연결되어 관리가 필
 
 시스템 관리 > APIC 관리 > ACI 리소스 현황 메뉴를 클릭하여 ACI 리소스 현황을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.57.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 6.02.55.png" alt=""><figcaption></figcaption></figure>
 
 ### 리소스 생성 추이 조회
 

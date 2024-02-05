@@ -12,7 +12,7 @@ ACI Fault 는 SDDC 플랫폼과 연동된 ACI 에서 발생중인 Fault 정보�
 
 시스템 관리 > APIC 관리 > ACI Fault 메뉴를 클릭하여 ACI Fault 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.48.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 6.02.43.png" alt=""><figcaption></figcaption></figure>
 
 ### Fault 검색 조회
 

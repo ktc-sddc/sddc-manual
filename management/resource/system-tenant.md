@@ -51,7 +51,7 @@ SDDC 플랫폼 통해 생성된 모든 Tenant 를 조회, 수정, 삭제할 수 
 시스템 관리 > 리소스 관리 > Tenant 관리 메뉴를 클릭하여 Tenant 목록을 조회합니다.\
 (왼쪽 상단의 Tenant 옆의 더보기 아이콘을 클릭하여 나오는 Tenant 관리 메뉴로도 가능합니다.)
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 3.01.07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.57.44.png" alt=""><figcaption></figcaption></figure>
 
 ### Tenant 생성
 

@@ -31,7 +31,7 @@ layout:
 1. 시스템 관리 > 운영 정책 관리 > 공통코드 관리를 클릭합니다.
 2. 코드 그룹을 조회합니다. 코드는 코드 그룹 선택 후 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-02-01 오후 6.21.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 5.56.52.png" alt=""><figcaption></figcaption></figure>
 
 ### 코드 그룹 생성
 

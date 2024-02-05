@@ -34,7 +34,7 @@ SDDC 플랫폼 통해 생성된 모든 Subnet 를 조회, 수정, 삭제할 수 
 
 메뉴에서 시스템 관리 > 리소스 관리 > Subnet 관리 를 클릭하여 Subnet 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.39.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 6.01.47.png" alt=""><figcaption></figcaption></figure>
 
 ### Subnet 검색 조회
 
