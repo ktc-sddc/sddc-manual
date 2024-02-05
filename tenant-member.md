@@ -32,7 +32,7 @@ Tenant는 서비스 정책을 관리하는 최상위 그룹입니다. 이러한 
 
 Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한을 공유 받은 사용자 목록을 조회합니다.
 
-<figure><img src=".gitbook/assets/image (498).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.46.44.png" alt=""><figcaption></figcaption></figure>
 
 ### Tenant 권한 공유
 
@@ -41,16 +41,20 @@ Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한�
 1. Tenant 권한 관리 메뉴를 클릭합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/image (499).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.46.54.png" alt=""><figcaption></figcaption></figure>
 
-3. 생성 팝업 창에서 정보를 선택합니다.
+3. 생성 팝업 창에서 사용자 정보 조회 및 선택합니다.
    * 사용자 정보 : 현재 선택된 Tenant의 권한을 부여할 사용자를 검색하여 등록합니다.
+
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.47.46.png" alt=""><figcaption></figcaption></figure>
+
+4. 생성 팝업 창에서 정보를 선택합니다.
    * Tenant 권한 : 권한 그룹, 권한 그룹의 유형에 따라 권한을 세부적으로 부여할 수 있습니다.
-4. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/스크린샷 2024-01-30 오후 2.02.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.47.58.png" alt=""><figcaption></figcaption></figure>
 
-5. 팝업 창이 닫히고, 화면 목록에서 권한을 부여받은 사용자를 확인 할 수 있습니다.
+5. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
+6. 팝업 창이 닫히고, 화면 목록에서 권한을 부여받은 사용자를 확인 할 수 있습니다.
 
 ### Tenant 권한 수정
 
@@ -59,13 +63,13 @@ Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한�
 1. Tenant 권한 관리 메뉴를 클릭합니다.
 2. 화면에서 Tenant 권한을 공유받은 사용자를 선택 후 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/image (500).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.48.20.png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 팝업 창에서 Tenant 권한 선택 목록을 변경합니다.
    * Tenant 권한 : 기존에 공유받은 권한은 선택되어 있으며, 필요에 따라 추가/삭제할 권한을 선택합니다.
 4. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/image (501).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.55.54.png" alt=""><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 화면에서 확인 할 수 있습니다.
 
@@ -76,13 +80,13 @@ Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한�
 1. Tenant 권한 관리 메뉴를 클릭합니다.
 2. 화면에서 Tenant 권한을 공유받은 사용자를 선택 후 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/image (502).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.48.38 (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 팝업 창에서 정보를 입력합니다.
    * Tenant 권한을 삭제할 사용자 ID를 입력합니다.
 4. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-
+<figure><img src=".gitbook/assets/스크린샷 2024-02-05 오후 3.57.43.png" alt=""><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 화면에서 확인 할 수 있습니다.
 
