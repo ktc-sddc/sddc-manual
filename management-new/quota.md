@@ -6,7 +6,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 ### 용어
 
-<table><thead><tr><th width="183">이름</th><th>설명</th></tr></thead><tbody><tr><td>유형</td><td><ul><li>DEFAULT : 기본 Quota 값이 적용됨을 의미.</li><li>CUSTOMIZED : 변경 요청된 값이 적용됨을 의미.</li></ul></td></tr><tr><td>Resource</td><td>Quota 제한 리소스 의미.</td></tr><tr><td>Resource Scope</td><td>Quota 제한 범위를 의미.</td></tr><tr><td>기본 Quota</td><td>기본적으로 제공되는 리소스 생성 한도를 의미.</td></tr><tr><td>적용된 Quota</td><td>현재 적용된 리소스 생성 한도를 의미.</td></tr></tbody></table>
+<table><thead><tr><th width="183">이름</th><th>설명</th></tr></thead><tbody><tr><td>유형</td><td><ul><li>DEFAULT : 기본 Quota 값이 적용됨을 의미.</li><li>CUSTOMIZED : 변경 요청된 값이 적용됨을 의미.</li></ul></td></tr><tr><td>Resource</td><td>Quota 제한 리소스를 의미.</td></tr><tr><td>Resource Scope</td><td>Quota 제한 범위를 의미.</td></tr><tr><td>기본 Quota</td><td>기본적으로 제공되는 리소스 생성 한도를 의미.</td></tr><tr><td>적용된 Quota</td><td>현재 적용된 리소스 생성 한도를 의미.</td></tr></tbody></table>
 
 
 
@@ -27,7 +27,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 {% hint style="info" %}
 **참고**
 
-* TENANT 리소스는 Quota 변경 요청이 불가능합니다.
+* Tenant 리소스는 Quota 변경 요청이 불가능합니다.
 * 이미 Quota 변경 요청이 진행중인 리소스에 대한 새로운 요청은 생성할 수 없습니다.
 {% endhint %}
 

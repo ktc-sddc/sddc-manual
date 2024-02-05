@@ -24,7 +24,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 #### 용어 설명
 
-<table><thead><tr><th width="196.78411910669973">용어</th><th>설명</th></tr></thead><tbody><tr><td>Resource</td><td>Quota 제한 리소스 의미.</td></tr><tr><td>Resource Scope</td><td>Quota 제한 범위를 의미.</td></tr><tr><td>Quota</td><td> Resource Scope 내 생성 가능한 리소스의 개수를 의미.</td></tr></tbody></table>
+<table><thead><tr><th width="196.78411910669973">용어</th><th>설명</th></tr></thead><tbody><tr><td>Resource</td><td>Quota 제한 리소스를 의미.</td></tr><tr><td>Resource Scope</td><td>Quota 제한 범위를 의미.</td></tr><tr><td>Quota</td><td> Resource Scope 내 생성 가능한 리소스의 개수를 의미.</td></tr></tbody></table>
 
 
 
@@ -183,5 +183,3 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 <figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.00.29.png" alt=""><figcaption></figcaption></figure>
 
 6. 팝업 창이 닫히고, 목록에서 정보가 변경됩니다.
-
-## FAQ
