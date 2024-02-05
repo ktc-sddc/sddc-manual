@@ -55,7 +55,7 @@
     * [Tenant 관리](management/resource/system-tenant.md)
     * [VPC 관리](management/resource/system-vpc.md)
     * [Subnet 관리](management/resource/system-subnet.md)
-    * [Nas Routing 관리(이미지)](management/resource/nas-routing.md)
+    * [Nas Routing 관리(이미지)](management/resource/nas-routing.md)
   * [이력 관리](management/history/README.md)
     * [Access History](management/history/access.md)
   * [APIC 관리](management/apic/README.md)

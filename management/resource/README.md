@@ -19,3 +19,4 @@ layout:
 * [Tenant 관리](system-tenant.md)
 * [VPC 현황](system-vpc.md)
 * [Subnet 현황](system-subnet.md)
+* [Nas Routing 관리](nas-routing.md)

@@ -49,7 +49,7 @@ SDDC 플랫폼 통해 생성된 모든 Tenant 를 조회, 수정, 삭제할 수 
 ### Tenant 목록 조회
 
 시스템 관리 > 리소스 관리 > Tenant 관리 메뉴를 클릭하여 Tenant 목록을 조회합니다.\
-(왼쪽 상단의 Tenant 옆의 더보기 아이콘을 클릭하여 나오는 Tenant 관리 메뉴로도 가능합니다.)
+(왼쪽 상단의 Tenant 옆의 더보기 아이콘을 클릭하여 나오는 Tenant 관리 메뉴로도 가능합니다.)
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 3.01.07.png" alt=""><figcaption></figcaption></figure>
 
@@ -145,6 +145,6 @@ IPC 포털 내 Openstack Project 를 SDDC Platform 과 연동하여 Tenant 를 �
 
 ## FAQ
 
-> **Q. SYSTEM 유형 Tenant가 삭제 되지 않습니다.**
+> **Q. SYSTEM 유형 Tenant가 삭제 되지 않습니다.**
 >
 > **A.** 사용자의 ROLE이 시스템 관리자인 경우에만 삭제가 가능합니다. 현재 접속한 계정의 ROLE을 다시 한번 확인해주시기 바랍니다. 시스템 관리자 계정인 경우에도 삭제가 불가능 할 시, 시스템 관리자(sddc.ktcloud@kt.com)에게 요청하시기를 바랍니다.

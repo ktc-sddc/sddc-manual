@@ -36,7 +36,7 @@ SDDC 플랫폼 통해 생성된 모든 VPC 를 조회, 수정, 삭제할 수 있
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-01-31 오후 2.31.57.png" alt=""><figcaption></figcaption></figure>
 
-### VPC 검색 조회
+### VPC 검색 조회
 
 1. 시스템 관리 > 리소스 관리 > VPC 관리 메뉴를 클릭합니다.
 2. 검색 조건을 입력합니다. (각 조건은 And 로 적용됩니다.)
