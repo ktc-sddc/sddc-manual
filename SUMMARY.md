@@ -30,7 +30,7 @@
     * [Load Balancer 관리](network/load-balancer-new/load-balancer.md)
     * [Member Group 관리](network/load-balancer-new/member-group.md)
 * [🔒 Security](nov/README.md)
-  * [방화벽(이름 변경 -vFW)](nfv/firewall.md)
+  * [방화벽](nfv/firewall.md)
 * [Ⓜ Management(new)](management-new/README.md)
   * [Cloud Trail](management-new/cloud-trail.md)
   * [User Activity](management-new/user-activity.md)
