@@ -33,7 +33,7 @@ Key Pair는 SSH Private/Public Key Pair를 생성하여 Server 연결 시 자격
 1. Compute > Key Pair 메뉴를 클릭합니다.
 2. Key Pair 목록 정보를 확인합니다.
 
-<figure><img src="../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
 
 ### **Key Pair 생성**
 
