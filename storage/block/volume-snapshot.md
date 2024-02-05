@@ -29,7 +29,7 @@ Tenant 내에서 사용 중인 Volume Snapshot 목록을 조회합니다.
 1. Storage > Block Storage > Volume Snapshot 메뉴를 클릭합니다.
 2. Volume Snapshot 목록 정보를 확인합니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2023-08-04 오후 4.15.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (630).png" alt=""><figcaption></figcaption></figure>
 
 *   상태
 
@@ -42,7 +42,7 @@ Tenant 내에서 사용 중인 Volume Snapshot 목록을 조회합니다.
 2. Volume Snapshot 목록 정보를 확인합니다.
 3. 조회할 Volume Snapshot을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (631).png" alt=""><figcaption></figcaption></figure>
 
 ### Volume Snapshot 생성
 
@@ -58,11 +58,13 @@ DATA Volume 백업을 위한 Volume Snapshot을 생성하는 기능입니다.
 1. Storage > Block Storage > Volume 메뉴를 클릭합니다.
 2. 목록 상단에 **\[스냅샷 생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (627).png" alt=""><figcaption></figcaption></figure>
 
 3. Snapshot 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (453).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (628).png" alt="" width="340"><figcaption></figcaption></figure>
+
+
 
 ### Volume Snapshot 수정
 
@@ -71,22 +73,22 @@ DATA Volume 백업을 위한 Volume Snapshot을 생성하는 기능입니다.
 1. Storage > Block Storage > Volume Snapshot 메뉴를 클릭합니다.
 2. 대상 Volume Snapshot을 선택하여 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (633).png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 팝업 창에서 입력 정보(Snapshot 이름 / 설명)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (461).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (632).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ### Volume Snapshot 삭제
 
 1. Storage > Block Storage > Volume Snapshot 메뉴를 클릭합니다.
 2. 대상 Volume Snapshot을 선택하여 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (634).png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (457).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (635).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ### Volume 복원
 
@@ -99,11 +101,11 @@ Volume Snapshot을 통한 Volume 복원 시 크기 및 상품 타입은 원본 V
 1. Storage > Block Storage > Volume Snapshot 메뉴를 클릭합니다.
 2. 대상 Volume Snapshot을 선택하여 **\[VOLUME 복원]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (460).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (636).png" alt=""><figcaption></figcaption></figure>
 
 3. 복원 팝업 창에서 정보를 입력한 후 **\[복원]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (456).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (637).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## FAQ
 

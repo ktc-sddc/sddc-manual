@@ -54,7 +54,7 @@ Volume 목록 화면에서 특정 Volume을 선택하면 상세 정보를 확인
 
     하나의 Volume은 1개 이상의 Volume Snapshot을 생성할 수 있으며, 생성된 Volume Snapshot이 없으면 "연결된 Volume Snapshot이 존재하지 않습니다."라고 보여줍니다.
 
-<figure><img src="../../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (629).png" alt=""><figcaption></figcaption></figure>
 
 ### Volume 생성
 
