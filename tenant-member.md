@@ -54,7 +54,7 @@ Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한�
 
 ### Tenant 권한 수정
 
-기존에 부여된 Tenant 메뉴/기능 권한을 추가 혹은 삭제할 수 있니다.
+기존에 부여된 Tenant 메뉴/기능 권한을 추가 혹은 삭제할 수 있습니다.
 
 1. Tenant 권한 관리 메뉴를 클릭합니다.
 2. 화면에서 Tenant 권한을 공유받은 사용자를 선택 후 목록 상단에 **\[수정]** 버튼을 클릭합니다.
@@ -82,7 +82,7 @@ Tenant 권한 관리 메뉴를 클릭하여 현재 선택된 Tenant 의 권한�
    * Tenant 권한을 삭제할 사용자 ID를 입력합니다.
 4. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src=".gitbook/assets/image (503).png" alt="" width="375"><figcaption></figcaption></figure>
+
 
 5. 팝업 창이 닫히고, 화면에서 확인 할 수 있습니다.
 
