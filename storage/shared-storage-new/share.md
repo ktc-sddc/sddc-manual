@@ -16,27 +16,22 @@ layout:
 
 ## 개요
 
-&#x20;생성, 수정, 삭제, 동작 제어 등을 제공하는 기능입니다.
+Share 생성, 수정, 삭제, 동작 제어 등을 제공하는 기능입니다.
 
-Server Root Volume 및 추가 가능한 Data Volume에 대한 관리가 가능하며, Volume Snapshot 기능을 통해 백업도 제공합니다.
-
-#### Volume 유형
-
-<table><thead><tr><th width="152">유형</th><th width="538">설명</th></tr></thead><tbody><tr><td><strong>ROOT</strong></td><td>Server 생성 시 함께 생성되는 Root Volume입니다.</td></tr><tr><td><strong>DATA</strong></td><td>Server에 추가로 연결할 수 있는 Data Volume입니다.</td></tr></tbody></table>
+해당 Tenant 내의 Server에 mount Path를 통해 마운트하여 사용할 수 있습니다.
 
 ## 사용 가이드
 
-### Volume 목록 조회
+### Share 목록 조회
 
-Tenant 내에서 사용 중인 Volume 목록을 조회합니다.
+Tenant 내에서 사용 중인 Share 목록을 조회합니다.
 
-1. Storage > Block Storage > Volume 메뉴를 클릭합니다.
-2. Volume 목록 정보를 확인합니다.
-   * Server 생성 시 생성된 ROOT Volume도 함께 조회되며, ROOT 카테고리로 표기됩니다.
+1. Storage > Share Storage > Share 메뉴를 클릭합니다.
+2. Share 목록 정보를 확인합니다.
 
 <figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption><p>&#x3C;Block Storage Volume 조회화면></p></figcaption></figure>
 
-* 볼륨 상태
+* Share 상태
 
 <table data-full-width="false"><thead><tr><th width="159">상태(영문)</th><th width="117.72950819672133">상태(한글)</th><th>설명</th></tr></thead><tbody><tr><td><strong>AVAILABLE</strong></td><td>사용가능</td><td>Server 에 연결이 가능한 상태입니다.</td></tr><tr><td><strong>IN-USE</strong></td><td>사용중</td><td>Server 에 연결된 상태입니다.</td></tr><tr><td><strong>ERROR</strong></td><td>장애</td><td>Volume 생성을 실패하였습니다.</td></tr><tr><td><strong>CREATING</strong></td><td>처리중</td><td>Volume 생성 중입니다.</td></tr><tr><td><strong>ATTACHING</strong></td><td>처리중</td><td>Volume을 Server에 연결 중입니다.</td></tr><tr><td><strong>DETACHING</strong></td><td>처리중</td><td>Server 에서 Volume 연결을 해제하는 중입니다.</td></tr><tr><td><strong>EXTENDING</strong></td><td>처리중</td><td>Volume Size를 확장하고 있습니다.</td></tr><tr><td><strong>UNMANAGED</strong></td><td>비정상</td><td>관리되지 않은 상태이며, 관리자에게 문의가 필요합니다.</td></tr></tbody></table>
 
