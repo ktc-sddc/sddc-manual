@@ -40,7 +40,7 @@ Key Pair는 SSH Private/Public Key Pair를 생성하여 Server 연결 시 자격
 1. Compute > Key Pair 메뉴를 클릭합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.50.16.png" alt=""><figcaption></figcaption></figure>
 
 3. 생성 팝업 창에서 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
 
@@ -61,7 +61,7 @@ Key Pair는 SSH Private/Public Key Pair를 생성하여 Server 연결 시 자격
 1. Compute > Key Pair 메뉴를 클릭합니다.
 2. Key Pair 목록에서 삭제할 대상을 선택하고 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (392).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.50.16 2.png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 팝업 창에서 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
