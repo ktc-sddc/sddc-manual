@@ -49,7 +49,7 @@ Init Script를 생성합니다.
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.45.38 2.png" alt=""><figcaption></figcaption></figure>
 
-1. 생성 팝업 창에서 필요한 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
+3. 생성 팝업 창에서 필요한 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (382).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ Init Script를 생성합니다.
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 1.45.38 2 2 (1).png" alt=""><figcaption></figcaption></figure>
 
-1. 수정 팝업 창에서 수정할 정보(이름, Script, 설명)를 입력하고 **\[수정]** 버튼을 클릭합니다.
+4. 수정 팝업 창에서 수정할 정보(이름, Script, 설명)를 입력하고 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (384).png" alt="" width="375"><figcaption></figcaption></figure>
 
