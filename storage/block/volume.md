@@ -36,7 +36,7 @@ Tenant 내에서 사용 중인 Volume 목록을 조회합니다.
 2. Volume 목록 정보를 확인합니다.
    * Server 생성 시 생성된 ROOT Volume도 함께 조회되며, ROOT 카테고리로 표기됩니다.
 
-<figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption><p>&#x3C;Block Storage Volume 조회화면></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
 
 * 볼륨 상태
 
