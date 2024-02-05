@@ -27,10 +27,8 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 사용자에게 제공하는 Cloud 상품 목록을 조회합니다.
 
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 관리 메뉴를 클릭합니다.
-2. 화면 왼쪽 Cloud 상품 목록 정보를 확인합니다.
-   * 사용: 사용자들에게 제공 여부를 결정합니다.
 
-<figure><img src="../../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (617).png" alt=""><figcaption></figcaption></figure>
 
 ### Cloud 상품 생성
 
@@ -45,11 +43,15 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 메뉴를 클릭합니다.
 2. 화면 왼쪽 Cloud 상품 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.00.18 2.png" alt=""><figcaption></figcaption></figure>
 
-3. Cloud 상품 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
+3. Cloud 상품 생성 창에서 관리대상, 상품 유형과 이름, 설명을 입력한 후 **\[다음]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
+
+4. Flavor, Volume, Share의 유형에 맞게 목록을 선택한 후, 생성 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 
 ### Cloud 상품 수정
 
@@ -64,11 +66,15 @@ Cloud 상품 사용 여부, 이름 수정, type 연동 기능을 제공합니다
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 메뉴를 클릭합니다.
 2. 화면 왼쪽 Cloud 상품 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.00.18 3.png" alt=""><figcaption></figcaption></figure>
 
-3. Cloud 상품 수정 팝업 창에서 정보를 입력한 후 **\[수정]** 버튼을 클릭합니다.
+3. Cloud 상품 수정 창에서 수정할 정보를 입력한 후 **\[다음]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
+
+4. 필요한 정보를 수정한 이후, 수정 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (623).png" alt=""><figcaption></figcaption></figure>
 
 ### Cloud 상품 삭제
 
@@ -78,24 +84,20 @@ Cloud 상품 사용 여부, 이름 수정, type 연동 기능을 제공합니다
 **주의**
 
 * Type을 삭제할 경우, 기존 생성된 Volume에서 상품 정보가 노출되지 않습니다.
-* Type을 삭제할 경우 연결된 OpenStack Type의 연결이 해제됩니다.
+* Type을 삭제할 경우 연결된 OpenStack Type의 연결을 해제 해야합니다.
 {% endhint %}
 
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 관리 메뉴를 클릭합니다.
 2. 삭제할 Cloud 상품을 선택하고 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.00.18.png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 팝업 창에서 삭제할 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (319).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (625).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
-> **Q. Volume Product에 여러 개의 Volume Type이 연결되어있을 경우, Volume 생성 시 어떤 Type으로 생성되나요?**
+> **Q. Cloud 상품을 삭제하려면, 어떻게 해야하나요?**
 >
-> **A.** 연결 목록에서 첫 번째 Volume Type으로 Volume이 생성됩니다. 따라서 원하는 Volume Type으로 생성될 수 있도록 목록에서 사용하지 않는 Volume Type은 관리 대상에서 제외해야 합니다.
-
-> **Q. 동일한 Volume Type이 A -> B Volume Product로 연결 정보가 변경될 경우, 해당 Volume Type을 사용하는 Volume의 Product Type은 어떻게 되나요?**
->
-> **A.** 변경된 Volume Product 정보로 제공됩니다.
+> **A. 해당 상품에 연결된 유형(Flavor, VolumeType, ShareType) 을 관리 대상 제외하고 삭제 하셔야 합니다.**
