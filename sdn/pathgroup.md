@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# PathGroup(생성/수정 이미지 변경)
+# PathGroup
 
 ***
 
@@ -70,7 +70,7 @@ PathGroup을 생성하는 기능입니다.
    * 설명 : PathGroup에 대한 설명을 입력합니다.
 4. 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (552).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. PathGroup 목록에서 생성한 PathGroup 을 확인합니다.
 
@@ -86,7 +86,7 @@ PathGroup을 수정하는 기능입니다.
 3. PathGroup 수정에 필요한 정보를 입력합니다. [PathGroup 생성](pathgroup.md#pathgroup-2)을 참고해주십시오.
 4. 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. PathGroup 목록에서 수정한 PathGroup 정보를 확인합니다.
 

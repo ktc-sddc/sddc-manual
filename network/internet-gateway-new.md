@@ -68,7 +68,7 @@ Internet Gateway를 삭제하는 기능입니다.
 
 2. 팝업창 우측 하단 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (552).png" alt="" width="386"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (552) (1).png" alt="" width="386"><figcaption></figcaption></figure>
 
 3. Internet Gateway 목록에서 삭제 여부를 확인합니다.
 
