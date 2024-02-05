@@ -10,8 +10,6 @@
 
 ## 사용 가이드
 
-
-
 ### Cloud Trail 목록 조회
 
 Tenant 내에서 발생한 Cloud 리소스의 변경 이력을 조회하는 기능입니다.
@@ -26,7 +24,7 @@ Tenant 내에서 발생한 Cloud 리소스의 변경 이력을 조회하는 기�
 
 <figure><img src="../.gitbook/assets/image (609).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="221">조건</th><th>설명</th></tr></thead><tbody><tr><td>Site</td><td>SDDC 플랫폼내 제공하는 Site 단위로 검색합니다.</td></tr><tr><td>서비스 유형</td><td>SDDC 플랫폼에서 제공하는 서비스 단위로 검색합니다. (ex, Compute, Storage, Network 등)</td></tr><tr><td>상품 명</td><td>서비스 별 제공되는 상품 별로 검색합니다 ( Ex. Compute - Server / key Pair / Security Group 등)</td></tr><tr><td>작업자</td><td>사용자를 검색합니다.</td></tr><tr><td>조회시작일 / 조회 종료일</td><td>검색 범주를 지정합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="214">조건</th><th>설명</th></tr></thead><tbody><tr><td>Site</td><td>SDDC 플랫폼내 제공하는 Site 단위로 검색합니다.</td></tr><tr><td>서비스 유형</td><td>SDDC 플랫폼에서 제공하는 서비스 단위로 검색합니다. (예시 - Compute, Storage, Network 등)</td></tr><tr><td>상품 명</td><td>서비스 별 제공되는 상품 별로 검색합니다 (예시 - Compute 서비스 유형 하위에서 선택가능한 상품 리스트 - Server, Key Pair, Init Script 등)</td></tr><tr><td>작업자</td><td>사용자를 검색합니다.</td></tr><tr><td>조회시작일 / 조회 종료일</td><td>검색 범주를 지정합니다.</td></tr></tbody></table>
 
 
 
