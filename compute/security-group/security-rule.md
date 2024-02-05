@@ -84,11 +84,11 @@ Security Rule의 원격 유형을 Remote Group으로 설정 할 수 있습니다
 1. Compute > Security Group 버튼을 클릭합니다.
 2. 조회할 Security Group을 선택하고, 상단에 **\[SECURITY RULE 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.59.35.png" alt=""><figcaption></figcaption></figure>
 
-3. Security Rule 관리 팝업 창에서 목록을 확인합니다.
+1. Security Rule 관리 팝업 창에서 목록을 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (607).png" alt=""><figcaption></figcaption></figure>
 
 ### Security Rule 추가
 
@@ -97,24 +97,24 @@ Security Rule을 생성하려면 기본적으로 Security Group이 있어야 합
 1. Compute > Security Group 버튼을 클릭합니다.
 2. 수정할 Security Group을 선택하고, 상단에 **\[SECURITY RULE 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.59.35 (1).png" alt=""><figcaption></figcaption></figure>
 
-3. Security Rule 관리 팝업 창에서 목록 오른쪽 상단에 **\[RULE 추가]** 버튼을 클릭합니다
-4. 추가할 Rule을 입력 후 **\[저장]** 버튼을 클릭합니다.
+1. Security Rule 관리 팝업 창에서 목록 오른쪽 상단에 **\[RULE 추가]** 버튼을 클릭합니다
+2. 추가할 Rule을 입력 후 **\[저장]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (414).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.01.09.png" alt=""><figcaption></figcaption></figure>
 
 ### Security Rule 삭제
 
 1. Compute > Sercurity Group 버튼을 클릭합니다.
 2. 수정할 Security Group을 선택하고, 상단에 **\[SECURITY RULE 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (412).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 1.59.35 (2).png" alt=""><figcaption></figcaption></figure>
 
-3. Security Rule 관리 팝업 창에서 삭제할 Security Rule에 대해 삭제 버튼을 클릭합니다.
-4. 입력이 완료되면 **\[저장]** 버튼을 클릭합니다.
+1. Security Rule 관리 팝업 창에서 삭제할 Security Rule에 대해 삭제 버튼을 클릭합니다.
+2. 입력이 완료되면 **\[저장]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (413).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.02.16.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
