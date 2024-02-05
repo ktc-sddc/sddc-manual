@@ -80,13 +80,6 @@ Cloud 상품 사용 여부, 이름 수정, type 연동 기능을 제공합니다
 
 사용하지 않는 Cloud 상품을 삭제합니다.
 
-{% hint style="danger" %}
-**주의**
-
-* Type을 삭제할 경우, 기존 생성된 Volume에서 상품 정보가 노출되지 않습니다.
-* Type을 삭제할 경우 연결된 OpenStack Type의 연결을 해제 해야합니다.
-{% endhint %}
-
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 관리 메뉴를 클릭합니다.
 2. 삭제할 Cloud 상품을 선택하고 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
