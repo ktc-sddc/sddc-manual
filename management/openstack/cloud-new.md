@@ -28,7 +28,7 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 
 1. 시스템 관리 > OpenStack 관리 > Cloud 상품 관리 메뉴를 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (617).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (617) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Cloud 상품 생성
 
