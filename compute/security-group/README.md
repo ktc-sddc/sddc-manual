@@ -25,8 +25,8 @@ Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제�
 Tenant 생성 시, Default Security Group이 1개 생성되어 제공됩니다.\
 Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 수정, 삭제가 불가능합니다.
 
-* 모든 송신(egress) 허용
-* 모든 수신(ingress) 허용
+* 모든 송신(outbound) 허용
+* 모든 수신(inbound) 허용
 
 {% hint style="info" %}
 **참고**
@@ -39,7 +39,7 @@ Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 �
 추가적으로 Security Group을 생성할 때에는 다음과 같은 기본 Security Rule이 생성됩니다.\
 이때, 제공되는 기본 Security Rule은 Security Group 생성 시에는 수정, 삭제가 불가능하나, 생성이 완료된 이후에는 수정, 삭제가 가능합니다.
 
-* 모든 송신(egress) 허용
+* 모든 송신(outbound) 허용
 
 
 
@@ -80,7 +80,7 @@ Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 �
 **참고**
 
 * Network Interface에 할당된 Security Group은 삭제가 불가능 합니다.
-* Security Rule에서원 Remote(원격)로 사용되는 Security Group은 삭제가 불가능 합니다.
+* Security Rule에서 Remote(원격)으로 사용되는 Security Group은 삭제가 불가능 합니다.
 {% endhint %}
 
 1. Compute > Security Group 버튼을 클릭합니다.
