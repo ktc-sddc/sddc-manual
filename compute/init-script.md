@@ -93,7 +93,7 @@ Init Script를 생성합니다.
 
 4. 삭제 팝업 창에서 삭제 대상 정보를 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (386).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-05 at 14.39.53.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
