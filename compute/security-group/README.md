@@ -18,7 +18,7 @@ layout:
 
 ## 개요
 
-Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제어 및 관리를 할 수 있는 가상의 방화벽 서비스 입니다. Security Group은 [Security Rule](security-rule.md)들의 집합으로, Security Rule을 통해 서버에서 발생하는 허가 받지 않은 바운드/아웃바운드 트래픽을 제어함으로써 서버를 안전하게 보호할 수 있습니다.
+Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제어 및 관리를 할 수 있는 가상의 방화벽 서비스입니다. Security Group은 [Security Rule](security-rule.md)들의 집합으로, Security Rule을 통해 서버에서 발생하는 허가 받지 않은 인바운드/아웃바운드 트래픽을 제어함으로써 서버를 안전하게 보호할 수 있습니다.
 
 #### Default Security Group
 
