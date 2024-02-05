@@ -20,9 +20,7 @@ layout:
 
 방화벽 서비스는 Tenant 내에서 사용하는 자원을 보호하기 위해 제공하는 네트워크 보안 서비스입니다.
 
-
-
-
+사용자의 Tenant 내 네트워크 트래픽 구성에 맞는 다양한 유형의 방화벽 서비스를 제공합니다.
 
 
 
@@ -54,28 +52,59 @@ layout:
 
 
 
-4. 방화벽 상품 선택
-
-이중화 여부 / 방화벽 사양 등의 상품 정보를 고려하여, 네트워크 환경에 맞는 방화벽 상품을 선택한 후, **다음** 버튼을 클릭합니다
+4. 이중화 여부 / 방화벽 사양 등의 상품 정보를 고려하여, 네트워크 환경에 맞는 방화벽 상품을 선택한 후, **다음** 버튼을 클릭합니다
 
 <figure><img src="../.gitbook/assets/image (665).png" alt=""><figcaption></figcaption></figure>
 
-5. 기본정보 입력
-
-방화벽 이름과 설명을 입력한 후 **생성** 버튼을 클릭합니다.
+5. 방화벽 이름과 설명을 입력한 후 **생성** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (666).png" alt=""><figcaption></figcaption></figure>
 
+6. 방화벽 메뉴에서 생성된 방화벽 상품을 확인합니다
+
+<figure><img src="../.gitbook/assets/image (667).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+방화벽 상태가 **비정상** 인 경우 시스템 관리자(sddc.ktcloud@kt.com)에게 문의하시기 바랍니다.
+{% endhint %}
 
 
-###
 
-## FAQ
 
-> **Q. 정책의 순서를 변경하고 싶습니다.**
+
+### 방화벽 연결 생성
+
+
+
+{% hint style="info" %}
+방화벽 연결 생성을 위해서는 방화벽을 적용할 라우팅 정보를 미리 생성해야 합니다.
+
+예를 들어, Inner FW의 경우 VPC Peering 리소스가 필요하고,  Outer FW의 경우 Internet(또는 Colocation) Gateway 연결 리소스가 필요합니다.
+
+라우팅 연결 방법은 다음의 매뉴얼을 참고하시기 바랍니다.\
+\- VPC Peering : Network > Routing \
+\- Internet Gateway : Network > Internet Gateway\
+\- Colocation Gateway : Network > Colocation Gateway
+{% endhint %}
+
+
+
+1. **방화벽 연결** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
+
+2. 방화벽 연결 생성 메뉴에서 필요 정보를 입력합니다.
+
+* Inner FW\
+  &#x20;\-  Target VPC 선택 : 방화벽이 생성될 Target VPC 를 선택합니다.  Target VPC와 VPC Peering으로 연결된 VPC 구간에는 "라우팅 리소스 추가"를 통해 방화벽 정책을 쉽게 적용할 수 있습니다.\
+  &#x20;\-  라우팅 리소스 선택 : 방화벽이 적용될 VPC Peering 구간을 선택합니다.
+
+<figure><img src="../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
+
+* Outer FW
+
+
+
+
+
 >
-> A. 현재는 정책의 순서 변경 기능을 지원하지 않고 있습니다. 정책을 삭제하고, 생성하여 주시기 바랍니다.
-
-> **Q. 정책이 생성/삭제가 되지 않습니다.**
->
-> A. 시스템 관리자(sddc.ktcloud@kt.com)에게 문의하시기 바랍니다.
