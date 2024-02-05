@@ -79,6 +79,20 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 
 <figure><img src="../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
 
+### Network Interface 동기화
+
+해당 Tenant 내의, 모든 Network Interface에 대해서 동기화 작업을 진행합니다.
+
+비동기로 동작하여 바로 반영되지 않을 수 도 있습니다.
+
+사용자는 사용자가 직접 생성하지 않고, 내부적으로 생성된 Network Interface에 대해서 제어 권한이 없습니다.
+
+내부적으로 생성된 Network Interface에 대한 제어를 동기화 기능으로 제공됩니다.
+
+1. 동기화 버튼 클릭
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 2.10.13.png" alt=""><figcaption></figcaption></figure>
+
 ## FAQ
 
 > **Q. Network Interface에 Security Group은 몇 개 까지 적용이 가능한가요??**
