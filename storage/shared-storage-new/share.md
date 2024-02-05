@@ -33,7 +33,7 @@ Tenant 내에서 사용 중인 Share 목록을 조회합니다.
 
 * Share 상태
 
-<table data-full-width="false"><thead><tr><th width="159">상태(영문)</th><th width="117.72950819672133">상태(한글)</th><th>설명</th></tr></thead><tbody><tr><td><strong>AVAILABLE</strong></td><td>사용가능</td><td>Server 에 연결이 가능한 상태입니다.</td></tr><tr><td><strong>IN-USE</strong></td><td>사용중</td><td>Server 에 연결된 상태입니다.</td></tr><tr><td><strong>ERROR</strong></td><td>장애</td><td>Volume 생성을 실패하였습니다.</td></tr><tr><td><strong>CREATING</strong></td><td>생ㅓ중</td><td>Volume 생성 중입니다.</td></tr><tr><td><strong>ATTACHING</strong></td><td>처리중</td><td>Volume을 Server에 연결 중입니다.</td></tr><tr><td><strong>DETACHING</strong></td><td>처리중</td><td>Server 에서 Volume 연결을 해제하는 중입니다.</td></tr><tr><td><strong>EXTENDING</strong></td><td>처리중</td><td>Volume Size를 확장하고 있습니다.</td></tr><tr><td><strong>UNMANAGED</strong></td><td>비정상</td><td>관리되지 않은 상태이며, 관리자에게 문의가 필요합니다.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="159">상태(영문)</th><th width="117.72950819672133">상태(한글)</th><th>설명</th></tr></thead><tbody><tr><td><strong>AVAILABLE</strong></td><td>사용가능</td><td>정상적으로 생성되었습니다.</td></tr><tr><td><strong>ERROR</strong></td><td>장애</td><td>Share 생성을 실패하였습니다.</td></tr><tr><td><strong>CREATING</strong></td><td>생성중</td><td>Share 생성 중입니다.</td></tr><tr><td><strong>UNMANAGED</strong></td><td>비정상</td><td>관리되지 않은 상태이며, 관리자에게 문의가 필요합니다.</td></tr></tbody></table>
 
 ### Share 생성
 
