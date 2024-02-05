@@ -23,7 +23,7 @@ Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제�
 #### Default Security Group
 
 Tenant 생성 시, Default Security Group이 1개 생성되어 제공됩니다.\
-Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은수정, 삭제가 가능합니다.
+Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은 수정, 삭제가 불가능합니다.
 
 * 모든 송신(egress) 허용
 * 모든 수신(ingress) 허용
@@ -31,7 +31,7 @@ Default Security Group은 다음과 같은 Security Rule을 가지며 Rule은수
 {% hint style="info" %}
 **참고**
 
-* Default Security Group의 이름은 수정, 삭제가 불가능 합니다.
+* Default Security Group은 수정, 삭제가 불가능 합니다.
 {% endhint %}
 
 #### 기본 Security Rule
