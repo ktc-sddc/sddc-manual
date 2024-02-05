@@ -113,7 +113,7 @@ $ df -h
 
 Server로부터 Share의 마운트를 해제하는 기능입니다.
 
-1. Server 콘솔에서 Mount된 Volume을 Unmount 합니다.
+1. Server 콘솔에서 Mount된 Share을 Unmount 합니다.
 
 ```
 $ umount /mnt/share
