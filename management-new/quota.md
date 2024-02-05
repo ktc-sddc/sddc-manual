@@ -18,7 +18,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 메뉴에서 Management > Quota > Quota 현황 탭을 클릭하여 Quota 현황을 조회합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-31 오후 1.36.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 6.10.15.png" alt=""><figcaption></figcaption></figure>
 
 ### Quota 변경 요청 생성
 
@@ -55,7 +55,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 메뉴에서 Management > Quota > 변경 요청 내역 탭을 클릭하여 변경 요청 내역 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-31 오후 1.37.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 6.10.27.png" alt=""><figcaption></figcaption></figure>
 
 ### Quota 변경 요청 취소
 
