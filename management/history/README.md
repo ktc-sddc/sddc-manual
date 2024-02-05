@@ -16,7 +16,6 @@ layout:
 
 ***
 
-SDDC 플랫폼 내에서 발생한 Access History 및 SAGA Transaction 이력을 관리합니다.
+SDDC 플랫폼 접근 이력 정보를 확인합니다.
 
 * [Access History](access.md)
-* [SAGA Transaction](broken-reference)
