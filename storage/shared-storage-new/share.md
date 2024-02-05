@@ -29,7 +29,7 @@ Tenant 내에서 사용 중인 Share 목록을 조회합니다.
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
 2. Share 목록 정보를 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption><p>&#x3C;Block Storage Volume 조회화면></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
 
 * Share 상태
 
@@ -48,11 +48,11 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 1. Storage > Share Storage > Share 메뉴로 이동합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (532).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48.png" alt=""><figcaption></figcaption></figure>
 
-1.  생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
+1. 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
 
-    <figure><img src="../../.gitbook/assets/image (533).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
 
 ### Share 수정
 
@@ -61,11 +61,11 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
 2. 대상 Share을 선택하여 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 2.png" alt=""><figcaption></figcaption></figure>
 
-1. 수정 팝업 창에서 입력 정보(Storage 이름 / 설명 / 반납보호 여부)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
+1. 수정 팝업 창에서 입력 정보를 수정한 후 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
 
 ### Share 삭제
 
@@ -74,11 +74,11 @@ Share을 삭제하는 기능입니다.
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
 2. 대상 Share을 선택하여 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 3.png" alt=""><figcaption></figcaption></figure>
 
-1.  삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
+1. 삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
-    <figure><img src="../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 
 ### Share 마운트
 
