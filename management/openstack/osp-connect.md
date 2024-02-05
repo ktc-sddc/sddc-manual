@@ -38,7 +38,7 @@ OpenStack 연결을 위한 환경설정 정보에 대해 Json 포맷으로 추�
 1. 시스템 관리 > OpenStack 관리 > OpenStack 환경 설정 메뉴를 클릭합니다.
 2. 왼쪽 상단에 **\[OSP 추가]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.17.33 2.png" alt=""><figcaption></figcaption></figure>
 
 3. OpenStack 환경 설정 정보를 Json 포맷으로 입력 후 **\[변환]** 또는 **\[맞춤]** 버튼을 클릭합니다.
 
@@ -62,7 +62,7 @@ OpenStack 연결 관련 환경 설정 정보에 대해 수정할 수 있습니�
 1. 시스템 관리 > OpenStack 관리 > OpenStack 환경 설정 메뉴를 클릭합니다.
 2. 왼쪽 상단에 **\[OSP 수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.17.33 3.png" alt=""><figcaption></figcaption></figure>
 
 3. OpenStack 환경 설정 정보 수정 후 **\[변환]** 또는 **\[맞춤]** 버튼을 클릭합니다.
 4. 입력한 설정 정보가 맞는지 검증 후 **\[수정]** 버튼을 클릭합니다.
@@ -82,8 +82,25 @@ OpenStack 환경설정에서 설정한 admin Project의 default Security Group�
 1. 시스템 관리 > OpenStack 관리 > OpenStack 환경 설정 메뉴를 클릭합니다.
 2. **\[초기 S/G 설정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.17.33 4.png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업 창의 **\[설정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (347).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+### CNode 동기화
+
+OpenStack 의 Compute Node의 정보를 동기화 합니다.
+
+{% hint style="info" %}
+**참고**
+
+* 초기 설정 이후에는 CNode 동기화에 대한 추가적인 작업을 진행하지 않습니다.
+{% endhint %}
+
+1. 시스템 관리 > OpenStack 관리 > OpenStack 환경 설정 메뉴를 클릭합니다.
+2. **\[CNode 동기화]** 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.17.33.png" alt=""><figcaption></figcaption></figure>
