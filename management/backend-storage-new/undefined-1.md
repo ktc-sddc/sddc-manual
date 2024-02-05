@@ -30,12 +30,12 @@ SDDC Platform과 Backend Storage 간의 연동을 위한 설정정보를 관리�
 
 ### Backend Storage 환경설정 생성
 
-OpenStack 연결을 위한 환경설정 정보에 대해 Json 포맷으로 추가할 수 있는 기능을 제공합니다.
+OpenStack 연결을 위한 환경설정 정보에 대해 JSON 포맷으로 추가할 수 있는 기능을 제공합니다.
 
 {% hint style="info" %}
 **참고**
 
-* 가져오기 기능을 통해 기존에 작성된 Json 파일을 추가할 수 있습니다.
+* 가져오기 기능을 통해 기존에 작성된 JSON 파일을 추가할 수 있습니다.
 * 환경설정 정보 추가/수정 시 설정한 정보가 즉시 반영되지 않고, 반드시 애플리케이션(Container)을 재실행 해야 합니다.
 {% endhint %}
 
