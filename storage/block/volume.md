@@ -71,9 +71,9 @@ DATA Volume은 최소 10GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/image (532).png" alt=""><figcaption></figcaption></figure>
 
-1.  생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
+3. 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
 
-    <figure><img src="../../.gitbook/assets/image (533).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (533).png" alt="" width="338"><figcaption></figcaption></figure>
 
 * Volume 상품
   * HDD
@@ -88,7 +88,7 @@ DATA Volume은 최소 10GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
 
-1. 수정 팝업 창에서 입력 정보(Storage 이름 / 설명 / 반납보호 여부)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
+3. 수정 팝업 창에서 입력 정보(Storage 이름 / 설명 / 반납보호 여부)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
 
@@ -110,9 +110,9 @@ DATA Volume은 최소 10GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
 
-1.  삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
+3. 삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
-    <figure><img src="../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
 
 ### Volume 연결/해제
 
@@ -126,9 +126,9 @@ Volume을 Server에 연결한 후 대상 서버에 접속하여 Volume 마운트
 
 <figure><img src="../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
 
-1.  Server 연결 팝업 창에서 연결 대상 Server를 선택한 후 **\[연결]** 버튼을 클릭합니다.
+3. Server 연결 팝업 창에서 연결 대상 Server를 선택한 후 **\[연결]** 버튼을 클릭합니다.
 
-    <figure><img src="../../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
 
 #### **연결된 볼륨 사용하기**
 
@@ -171,7 +171,7 @@ Server로부터 Volume을 연결 해제하는 기능입니다.
 
 <figure><img src="../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
 
-3. Server 연결 해제 팝업 창에서 해제 대상을 확인한 후 **\[연결 해제]** 버튼을 클릭합니다.
+4. Server 연결 해제 팝업 창에서 해제 대상을 확인한 후 **\[연결 해제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
 
