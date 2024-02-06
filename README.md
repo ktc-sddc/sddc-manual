@@ -24,7 +24,7 @@ SDDC Platform은 다음과 같은 서비스로 구성되어 있습니다.
 
 <table><thead><tr><th width="176.37696335078533">서비스</th><th>설명</th></tr></thead><tbody><tr><td>Dashboard</td><td>Tenant 내에 Server, Storage, Network 등 리소스 현황과 리소스 구성(토폴로지), 사용량 정보 등을 제공합니다.</td></tr><tr><td>Compute</td><td>가상 컴퓨팅 자원 관리 기능을 제공합니다.</td></tr><tr><td>Storage</td><td>가상 스토리지 자원 관리 기능 및 백업을 제공합니다.</td></tr><tr><td>Network</td><td>가상 네트워크를 기반으로 유연하고 빠른 네트워크 구성 기능을 제공합니다.</td></tr><tr><td>NFV</td><td>방화벽, 로드밸런서 등 세분화된 보안 기능을 가상화하여 제공합니다.</td></tr></tbody></table>
 
-#### 화면 구성
+## 화면 구성
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
