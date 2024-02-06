@@ -45,7 +45,7 @@ SDN기반으로 Overlay 네트워크를 생성하여 논리적 격리 개념의 
 
 #### Multiple Subnet
 
-고객 계정 당 최대 3개 VPC를 제공하며, 각 VPC에 15개를 제공하여 최대 45개 Subnet 제공
+고객 계정 당 최대 3개의 VPC 사용 가능, 각 VPC 당 최대 15개의 서브넷 설정 가능 (총 최대 45개의 서브넷)
 
 #### IP Overlapping
 
