@@ -142,7 +142,7 @@ Quota 는 리소스 생성 한도를 의미하며, 이를 초과하여 리소스
 
 4. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오전 11.15.28.png" alt=""><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 목록에서 정보가 삭제됩니다.
 
