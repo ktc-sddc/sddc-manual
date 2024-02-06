@@ -22,18 +22,22 @@ SDDC Platform은 SDN, NFV, SDC, SDS 등 가상화 기술을 통해 사용자가 
 
 SDDC Platform은 다음과 같은 서비스로 구성되어 있습니다.
 
-<table><thead><tr><th width="176.37696335078533">서비스</th><th>설명</th></tr></thead><tbody><tr><td>Dashboard</td><td>Tenant 내에 Server, Storage, Network 등 리소스 현황과 리소스 구성(토폴로지), 사용량 정보 등을 제공합니다.</td></tr><tr><td>Tenant 권한 관리</td><td>서비스 정책을 관리하는 최상위 그룹인 Tenant에 대한 사용자별 접근 권한을 관리합니다.</td></tr><tr><td>Compute</td><td>가상 컴퓨팅 자원 관리 기능을 제공합니다.</td></tr><tr><td>Storage</td><td>가상 스토리지 자원 관리 기능 및 백업을 제공합니다.</td></tr><tr><td>Network</td><td>가상 네트워크를 기반으로 유연하고 빠른 네트워크 구성 기능을 제공합니다.</td></tr><tr><td>NFV</td><td>방화벽, 로드밸런서 등 세분화된 보안 기능을 가상화하여 제공합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="176.37696335078533">서비스</th><th>설명</th></tr></thead><tbody><tr><td>Dashboard</td><td>Tenant 내에 Server, Storage, Network 등 리소스 현황과 리소스 구성(토폴로지), 사용량 정보 등을 제공합니다.</td></tr><tr><td>Compute</td><td>가상 컴퓨팅 자원 관리 기능을 제공합니다.</td></tr><tr><td>Storage</td><td>가상 스토리지 자원 관리 기능 및 백업을 제공합니다.</td></tr><tr><td>Network</td><td>가상 네트워크를 기반으로 유연하고 빠른 네트워크 구성 기능을 제공합니다.</td></tr><tr><td>NFV</td><td>방화벽, 로드밸런서 등 세분화된 보안 기능을 가상화하여 제공합니다.</td></tr></tbody></table>
 
 #### 화면 구성
+
+<mark style="color:red;">**사진 추가 예정**</mark>
 
 <figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Tenant : Tenant 선택 기능 및 Tenant 단위의 리소스 관리 기능 제공
 2. 네비게이션 메뉴 : Tenant와 사용자 권한에 따른 제공 서비스 목록 제공
 3. 콘텐츠 : 콘텐츠 영역. 조회/생성/수정/삭제 등의 메뉴별 액션 기능 제공
-4. 가이드 : 사용자 가이드 기능 제공
-5. 공지사항 : 플랫폼 공지사항 기능 제공
-6. 마이페이지 : 개인정보 수정 및 로그아웃 기능 제공
+4. 사이트 : 사이트 선택 기능 제공
+5. 알림 : 공지사항, 리소스 액션 결과에 대한 알림 기능 제공
+6. 가이드 : 사용자 가이드 기능 제공
+7. 공지사항 : 플랫폼 공지사항 기능 제공
+8. 마이페이지 : 개인정보 수정 및 로그아웃 기능 제공
 
 ## 서비스 특장점
 
