@@ -36,7 +36,7 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 #### Summary 영역 설명
 
-<table><thead><tr><th width="237">영역</th><th>설명</th></tr></thead><tbody><tr><td>Server</td><td>사용 중인 Server 상태 및 Flavor 현황입니다.</td></tr><tr><td>Block Storage</td><td>Server에 연결된 Block Storage 현황입니다.</td></tr><tr><td>Volume Snapshot</td><td>특정 시점의 Volume Snapshot 현황입니다.</td></tr><tr><td>Security Group</td><td>Server의 네트워크 트래픽을 제어할 수 있는 가상의 방화벽 현황입니다.</td></tr><tr><td>VPC</td><td>논리적으로 격리된 가상의 네트워크 현황입니다.</td></tr><tr><td>VPC Peering</td><td>서로 다른 VPC 내 Subnet 연결 현황입니다.</td></tr><tr><td>Subnet</td><td>각 VPC 내 Subnet 현황입니다.</td></tr><tr><td>Routing</td><td>동일한 VPC 내 Subnet 연결 현황입니다.</td></tr><tr><td>Colocation Gateway</td><td>플랫폼 네트워크와 고객 네트워크 간의 허브 현황입니다.</td></tr><tr><td>Colocation Gateway 연결</td><td>플랫폼 네트워크와 고객 네트워크 간의 허연 연결 현황입니다.</td></tr><tr><td>Cloud Connect</td><td>외부 네트워크와의 연결을 위해 공용으로 사용 가능한 Gateway 현황입니다.</td></tr><tr><td>Cloud Connect 연결</td><td>외부 네트워크와의 연결을 위해 공용으로 사용 가능한 Gateway 연결 현황입니다.</td></tr><tr><td>Firewall</td><td>생성된 방화벽 개수 입니다.</td></tr></tbody></table>
+<table><thead><tr><th width="237">영역</th><th>설명</th></tr></thead><tbody><tr><td>Server</td><td>사용 중인 Server 상태 및 Flavor 현황입니다.</td></tr><tr><td>Block Storage</td><td>Server에 연결된 Block Storage 현황입니다.</td></tr><tr><td>Volume Snapshot</td><td>특정 시점의 Volume Snapshot 현황입니다.</td></tr><tr><td>Security Group</td><td>Server의 네트워크 트래픽을 제어할 수 있는 가상의 방화벽 현황입니다.</td></tr><tr><td>VPC</td><td>논리적으로 격리된 가상의 네트워크 현황입니다.</td></tr><tr><td>VPC Peering</td><td>서로 다른 VPC 내 Subnet 연결 현황입니다.</td></tr><tr><td>Subnet</td><td>각 VPC 내 Subnet 현황입니다.</td></tr><tr><td>Routing</td><td>동일한 VPC 내 Subnet 연결 현황입니다.</td></tr><tr><td>Internet Gateway</td><td>Public IP 기반의 인터넷 연결 서비스 현황입니다.</td></tr><tr><td>Colocation Gateway</td><td>Colocation Gateway는 SDDC Platform의 네트워크와 고객 네트워크 간의 전용 연결 서비스 현황입니다.</td></tr><tr><td>Shared Colocation Gateway</td><td>외부 네트워크에 연결할 수 있는 Tenant 공유형 Gateway 서비스 현황입니다.</td></tr><tr><td>방화벽</td><td>생성된 방화벽 개수 입니다.</td></tr></tbody></table>
 
 ### Metering
 
@@ -44,7 +44,7 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 * **Internet Gateway:** Internet Gateway를 통한 네트워크 트래픽량 정보 제공
 * **Colocation Gateway**: Colocation Gateway를 통한 네트워크 트래픽량 정보 제공
-* **Cloud Gateway**: Cloud Gateway를 통한 네트워크 트래픽량 정보 제공
+* **Shared Colocation Gateway**: Shared Colocation Gateway를 통한 네트워크 트래픽량 정보 제공
 
 #### Metering 영역 설명
 
@@ -59,13 +59,19 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 1. Today, 최근 30일 정보를 확인합니다.
 
+<mark style="color:red;">**사진 첨부 예정**</mark>
+
 <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 2. Today 시간별 트래픽 발생 현황을 확인합니다.
 
+<mark style="color:red;">**사진 첨부 예정**</mark>
+
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 3. 최근 30일 일별 트래픽 발생 현황을 확인합니다.
+
+<mark style="color:red;">**사진 첨부 예정**</mark>
 
 <figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
