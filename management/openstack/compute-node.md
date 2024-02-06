@@ -33,7 +33,7 @@ Compute Node 모니터링 기능을 제공합니다.
 
 ## Compute Node 모니터링 조회
 
-<figure><img src="../../.gitbook/assets/image (617).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (617) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
