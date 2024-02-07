@@ -249,24 +249,64 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
 ### 방화벽 정책 생성
 
 1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭합니다.
-2.
+2. 목록 상단 **\[정책 관리]** 버튼을 클릭합니다.
 
-### 방화벽 정책 수정
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.30.29.png" alt=""><figcaption></figcaption></figure>
+
+3. 목록 상단 **\[+ 정책 추가]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.30.42.png" alt=""><figcaption></figcaption></figure>
+
+4. 정책 정보를 입력합니다.
+   1. 상세 가이드 필요
+5. **\[추가]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.31.00.png" alt=""><figcaption></figcaption></figure>
+
+6. 목록에서 생성된 정책을 확인할 수 있습니다.
+
+### 방화벽 정책 우선순위 변경
 
 1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭합니다.
-2.
+2. 목록 상단 **\[정책 관리]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.41.18.png" alt=""><figcaption></figcaption></figure>
+
+3. 우선순위를 변경할 정책을 선택한 후 목록 상단 **\[정책 이동]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.41.31.png" alt=""><figcaption></figcaption></figure>
+
+4. 이동할 위치 정보를 입력합니다.
+   * 정책 이름 : 이동 위치 기준이 되는 정책 이름을 선택합니다.
+   * 위 혹은 아래 : 이동 위치 기준이 되는 정책의 바로 위 혹은 아래 이동 여부를 선택합니다.
+5. **\[변경]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.41.46.png" alt=""><figcaption></figcaption></figure>
+
+6. 목록에서 변경된 사항을 확인할 수 있습니다.
 
 ### 방화벽 정책 삭제
 
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭합니다.
+2. 목록 상단 **\[정책 관리]** 버튼을 클릭합니다.
 
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.41.18 (1).png" alt=""><figcaption></figcaption></figure>
+
+3. 삭제할 정책을 선택한 후 목록 상단 **\[정책 삭제]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.47.05.png" alt=""><figcaption></figcaption></figure>
+
+4. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.47.15.png" alt=""><figcaption></figcaption></figure>
+
+5. 팝업 창이 닫히고, 정책 목록에서 삭제된 것을 확인할 수 있습니다.
 
 ### 방화벽 연결 형상 조회
 
+메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 연결 형상 탭을 클릭하여 정책 목록을 조회합니다.
 
-
-
-
-
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.50.56.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
