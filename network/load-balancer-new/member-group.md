@@ -36,8 +36,6 @@ Member Group과 Member는 Load Balancer와 마찬가지로 운영 상태, 배포
 
 ###
 
-### Member Group 상세 보기
-
 ## 사용 가이드
 
 ### Member Group 목록 조회
@@ -47,11 +45,27 @@ Tenant 내에서 사용 중인 Member Group 목록을 조회합니다.
 1. Network > Load Balancer > Member Group 관리 메뉴를 클릭합니다.
 2. Member Group 목록 정보를 확인합니다.
 
+<figure><img src="../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
+
+
+### Member Group 상세 보기
 
 Member Group 목록 화면에서 특정 Member Group을 선택하면 상세 정보를 확인할 수 있습니다.
 
-이 때 상단 메뉴 탭에서 **\[Health Monitor 관리]**와 **\[Member 관리]**를 통해서 Member Group의 Health Monitor 정책 및 연결된 Member에 대한 관리 기능을 제공합니다.
+<figure><img src="../../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
+
+이 때 상세 정보  메뉴 탭에서 **\[Health Monitor]**와 **\[Member]**를 통해서 Member Group의 Health Monitor 정책 및 연결된 Member에 대한 조회 기능을 제공합니다.
+
+* Health Monitor
+
+<figure><img src="../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
+
+* Member
+
+<figure><img src="../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Member Group 생성
 
@@ -60,27 +74,46 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 {% hint style="info" %}
 **참고**
 
-* Load Balancer 생성을 위해서는 할당될 Subnet 내 3개 이상의 Network Interface가 필요합니다.
-* Load Balancer 사용을  위해서는 출발지와 Loadbalancer가 속한 서브넷과의  네트워크 설정이 선행되어야 합니다.
-* Listener의 경우 하나의 Load Balancer에서 동일한 Port 사용은 불가능합니다.
+* Member Group을 생성하기 위해서는 먼저 Load Balancer와 Listener가 필요하다.
+* Member Group은 하나의 Listener에서만 사용할 수 있으며, 다른 Member Group에서 사용 중인 Listener는 사용이 불가능하다.
+* Health Monitor 정책은 Load Balancer와 Member 간 Health Check 정책을 의미하며, 정책이 정상 동작하기 위해서는 Load Balancer와 Member 간 통신이 선행되어야만 한다.
+* Member의 경우 Member Group 내 동일한 IP(Network Interface)에 대해 중복이 불가하다.
 {% endhint %}
 
-1. Network > Load Balancer > Load Balancer 메뉴로 이동합니다.
+1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[생성]** 버튼을 클릭합니다.
+3. Member Group, Health Monitor, Member 생성 정보를 순차적으로  입력한 후  **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (646).png" alt=""><figcaption></figcaption></figure>
+1\)  Member Group 생성 정보 입력
 
-3. Load Balancer, Listener 생성 정보를 순차적으로  입력한 후  **\[생성]** 버튼을 클릭합니다.
+<figure><img src="../../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure>
 
-* Load Balancer 정보 입력
+* 분배 정책: Member에 대한 Load Balancer의 분산 알고리즘을 의미하며 3가지 알고리즘을 지원한다.
 
-<figure><img src="../../.gitbook/assets/image (647).png" alt=""><figcaption></figcaption></figure>
+<table><thead><tr><th width="243">유형</th><th>설명</th></tr></thead><tbody><tr><td>ROUND_ROBIN</td><td>연결된 Member에 대해 순차적으로 분배하는 정책이다.</td></tr><tr><td>SOURCE_IP</td><td>Source IP의 Hash값을 기준으로 분배하는 정책이다.</td></tr><tr><td>LEAST_CONNECTION</td><td>가장 연결이 적은 Member에 대해 우선 분배하는 정책이다.</td></tr></tbody></table>
 
-* Listener 정보 입력
+* 세션 지속성: 사용자  요청이 후 특정 서버로 유지되는 정책을 의미하며, 크게 2가지 타입을 지원하며, 기본 값은 NONE이다.
 
-하나의 Load Balancer에서는 동일한 Port는 사용할 수 없으며, Load Balancer 타입에 따라 사용 가능한 프로토콜이 결정됩니다.
+<table><thead><tr><th width="243">유형</th><th>설명</th></tr></thead><tbody><tr><td>HTTP Cookie 기반<br>(지원 예정)</td><td>사용자의 브라우저에 쿠키를 생성하고 이를 사용하여 특정 서버로의 요청을 유도하는 정책이며, L7 정책(HTTP, HTTPS 프로토콜)에서만 지원합니다.</td></tr><tr><td>SOURCE_IP</td><td>Source IP를 기준으로 동일한 출발지 IP에 대해 기존 서버로 요청을 유도하는 정책이다.</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/image (648).png" alt=""><figcaption></figcaption></figure>
+
+
+2\) Health Monitor 생성 정보 입력
+
+<figure><img src="../../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
+
+* 프로토콜: Load Balancer와 Member 간 연결 체크 시 사용할 네트워크 프로토콜을 정의합니다. 이 때, Member Group의 프로토콜과는 무관하게 설정이 가능하며, PING, TCP, HTTP, HTTPS 4가지를 지원합니다.
+* 최대 재시도 횟수: Member와  Load Balancer 간 연결 상태 확인에 실패할 경우 Member의 운영 상태를 "**온라인**" -> "**장애**"로 전환합니다. 이 때, 연결 상태 확인을 위한 최대 연결 체크 시도 횟수를 의미하며, 1 \~ 10까지 지정할 수 있습니다.
+* 응답 대기 시간(초):  Member와  Load Balancer 간 연결 상태 확인시 응답 대기 시간을 말하며, 응답 대기 시간은 상태 확인 주기보다 작게 설정되어야 합니다.
+* 상태 확인 주기(초):  Member와  Load Balancer 간 연결 체크 주기를 의미합니다.
+
+
+
+3\) Member 추가
+
+<figure><img src="../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -165,7 +198,7 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 * Load Balancer 삭제 시 연결된 Listener도 함께 삭제됩니다.
 {% endhint %}
 
-1. Network > Load Balancer > Load Balancer > Listener 관리메뉴로 이동합니다.
+1. Network > Load Balancer > Load Balancer > Listener 관리 메뉴로 이동합니다.
 2. 삭제할 Listener를 선택하고 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (662).png" alt=""><figcaption></figcaption></figure>
@@ -173,6 +206,10 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 3. 삭제 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (661).png" alt="" width="339"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
+
+##
 
 ## FAQ
 
