@@ -26,9 +26,9 @@ SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에
 
 <figure><img src="../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
 
-
-
-#### Case 1)  Tenant 하위 VPC , Subnet 리소스를 생성
+{% hint style="info" %}
+본 매뉴얼에서는 Tenant 하위 VPC , Subnet 리소스를 생성하는 Case에 대해 설명합니다.
+{% endhint %}
 
 
 
@@ -43,6 +43,20 @@ SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에
 
 2. Step 2. 템플릿 구성정보를 입력합니다. \
 
+
+{% hint style="info" %}
+리소스 모듈을 추가할때는, 리소스간의 연관관계를 고려하여 순서대로 생성합니다.\
+\
+예시) \
+Case 1. VPC 1개, Subnet 1개\
+&#x20;    step 1) VPC 모듈 1개 추가\
+&#x20;    step 2) Subnet 모듈 1개 추가\
+\
+Case 2. VPC 1개, Subnet 2개, Routing 1개\
+&#x20;    step 1) VPC 모듈 1개 추가\
+&#x20;    step 2) Subnet 모듈 2개 추가 \
+&#x20;    step 3) Routing 모듈 1개 추가
+{% endhint %}
 
 * Network 리소스 모듈 에서 VPC와 Subnet 모듈을 한번씩 클릭합니다.
 
@@ -79,9 +93,23 @@ SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에
 
 ### 템플릿 공유
 
+관리자가 생성한 템플릿을 공유하면 테넌트 소유자 권한을 가진 일반 사용자에게 공개됩니다. \
+테넌트 소유자 권한을 가진 사용자는 관리자가 공유한 템플릿을 사용하여 템플릿에 정의된 인프라 리소스를 테넌트 내에 프로비저닝 할 수 있습니다.
 
+
+
+1. Management > Cloud Canvas > 템플릿 관리 화면으로 이동합니다.
+2. 공유할 템플릿을 선택한 후 **공유** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (680).png" alt=""><figcaption></figcaption></figure>
+
+3. 템플릿 공유 여부에 초록색 체크표시가 되었는지 확인합니다.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 
 
