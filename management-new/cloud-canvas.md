@@ -20,6 +20,10 @@ Cloud Canvas는 SDDC 플랫폼 환경 내 인프라 리소스를 안전하고 �
 
 SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에서 공통으로 사용할 인프라 형상을 정의한 템플릿을 생성할 수 있습니다.&#x20;
 
+{% hint style="info" %}
+본 매뉴얼에서는 Tenant 하위 VPC , Subnet 리소스 생성하는 Case에 대해 설명합니다.
+{% endhint %}
+
 1. Management > Cloud Canvas > 템플릿 관리 화면으로 이동합니다.
 
 <figure><img src="../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
@@ -29,10 +33,6 @@ SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에
 2. **생성** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-본 매뉴얼에서는 Tenant 하위 VPC , Subnet 리소스를 생성하는 Case에 대해 설명합니다.
-{% endhint %}
 
 
 
