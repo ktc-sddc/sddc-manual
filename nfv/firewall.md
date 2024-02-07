@@ -54,22 +54,35 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
    * Inner FW : VPC Peering 에 적용할 수 있는 방화벽입니다.
    * Outer FW : Colocation Gateawy 연결 또는 Internet Gateway 연결 에 적용할 수 있는 방화벽입니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 2.58.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.33.12.png" alt=""><figcaption></figcaption></figure>
 
 4. 네트워크 환경에 맞는 방화벽 상품을 선택한 후, **\[다음]** 버튼을 클릭합니다
    * 방화벽 유형: Inner FW 혹은 Outer FW 를 의미합니다.
    * 이중화 : 방화벽 기능을 수행할 인스턴스가 이중화 구성됨을 의미합니다.
    * 사양 : 방화벽 기능을 수행할 인스턴스 사양을 의미합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 2.58.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.33.26.png" alt=""><figcaption></figcaption></figure>
 
 5. 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
    * 방화벽 이름: 생성할 방화벽의 이름을 입력합니다.
    * 설명 : 생성할 방화벽의 설명을 입력합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 2.59.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.33.39.png" alt=""><figcaption></figcaption></figure>
 
 6. 방화벽 메뉴에서 생성된 방화벽 상품을 확인합니다
+
+### 방화벽 삭제
+
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭합니다.
+2. 화면에서 삭제할 방화벽을 선택한 후 목록 상단 **\[삭제]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.52.26.png" alt=""><figcaption></figcaption></figure>
+
+3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.52.36.png" alt=""><figcaption></figcaption></figure>
+
+4. 팝업 창이 닫히고, 방화벽 목록에서 삭제된 것을 확인할 수 있습니다.
 
 ### Inner FW 방화벽 연결 생성
 
@@ -83,16 +96,20 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
    * 라우팅 리소스 유형 : VPC Peering 으로 고정됩니다.
    * VPC Peering 이름 : 방화벽이 생성될 VPC 가 연결된 VPC Peering 목록이 조회됩니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 3.37.04 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.47.03.png" alt=""><figcaption></figcaption></figure>
 
 5. 방화벽 우회 옵션을 선택합니다.
    * 허용 : 방화벽 인스턴스가 중단되었을 경우, 트래픽을 우회하여 라우팅 서비스가 유지되도록 합니다.
    * 거부 : 방화벽 인스턴스가 중단되었을 경우, 트래픽을 우회하여 라우팅 서비스가 중단되도록 합니다.
 6. 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 3.36.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.47.15.png" alt=""><figcaption></figcaption></figure>
 
-7. 방화벽 목록이 조회되고, 방화벽 연결을 생성한 방화벽의 **\[방화벽 연결]** 버튼을 클릭하여 정보를 조회할 수 있습니다.
+7. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.05.49.png" alt=""><figcaption></figcaption></figure>
+
+8. 팝업 창이 닫히고, 방화벽 목록이 조회됩니다. 방화벽 연결을 생성한 방화벽의 **\[방화벽 연결]** 버튼을 클릭하여 정보를 조회할 수 있습니다.
 
 ### Inner FW 방화벽 연결 > 라우팅 리소스 조회
 
@@ -108,13 +125,17 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.14.24.png" alt=""><figcaption></figcaption></figure>
 
 3. 방화벽을 적용할 라우팅 리소스를 선택한 후 **\[추가]** 버튼을 클릭합니다. 화면 우측 미리보기를 통해 네트워크 구간 내 방화벽 적용 형상을 확인할 수 있습니다.
-   1. 라우팅 리소스 유형 : VPC Peering 으로 고정됩니다.
-   2. VPC Peering 이름 : 방화벽이 생성될 VPC 가 연결된 VPC Peering 목록이 조회됩니다.
+   * 라우팅 리소스 유형 : VPC Peering 으로 고정됩니다.
+   * VPC Peering 이름 : 방화벽이 생성될 VPC 가 연결된 VPC Peering 목록이 조회됩니다.
 4. 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 3.38.06 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.46.13.png" alt=""><figcaption></figcaption></figure>
 
-5. 라우팅 리소스 목록이 조회되고, 수정된 정보를 확인할 수 있습니다.
+5. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.18.54.png" alt=""><figcaption></figcaption></figure>
+
+6. 팝업 창이 닫히고, 라우팅 리소스 목록이 조회됩니다. 수정된 정보를 확인할 수 있습니다.
 
 ### Inner FW 방화벽 연결 > 라우팅 리소스 삭제
 
@@ -125,7 +146,7 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
 
 3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 3.38.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 4.46.41.png" alt=""><figcaption></figcaption></figure>
 
 4. 팝업 창이 닫히고, 라우팅 리소스 목록에서 삭제된 것을 확인할 수 있습니다.
 
@@ -150,56 +171,96 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
 
 ### Outer FW 방화벽 연결 생성
 
+{% hint style="info" %}
+**참고.**
 
+* Outer FW 방화벽 연결에는 1 개의 라우팅 리소스만 등록 가능합니다.
+{% endhint %}
 
-### Outer FW 방화벽 연결 수정
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭합니다.
+2. 화면에서 방화벽 연결을 생성할 Outer FW 유형 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다.
 
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.03.48.png" alt=""><figcaption></figcaption></figure>
 
+3. 방화벽을 적용할 라우팅 리소스를 선택한 후 **\[추가]** 버튼을 클릭합니다. 화면 우측 미리보기를 통해 네트워크 구간 내 방화벽 적용 형상을 확인할 수 있습니다.
+   * 라우팅 리소스 유형 : Colocation Gateway 또는 Internet Gateway 를 선택할 수 있습니다.
+   * 리소스 이름 : Tenant 내 Colocation Gateway 또는 Internet Gateway 가 조회됩니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.05.03.png" alt=""><figcaption></figcaption></figure>
+
+4. 방화벽 우회 옵션을 선택합니다.
+   * 허용 : 방화벽 인스턴스가 중단되었을 경우, 트래픽을 우회하여 라우팅 서비스가 유지되도록 합니다.
+   * 거부 : 방화벽 인스턴스가 중단되었을 경우, 트래픽을 우회하여 라우팅 서비스가 중단되도록 합니다.
+5. 우측 하단의 **\[생성]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.05.23.png" alt=""><figcaption></figcaption></figure>
+
+6. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.05.49 (1).png" alt=""><figcaption></figcaption></figure>
+
+7. 팝업 창이 닫히고, 방화벽 목록이 조회됩니다. 방화벽 연결을 생성한 방화벽의 **\[방화벽 연결]** 버튼을 클릭하여 정보를 조회할 수 있습니다.
+
+### Outer FW 방화벽 연결 > 라우팅 리소스 조회
+
+메뉴에서 Security > 방화벽 메뉴를 클릭 후 조회할 Outer FW 유형 방화벽의 **\[방화벽 연결]** 버튼을 클릭하여 라우팅 리소스 목록을 조회합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.16.53.png" alt=""><figcaption></figcaption></figure>
+
+### Outer FW 방화벽 연결 > 라우팅 리소스 수정
+
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 조회할 Outer FW 유형 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다.
+2. 라우팅 리소스 목록 상단 **\[수정]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.17.47.png" alt=""><figcaption></figcaption></figure>
+
+3. 방화벽을 적용할 라우팅 리소스를 선택한 후 **\[추가]** 버튼을 클릭합니다. 화면 우측 미리보기를 통해 네트워크 구간 내 방화벽 적용 형상을 확인할 수 있습니다.
+   * 라우팅 리소스 유형 : Colocation Gateway 또는 Internet Gateway 를 선택할 수 있습니다.
+   * 리소스 이름 : Tenant 내 Colocation Gateway 또는 Internet Gateway 가 조회됩니다.
+4. 우측 하단의 **\[수정]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.18.03.png" alt=""><figcaption></figcaption></figure>
+
+5. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.18.54 (1).png" alt=""><figcaption></figcaption></figure>
+
+6. 팝업 창이 닫히고, 라우팅 리소스 목록이 조회됩니다. 수정된 정보를 확인할 수 있습니다.
 
 ### Outer FW 방화벽 연결 삭제
 
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 조회할 Inner FW 유형 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다.
+2. 화면 상단 **\[방화벽 연결 삭제]** 버튼을 클릭합니다.
 
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.24.12.png" alt=""><figcaption></figcaption></figure>
+
+3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.24.21.png" alt=""><figcaption></figcaption></figure>
+
+4. 팝업 창이 닫히고, 방화벽 목록이 조회됩니다. 방화벽 연결을 삭제한 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 연결 생성 화면으로 이동되면 삭제된 것을 확인할 수 있습니다.
+
+### 방화벽 정책 조회
+
+메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭하여 정책 목록을 조회합니다.
+
+<figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.27.47.png" alt=""><figcaption></figcaption></figure>
 
 ### 방화벽 정책 생성
 
-
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭합니다.
+2.
 
 ### 방화벽 정책 수정
 
-
+1. 메뉴에서 Security > 방화벽 메뉴를 클릭 후 정책을 조회할 방화벽의 **\[방화벽 연결]** 버튼을 클릭합니다. 방화벽 정책 탭을 클릭합니다.
+2.
 
 ### 방화벽 정책 삭제
 
 
 
-
-
-{% hint style="info" %}
-방화벽 연결 생성을 위해서는 방화벽을 적용할 라우팅 정보를 미리 생성해야 합니다.
-
-예를 들어, Inner FW의 경우 VPC Peering 리소스가 필요하고,  Outer FW의 경우 Internet(또는 Colocation) Gateway 연결 리소스가 필요합니다.
-
-라우팅 연결 방법은 다음의 매뉴얼을 참고하시기 바랍니다.\
-\- VPC Peering : Network > Routing \
-\- Internet Gateway : Network > Internet Gateway\
-\- Colocation Gateway : Network > Colocation Gateway
-{% endhint %}
-
-
-
-1. **방화벽 연결** 버튼을 클릭합니다.
-
-<figure><img src="../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
-
-2. 방화벽 연결 생성 메뉴에서 필요 정보를 입력합니다.
-
-* Inner FW\
-  &#x20;\-  Target VPC 선택 : 방화벽이 생성될 Target VPC 를 선택합니다.  Target VPC와 VPC Peering으로 연결된 VPC 구간에는 "라우팅 리소스 추가"를 통해 방화벽 정책을 쉽게 적용할 수 있습니다.\
-  &#x20;\-  라우팅 리소스 선택 : 방화벽이 적용될 VPC Peering 구간을 선택합니다.
-
-<figure><img src="../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
-
-* Outer FW
+### 방화벽 연결 형상 조회
 
 
 
