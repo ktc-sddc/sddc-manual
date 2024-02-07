@@ -1,2 +1,89 @@
 # Cloud Canvas
 
+## 개요
+
+Cloud Canvas는 SDDC 플랫폼 환경 내 인프라 리소스를 안전하고 반복 가능한 방식으로 프로비저닝 할 수 있는 템플릿 기능을 제공합니다.
+
+<table><thead><tr><th width="162">구분</th><th width="612">상세</th></tr></thead><tbody><tr><td><h4 id="id-sddcblueprint-2">서비스 구성요소</h4></td><td><ul><li><strong>리소스</strong><br> - VPC, Subnet, 인스턴스 등 SDDC 플랫폼에서 관리되는 클라우드 서비스 오브젝트<br> - 리소스는 필수 파라미터 정보를 가진 모듈로서 구성</li><li><strong>템플릿</strong> <br> - VPC, Subnet, 인스턴스 등 인프라를 구성하기 위한 리소스모듈과 <br>모듈 간 연관관계 정보가 있는 인프라 구성 형상</li><li><strong>아웃풋</strong><br> - 템플릿에 의해 배포된 리소스의 묶음 단위</li></ul></td></tr><tr><td><strong>대상 리소스</strong></td><td>SDDC 플랫폼에서 제공하는 Cloud Object<br> *SDDC v1.2 기준 Network 리소스 4종 제공 (VPC, Subnet, Route, VPC Peering)</td></tr><tr><td><strong>권한 및 제약</strong></td><td><p>템플릿 생성 / 삭제 / 공유 권한은 관리자로 제한</p><p>사용자는 공유된 템플릿에 한해 사용 가능</p></td></tr></tbody></table>
+
+
+
+&#x20;&#x20;
+
+## 사용가이드
+
+### 템플릿 생성
+
+SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에서 공통으로 사용할 인프라 형상을 정의한 템플릿을 생성할 수 있습니다.&#x20;
+
+1. Management > Cloud Canvas > 템플릿 관리 화면으로 이동합니다.
+
+<figure><img src="../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
+
+
+
+2. **생성** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### Case 1)  Tenant 하위 VPC , Subnet 리소스를 생성
+
+
+
+1. Step 1. 템플릿 생성을 위한 정보를 입력합니다. \
+   \
+   1\) 기본 템플릿 구성\
+   &#x20;  \- **템플릿 이름**과 **템플릿 설명**을 입력합니다.\
+   \
+   2\) **다음** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (672).png" alt=""><figcaption></figcaption></figure>
+
+2. Step 2. 템플릿 구성정보를 입력합니다. \
+
+
+* Network 리소스 모듈 에서 VPC와 Subnet 모듈을 한번씩 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (674).png" alt=""><figcaption></figcaption></figure>
+
+* VPC 생성시 필요한 정보를 입력합니다.&#x20;
+* Subnet 생성 시 필요한 정보를 입력합니다.\
+  &#x20;\- Subnet 생성 시에는 Subnet 이 배포될 VPC 리소스를 선택합니다.
+
+<figure><img src="../.gitbook/assets/image (675).png" alt=""><figcaption></figcaption></figure>
+
+* 우측 Topology 화면에서 리소스가 배포될 형상을 확인할 수 있습니다.
+* 배포할 리소스의 정보를 다 입력했다면, "**다음**" 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (676).png" alt=""><figcaption></figcaption></figure>
+
+* 생성할 Object에 대한 정보를 확인한 후 **생성** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (677).png" alt=""><figcaption></figcaption></figure>
+
+* 팝업에서 **생성** 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (678).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* 템플릿 관리 화면에서 생성한 템플릿 정보를 확인합니다.
+
+<figure><img src="../.gitbook/assets/image (679).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+### 템플릿 공유
+
+
+
+<figure><img src="../.gitbook/assets/image (680).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
