@@ -12,7 +12,9 @@ Load Balancer 생성, 수정, 삭제, Listener 관리 등을 제공하는 기능
 
 Load Balancer는 사용 가능한 프로토콜에 따라 Network, Application 두 가지 타입으로 구분됩니다.
 
-<table><thead><tr><th width="152">유형</th><th width="538">설명</th></tr></thead><tbody><tr><td><strong>NETWORK</strong></td><td>L4 Lyaer에서 동작하는 Load Balancer이며, TCP 프로토콜을 지원합니다.</td></tr><tr><td><strong>APPLICATION</strong><br><strong>(출시 예정)</strong></td><td>L7 Lyaer에서 동작하는 Load Balancer이며, HTTP, HTTPS 프로토콜을 지원합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="152">유형</th><th width="538">설명</th></tr></thead><tbody><tr><td><strong>NETWORK</strong></td><td>L4 Lyaer에서 동작하는 Load Balancer이며, TCP 프로토콜을 지원합니다. NETWORK 타입의 Load Balancer를 사용할 경우, Listener의 프로토콜은 TCP 타입만을 사용할 수 있습니다.</td></tr><tr><td><strong>APPLICATION</strong><br><strong>(출시 예정)</strong></td><td>L7 Lyaer에서 동작하는 Load Balancer이며, HTTP, HTTPS 프로토콜을 지원합니다. APPLICATION 타입의 Load Balancer를 사용할 경우, Listener의 프로토콜은 HTTP, HTTPS 타입으로 제한됩니다.</td></tr></tbody></table>
+
+
 
 ## 사용 가이드
 
@@ -53,6 +55,7 @@ Tenant에서 사용할 Load Balancer를 생성할 수 있습니다.
 **참고**
 
 * Load Balancer 생성을 위해서는 할당될 Subnet 내 3개 이상의 Network Interface가 필요합니다.
+* Load Balancer 생성 시 할당된 IP는 이후 변경이 불가능합니다.
 * Load Balancer 사용을  위해서는 출발지와 Loadbalancer가 속한 서브넷과의  네트워크 설정이 선행되어야 합니다.
 * Listener의 경우 하나의 Load Balancer에서 동일한 Port 사용은 불가능합니다.
 {% endhint %}
