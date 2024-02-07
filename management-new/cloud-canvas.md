@@ -4,7 +4,7 @@
 
 Cloud Canvas는 SDDC 플랫폼 환경 내 인프라 리소스를 안전하고 반복 가능한 방식으로 프로비저닝 할 수 있는 템플릿 기능을 제공합니다.
 
-<table><thead><tr><th width="162">구분</th><th width="612">상세</th></tr></thead><tbody><tr><td><h4 id="id-sddcblueprint-2">서비스 구성요소</h4></td><td><ul><li><strong>리소스</strong><br> - VPC, Subnet, 인스턴스 등 SDDC 플랫폼에서 관리되는 클라우드 서비스 오브젝트<br> - 리소스는 필수 파라미터 정보를 가진 모듈로서 구성</li><li><strong>템플릿</strong> <br> - VPC, Subnet, 인스턴스 등 인프라를 구성하기 위한 리소스모듈과 <br>모듈 간 연관관계 정보가 있는 인프라 구성 형상</li><li><strong>아웃풋</strong><br> - 템플릿에 의해 배포된 리소스의 묶음 단위</li></ul></td></tr><tr><td><strong>대상 리소스</strong></td><td>SDDC 플랫폼에서 제공하는 Cloud Object<br> *SDDC v1.2 기준 Network 리소스 4종 제공 (VPC, Subnet, Route, VPC Peering)</td></tr><tr><td><strong>권한 및 제약</strong></td><td><p>템플릿 생성 / 삭제 / 공유 권한은 관리자로 제한</p><p>사용자는 공유된 템플릿에 한해 사용 가능</p></td></tr></tbody></table>
+<table><thead><tr><th width="162">구분</th><th width="612">상세</th></tr></thead><tbody><tr><td><h4 id="id-sddcblueprint-2">서비스 구성요소</h4></td><td><ul><li><strong>리소스</strong><br> - VPC, Subnet, 인스턴스 등 SDDC 플랫폼에서 관리되는 클라우드 서비스 오브젝트<br> - 리소스는 필수 파라미터 정보를 가진 모듈로서 구성</li><li><strong>템플릿</strong> <br> - VPC, Subnet, 인스턴스 등 인프라를 구성하기 위한 리소스모듈과 <br>모듈 간 연관관계 정보가 있는 인프라 구성 형상</li><li><strong>아웃풋</strong><br> - 템플릿에 의해 배포된 리소스의 묶음 단위</li></ul></td></tr><tr><td><strong>대상 리소스</strong></td><td>SDDC 플랫폼에서 제공하는 Cloud Object<br> *SDDC v1.2 기준 Network 리소스 4종 제공 (VPC, Subnet, Route, VPC Peering)</td></tr></tbody></table>
 
 
 
