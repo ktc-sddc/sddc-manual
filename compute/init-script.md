@@ -29,7 +29,7 @@ Tenant 내에 등록되어 있는 Init Script 목록을 조회할 수 있습니�
 1. Compute > Init Script를 클릭합니다.
 2. Init Script 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Init Script 생성
 

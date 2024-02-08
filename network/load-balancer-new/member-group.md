@@ -4,9 +4,11 @@
 
 ## 개요
 
-Member Group은  Load Balancer의 Listener에 연결되는 Member 집합입니다. 이를 통해 Member에 대한 Monitoring 정책이나 분배 정책 등을 관리합니다.
+로드 밸런서는 사용자 요청을 여러 대의 서버로 효과적으로 분배하는 역할을 합니다. 이를 위해 Member Group이라는 개념이 사용됩니다. Member Group은 로드 밸런서가 관리하는 서버(Member)들의 집합을 나타냅니다.
 
-Member Group 관리 기능에서는 Member Group 생성, 수정, 삭제 및 Health Monitor 관리, Member 관리 등을 제공합니다.
+로드 밸런서는 Member Group을 통해 분배 정책을 설정하고 이를 통해 사용자 요청을 고르게 분산합니다. 이 때 Member Group은 Health Monitor를 통해 Member의 상태를 주기적으로 확인하며, 비정상 상태의 Member를 분산 풀에서 제외합니다. 이를 통해 정상 상태의 서버에만 트래픽을 전달하여 안정성과 성능을 보장합니다.
+
+Member Group 관리 기능에서는 Member Group에 대한 생성, 수정, 삭제 기능과 Health Monitor 관리 및 Member 관리 기능을 제공합니다.
 
 
 

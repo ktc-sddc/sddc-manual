@@ -59,15 +59,15 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 1. Today, 최근 30일 정보를 확인합니다.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
 
 2. Today 시간별 트래픽 발생 현황을 확인합니다.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
 
 3. 최근 30일 일별 트래픽 발생 현황을 확인합니다.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
 
 ### Topology
 

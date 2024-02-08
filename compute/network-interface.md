@@ -33,7 +33,7 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 1. Compute > Network Interface 버튼을 클릭합니다.
 2. Network Interface 목록을 확인합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Network Interface 생성
 
