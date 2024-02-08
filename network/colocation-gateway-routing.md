@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Colocation Gateway (이미지 작업)
+# Colocation Gateway
 
 ***
 
@@ -106,6 +106,8 @@ Colocation Gateway 서비스를 해지하는 기능입니다.
 
 4. Colocation Gateway 목록에서 서비스 해지한 Colocation Gateway 삭제 여부를 확인합니다.
 
+## FAQ
+
 > **Q. Colocation Gateway 연결에 방화벽 를 연결하고 싶습니다.**
 >
-> A. Security > 방화벽 사용 가이를 확인하시기 바랍니다.
+> A. Security > 방화벽 사용 가이드를 확인하시기 바랍니다.
