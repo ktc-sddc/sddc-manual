@@ -6,7 +6,7 @@
 
 Member Group은 로드 밸런서가 관리하는 서버(Member)들의 집합을 의미합니다. Listener에 Member Group을 정의하고, 해당 포트로 들어오는 사용자 요청에 대해 Member Group 내 서버로 분배합니다.  Listener는 Member Group을 통해 분배 정책을 설정하고 이를 통해 사용자 요청을 고르게 분산합니다.&#x20;
 
-Member Group은 Health Monitor를 통해 Member의 상태를 주기적으로 확인하며, 비정상 상태의 Member를 분산 풀에서 제외합니다. 이로써 로드밸런서는 항상 정상 상태의 서버에만 트래픽을 전달하여 안정성과 성능을 장합니다.
+Member Group은 Health Monitor를 통해 Member의 상태를 주기적으로 확인하며, 비정상 상태의 Member를 분산 풀에서 제외합니다. 이로써 로드밸런서는 항상 정상 상태의 서버에만 트래픽을 전달하여 안정성과 성능을 보장합니다.
 
 Member Group 관리 기능에서는 Member Group에 대한 생성, 수정, 삭제 기능과 Health Monitor 관리 및 Member 관리 기능을 제공합니다.
 
@@ -16,9 +16,10 @@ Member Group 관리 기능에서는 Member Group에 대한 생성, 수정, 삭�
 
 대상 Listener의 프로토콜에 따라 Member Group에서 사용할 수 있는 프로토콜은 아래와 같이 제한됩니다.
 
-
-
-**\[프로토콜 조합 표]**
+| Loadbalancer Type            | Listener Protocol | Member Group Protocol        |
+| ---------------------------- | ----------------- | ---------------------------- |
+| NETWORK                      | TCP               | <p>TCP</p><p>PROXY(준비예정)</p> |
+| <p>APPLICATION<br>(준비예정)</p> | HTTP, HTTPS       | <p>HTTP</p><p>HTTPS</p>      |
 
 ※ Health  Monitor의 경우 Member Group과 무관하게 프로토콜 설정이 가능합니다.
 
@@ -242,10 +243,12 @@ Member의 가중치를 수정하거나 On/Off하는 기능입니다. 이를 통�
 
 ## FAQ
 
-> Q. Server를 삭제할 경우 해당 Server로 생성한 Member는 어떻게 되나요?
+> **Q.** Server를 삭제할 경우 해당 Server로 생성한 Member는 어떻게 되나요?
 >
-> A. Server 삭제 시 Member가 삭제되진 않습니다. 그러나 운영 상태가 전환되고 Member Group 분산 풀에서 제거되기 때문에 로드밸런서의 안정성은 유지됩니다.
+> **A.** Server 삭제 시 Member가 삭제되진 않습니다. 그러나 운영 상태가 전환되고 Member Group 분산 풀에서 제거되기 때문에 로드밸런서의 안정성은 유지됩니다.
 >
-> Q. Health Monitor의 Protocol 수정하기 위해서는 어떻게 해야되나요?
 >
-> A. 관리자에게 문의바랍니다.
+>
+> **Q.** Health Monitor의 Protocol 수정하기 위해서는 어떻게 해야되나요?
+>
+> **A.** 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
