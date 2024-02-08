@@ -85,7 +85,7 @@ Shared Colocation Gateway 를 생성하는 기능입니다. 생성한 Shared Col
 
 2.  Shared Colocation Gateway  생성 정보를 입력합니다.
 
-    1. Shared Colocation Gateway  이름: 생성할 Shared Colocation Gateway 이름입니다.
+    1. Shared Colocation Gateway 이름: 생성할 Shared Colocation Gateway 이름입니다.
     2. Gateway Info: 사용할 Gateway Info 정보 입니다.
     3. System Tenant: Shared Colocation Gateway 가 생성될 System Tenant 입니다.
 
@@ -134,7 +134,7 @@ Tenant를 Shared Colocation Gateway의 Member Tenant 에서 제거하여 Shared 
 
 <figure><img src="../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
-### Shared Colocation Gateway삭제
+### Shared Colocation Gateway 삭제
 
 Shared Colocation Gateway 를 삭제하는 기능입니다.
 
@@ -158,8 +158,8 @@ Shared Colocation Gateway 를 삭제하는 기능입니다.
 
 > **Q. Shared Colocation Gateway 삭제 시, Member Tenant 정보는 어떻게 되나요?**
 >
-> A. Shared Colocation Gateway 의 Member Tenant 정보는 모두 삭제됩니다.
+> A. Shared Colocation Gateway의 Member Tenant 정보는 모두 삭제됩니다.
 
 > **Q. Shared Colocation Gateway 삭제 시, Subnet 연결 정보는 어떻게 되나요?**
 >
-> A. Shared Colocation Gateway 연결된 Subnet 연결 정보는 모두 삭제됩니다.
+> A. Shared Colocation Gateway에 연결된 Subnet 연결 정보는 모두 삭제됩니다.
