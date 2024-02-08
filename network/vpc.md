@@ -43,7 +43,7 @@ VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다
 
 메뉴에서 Network > VPC 를 클릭하여 VPC 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (464).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
 
 ### VPC 생성
 
@@ -61,7 +61,7 @@ VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다
 1. 메뉴에서 Network > VPC 를 선택합니다.
 2. VPC 목록 화면이 나타나면, 상단 메뉴 중 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (465).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (708).png" alt=""><figcaption></figcaption></figure>
 
 3. VPC 생성 팝업 창이 나타나면, VPC 생성 정보를 입력합니다.
    * VPC 이름 : VPC 이름을 입력합니다.
@@ -69,7 +69,7 @@ VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다
    * 설명 : 상세 설명을 입력합니다
 4. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (715).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 생성한 VPC가 VPC 목록 화면에 추가된 것을 확인합니다.
 
@@ -78,12 +78,12 @@ VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다
 1. 메뉴에서 Network > VPC 를 선택합니다.
 2. VPC 목록 화면이 나타나면 수정하려는 VPC를 선택한 다음, 상단 메뉴 중 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (467).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
 
 3. VPC 수정 팝업 창이 나타나면, VPC 정보를 수정합니다.
 4. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (470).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (714).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, VPC 목록 화면에 수정 사항이 반영된 것을 확인합니다.
 
@@ -99,11 +99,11 @@ VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다
 1. 메뉴에서 Network > VPC를 선택합니다.
 2. VPC 목록 화면이 나타나면 삭제하려는 VPC를 선택한 다음, 상단 메뉴 중 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (468).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (711).png" alt=""><figcaption></figcaption></figure>
 
 3. VPC 삭제를 위한 팝업 창이 나타나면, 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (469).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (713).png" alt="" width="336"><figcaption></figcaption></figure>
 
 4. 삭제 팝업 창이 닫히고, VPC 목록에서 VPC가 삭제되었는지 확인합니다.
 
