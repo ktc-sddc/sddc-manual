@@ -114,7 +114,7 @@ Tenant를 Shared Colocation Gateway의 Member Tenant 에서 제거하여 Shared 
 {% hint style="info" %}
 **참고.**
 
-* [Tenant 등록 관리](cloud-connect.md#3.-member-tenant) 를 통해 사용 권한이 회수 되면 기존의 승인된 요청이 회수 상태로 전환됩니다.
+[Tenant 등록 관리](cloud-connect.md#3.-member-tenant) 를 통해 사용 권한이 회수 되면 기존의 승인된 요청이 회수 상태로 전환됩니다.
 {% endhint %}
 
 1. 메뉴 SDN 관리 > Shared Colocation Gateway 관리 **\[생성 내역 관리]** 탭에서 **\[Tenant 등록 관리]** 버튼을 클릭합니다.
