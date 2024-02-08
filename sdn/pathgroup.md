@@ -20,8 +20,10 @@ layout:
 
 PathGroup 은 네트워크 리소스 생성에 필요한 물리 구성 정보를 서비스 목적에 맞게 그룹화하여 관리합니다.
 
-* 네트워크 리소스 : [Subnet](../network/subnet.md), [Colocation Gateway](colocation-gateway.md)
-* 물리 구성 정보 : [Domain](../management/apic/domain.md), [PathEndpoint](../management/apic/pathendpoint.md)
+* 네트워크 리소스&#x20;
+  * [Subnet](../network/subnet.md), [Colocation Gateway](colocation-gateway.md), [Shared Colocation Gateway](cloud-connect.md), Internet Gateway, NFV, NAS
+* 물리 구성 정보&#x20;
+  * [Domain](../management/apic/domain.md), [PathEndpoint](../management/apic/pathendpoint.md)
 
 ### PathGroup 유형
 
