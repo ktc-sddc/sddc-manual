@@ -28,7 +28,7 @@ Tenant, VPC 에 대한 접근 권한이 있는 경우에만 하위에 Subnet 생
 
 ### Subnet 목록 조회
 
-메뉴에서 Network > Subnet 을 클릭하여 Subnet 목록을 조회합니다.
+메뉴에서 Network > Subnet 을 클릭하여 Subnet 목록을 조회합니다.&#x20;
 
 <figure><img src="../.gitbook/assets/image (473).png" alt=""><figcaption></figcaption></figure>
 
@@ -105,11 +105,11 @@ Subnet 삭제는 VPC 내 Subnet 을 삭제하는 기능입니다.
 
 > **Q. Subnet 생성이 되지 않습니다.**
 >
-> A. [Subnet 생성](subnet.md#subnet) 을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Subnet 생성](subnet.md#subnet) 을 참고해주시기 바랍니다. Subnet 생성 절차대로 진행했음에도 생성되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Subnet 삭제가 되지 않습니다.**
 >
-> A. [Subnet 삭제](subnet.md#subnet-2) 를 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Subnet 삭제](subnet.md#subnet-2) 를 참고해주시기 바랍니다. Subnet 삭 절차대로 진행했음에도 생성되지 않는다면  시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Subnet 는 몇 개까지 생생 가능한가요?**
 >
