@@ -4,9 +4,9 @@
 
 ## 개요
 
-로드 밸런서는 사용자 요청을 여러 대의 서버로 효과적으로 분배하는 역할을 합니다. 이를 위해 Member Group이라는 개념이 사용됩니다. Member Group은 로드 밸런서가 관리하는 서버(Member)들의 집합을 나타냅니다.
+Member Group은 로드 밸런서가 관리하는 서버(Member)들의 집합을 의미합니다. Listener에 Member Group을 정의하고, 해당 포트로 들어오는 사용자 요청에 대해 Member Group 내 서버로 분배합니다.  Listener는 Member Group을 통해 분배 정책을 설정하고 이를 통해 사용자 요청을 고르게 분산합니다.&#x20;
 
-로드 밸런서는 Member Group을 통해 분배 정책을 설정하고 이를 통해 사용자 요청을 고르게 분산합니다. 이 때 Member Group은 Health Monitor를 통해 Member의 상태를 주기적으로 확인하며, 비정상 상태의 Member를 분산 풀에서 제외합니다. 이를 통해 정상 상태의 서버에만 트래픽을 전달하여 안정성과 성능을 보장합니다.
+Member Group은 Health Monitor를 통해 Member의 상태를 주기적으로 확인하며, 비정상 상태의 Member를 분산 풀에서 제외합니다. 이로써 로드밸런서는 항상 정상 상태의 서버에만 트래픽을 전달하여 안정성과 성능을 장합니다.
 
 Member Group 관리 기능에서는 Member Group에 대한 생성, 수정, 삭제 기능과 Health Monitor 관리 및 Member 관리 기능을 제공합니다.
 
@@ -15,6 +15,8 @@ Member Group 관리 기능에서는 Member Group에 대한 생성, 수정, 삭�
 #### 프로토콜 조합
 
 대상 Listener의 프로토콜에 따라 Member Group에서 사용할 수 있는 프로토콜은 아래와 같이 제한됩니다.
+
+
 
 **\[프로토콜 조합 표]**
 
@@ -48,6 +50,8 @@ Tenant 내에서 사용 중인 Member Group 목록을 조회합니다.
 2. Member Group 목록 정보를 확인합니다.
 
 <figure><img src="../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+
+현재 Tenant에서 사용 중인 Member Group 정보 제공하며, Member Group이 할당된 Load Balancer 정보와 Listener 정보를 확인할 수 있습니다.
 
 
 
@@ -115,15 +119,16 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
 
+* 포트: 서버에서 사용자 요청을 수신할 포트를 정의합니다. Listener에서 정의한 포트와 무관하며, 여러 멤버에서 동일한 포트를 사용할 수 있습니다. Health Monitor를 통해 Member 상태를 확인할 때도 동일한 포트를 사용합니다.
+* 가중치: 분배 정책 상 우선순위가 동일할 경우 가중치 높은 Member로 요청이 전달되며  0\~256 범위에서 설정 가능합니다. 가중치가 0일 경우에는 Member의 상태와 무관하게 신규 연결은 불가능합니다(기존 연결은 유지).
 
 
 
+### Member Group 수정
 
-### Load Balancer 수정
+생성된 Member Group 정보를 수정하는 기능입니다.
 
-생성된 Load Balancer 정보를 수정하는 기능입니다.
-
-1. Network > Load Balancer > Load Balancer 메뉴로 이동합니다.
+1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (649).png" alt=""><figcaption></figcaption></figure>
@@ -132,19 +137,17 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image (652).png" alt="" width="343"><figcaption></figcaption></figure>
 
-### Load Balancer 삭제
+### Member Group 삭제
 
-필요 없는 Load Balancer를 삭제하는 기능입니다.
+필요 없는 Member Group을 삭제하는 기능입니다.
 
 {% hint style="info" %}
 **참고**
 
-* Load Balancer 삭제 시 하위 Listener도 함께 삭제됩니다.
-* Load Balacner에 할당된 Network Interface는 자동으로 반환됩니다.
-* Load Balancer에 연결된 Member Group이 존재할 경우 삭제가 불가합니다.
+* Member Group 삭제 시 Member, Health Monitor도 함께 삭제됩니다.
 {% endhint %}
 
-1. Network > Load Balancer > Load Balancer 메뉴로 이동합니다.
+1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (650).png" alt=""><figcaption></figcaption></figure>
