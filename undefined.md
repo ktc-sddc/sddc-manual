@@ -18,7 +18,7 @@ layout:
 
 ## 개요
 
-Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 관계를 확인 할 수 있습니다.
+Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 관계를 확인할 수 있습니다.
 
 #### 대시보드 종류
 
