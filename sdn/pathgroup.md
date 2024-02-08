@@ -29,7 +29,7 @@ PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의�
 
 예로 Subnet 유형의 PathGroup 은 Subnet 생성 시 사용됩니다. 각 유형별로 연결 가능한 Domain 유형은 다음과 같습니다.
 
-<table><thead><tr><th width="364.8955223880597">PathGroup 유형</th><th>Domain 유형</th></tr></thead><tbody><tr><td>Subnet</td><td>Physical</td></tr><tr><td>NFV</td><td>Physical</td></tr><tr><td>NAS</td><td>Physical</td></tr><tr><td>Colocation Gateway</td><td>L3</td></tr><tr><td>Shared Colocation Gateway</td><td>L3</td></tr><tr><td>Internet Gateway</td><td>L3</td></tr><tr><td>Nat Gateway(준비중)</td><td>L3</td></tr></tbody></table>
+<table><thead><tr><th width="364.8955223880597">PathGroup 유형</th><th>Domain 유형</th></tr></thead><tbody><tr><td>Subnet</td><td>Physical</td></tr><tr><td>NFV</td><td>Physical</td></tr><tr><td>NAS</td><td>Physical</td></tr><tr><td>Colocation Gateway</td><td>L3</td></tr><tr><td>Shared Colocation Gateway</td><td>L3</td></tr><tr><td>Internet Gateway</td><td>L3</td></tr><tr><td>NAT Gateway(준비중)</td><td>L3</td></tr></tbody></table>
 
 
 
