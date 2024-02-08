@@ -94,7 +94,7 @@ Gateway Info 를 수정하는 기능입니다.
 
 3. Gateway Info 수정 정보를 입력합니다. [Gateway Info 생성](gateway-info.md#gateway-info-1)을 참고하십시오.
    * Gateway Info를 사용 중인 Gateway가 존재하는 경우, Static Routes 정보만 수정 가능합니다.
-   * Gateway Info를 사용중인 Gateway가 없는 경우, 모든 입력 정보를 수정할 수 있습니다.
+   * Gateway Info를 사용 중인 Gateway가 없는 경우, 모든 입력 정보를 수정할 수 있습니다.
 4. 팝업창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
@@ -126,8 +126,8 @@ Gatway Info 를 삭제하는 기능입니다.
 
 > **Q. Gateway Info 생성이 되지 않습니다.**
 >
-> A. [Gateway Info 생성](gateway-info.md#gateway-info) 을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Gateway Info 생성](gateway-info.md#gateway-info) 을 참고해주시기 바랍니다. Gateway Info 생성 절차대로 진행했음에도 삭제되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Gateway Info 삭제가 되지 않습니다.**
 >
-> A. [Gateway Info 삭제](gateway-info.md#2.-gateway-info-2) 을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.G
+> A. [Gateway Info 삭제](gateway-info.md#2.-gateway-info-2) 을 참고해주시기 바랍니다. Gateway Info 삭제 절차대로 진행했음에도 삭제되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.G
