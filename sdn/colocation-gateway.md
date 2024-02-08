@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Colocation Gateway 관리(이미지 변경)
+# Colocation Gateway 관리
 
 ***
 
@@ -101,8 +101,8 @@ Tenant에 생성된 Colocation Gateway를 삭제하는 기능입니다.
 
 > **Q. Colocation Gateway 생성이 되지 않습니다.**
 >
-> A. [Colocation Gateway 생성 ](colocation-gateway.md#gateway-1)참고해주시기 바랍니다. 만약 해결되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Colocation Gateway 생성 ](colocation-gateway.md#gateway-1)참고해주시기 바랍니다. Colocation Gateway 생성 절차대로 진행했음에도 생성되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Colocation Gateway 삭제가 되지 않습니다.**
 >
-> A. [Colocation Gateway 삭제](colocation-gateway.md#gateway-2)를 참고해주시기 바랍니다. 만약 해결되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Colocation Gateway 삭제](colocation-gateway.md#gateway-2)를 참고해주시기 바랍니다. Colocation Gateway 삭제 절차대로 진행했음에도 삭제되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.

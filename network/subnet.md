@@ -109,7 +109,7 @@ Subnet 삭제는 VPC 내 Subnet 을 삭제하는 기능입니다.
 
 > **Q. Subnet 삭제가 되지 않습니다.**
 >
-> A. [Subnet 삭제](subnet.md#subnet-2) 를 참고해주시기 바랍니다. Subnet 삭 절차대로 진행했음에도 생성되지 않는다면  시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Subnet 삭제](subnet.md#subnet-2) 를 참고해주시기 바랍니다. Subnet 삭제 절차대로 진행했음에도 삭제되지 않는다면  시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Subnet 는 몇 개까지 생생 가능한가요?**
 >
