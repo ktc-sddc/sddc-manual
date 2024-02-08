@@ -50,7 +50,7 @@ Tenant 내에서 Shared Colocation Gateway 를 사용하기 위한 신청 내역
 
 처리중 상태의 신청만 취소가 가능합니다.
 
-1. 메뉴에서 Network > Shared Colocation Gateway 에서  **\[신청 내역]** 탭을 클릭하여, 신청 내역을 조횝 합니다.
+1. 메뉴에서 Network > Shared Colocation Gateway 에서  **\[신청 내역]** 탭을 클릭하여, 신청 내역을 조회합니다.
 2. 취소할 신청 내역을 선택하여, **\[신청 취소]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
