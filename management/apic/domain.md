@@ -30,9 +30,9 @@ Domain 은 한정된 VLAN 자원을 나눠서 관리하는 용도로 사용되�
 
 전체 Domain 목록을 조회하는 기능입니다.
 
-1. 왼쪽 메뉴에서 시스템 관리 > APIC 관리 > Domain 를 클릭하여 Domain 목록을 조회합니다.
+1. 왼쪽 메뉴에서 시스템 관리 > APIC 관리 > Domain을 클릭하여 Domain 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (717).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 

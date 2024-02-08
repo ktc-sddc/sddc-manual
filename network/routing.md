@@ -31,7 +31,7 @@ Tenant 내 Routing 을 조회하는 기능입니다.
 
 메뉴에서 Network > Routing 을 클릭하여 Routing 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Routing 생성
 
@@ -40,7 +40,7 @@ Tenant 내 Routing 을 조회하는 기능입니다.
 1. 메뉴에서 Network > Routing 을 클릭하여 Routing 목록을 조회합니다.
 2. 상단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Routing 생성 정보를 입력합니다.
    * Routing 이름 : Routing 이름입니다.

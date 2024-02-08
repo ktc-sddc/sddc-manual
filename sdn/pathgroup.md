@@ -43,7 +43,7 @@ PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의�
 
 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### PathGroup 생성
 
@@ -60,7 +60,7 @@ PathGroup을 생성하는 기능입니다.
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 상단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. PathGroup 생성을 위한 필요정보를 입력합니다.
    * PathGroup 이름 : PathGroup의 이름을 입력합니다.

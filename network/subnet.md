@@ -30,7 +30,7 @@ Tenant, VPC 에 대한 접근 권한이 있는 경우에만 하위에 Subnet 생
 
 메뉴에서 Network > Subnet 을 클릭하여 Subnet 목록을 조회합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Subnet 생성
 
