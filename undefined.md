@@ -52,28 +52,22 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 > **참고**
 >
-> * 트래픽 단위를 bytes와 MB로 변환이 가능합니다.
-> * 최근 30일 일별 트래픽의 경우 원하는 기간으로도 조회가 가능합니다.
+> * 트래픽 단위를 bytes와 MB로 변환하여 조회할 수 있습니다.
+> * 최근 30일 일별 트래픽의 경우, 원하는 기간을 설정하여 조회할 수 있습니다.
 
 #### Metering 조회 - Colocation Gateway
 
 1. Today, 최근 30일 정보를 확인합니다.
 
-<mark style="color:red;">**사진 첨부 예정**</mark>
-
-<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Today 시간별 트래픽 발생 현황을 확인합니다.
 
-<mark style="color:red;">**사진 첨부 예정**</mark>
-
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 최근 30일 일별 트래픽 발생 현황을 확인합니다.
 
-<mark style="color:red;">**사진 첨부 예정**</mark>
-
-<figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Topology
 

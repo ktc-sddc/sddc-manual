@@ -117,7 +117,7 @@ Case 2. VPC 1개, Subnet 2개, Routing 1개\
 
 3. 템플릿 공유 여부에 초록색 체크표시가 되었는지 확인합니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
