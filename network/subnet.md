@@ -30,7 +30,7 @@ Tenant, VPC 에 대한 접근 권한이 있는 경우에만 하위에 Subnet 생
 
 메뉴에서 Network > Subnet 을 클릭하여 Subnet 목록을 조회합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Subnet 생성
 
@@ -50,7 +50,7 @@ Subnet 생성은 VPC 내 Subnet 을 생성하는 기능입니다.
 1. 메뉴에서 Network > Subnet 을 선택합니다.
 2. Subnet 목록 화면이 나타나면, 상단 메뉴 중 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Subnet 생성 팝업 창이 나타나면, Subnet 생성 정보를 입력합니다.
    * Subnet 이름 : Subnet 이름을 입력합니다.
@@ -59,7 +59,7 @@ Subnet 생성은 VPC 내 Subnet 을 생성하는 기능입니다.
    * 설명 : Subnet에 대한 상세 설명을 입력합니다.
 4. 팝업 창 우측 하단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, 생성한 Subnet이 Subnet 목록 화면에 추가된 것을 확인합니다.
 
@@ -70,12 +70,12 @@ Subnet 정보를 수정하는 기능으로, Subnet에 대한 설명만 수정 �
 1. 메뉴에서 Network > Subnet 을 선택합니다.
 2. Subnet 목록 화면이 나타나면 수정하려는 Subnet을 선택한 다음, 상단 메뉴 중 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Subnet 수정 팝업 창이 나타나면, Subnet 정보를 수정합니다.
 4. 팝업 창 우측 하단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. 팝업 창이 닫히고, Subnet 목록 화면에 수정 사항이 반영된 것을 확인합니다.
 
@@ -93,11 +93,11 @@ Subnet 삭제는 VPC 내 Subnet 을 삭제하는 기능입니다.
 1. 메뉴에서 Network > Subnet 을 선택합니다.
 2. Subnet 목록 화면이 나타나면 삭제하려는 Subnet을 선택한 다음, 상단 메뉴 중 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Subnet 삭제를 위한 팝업 창이 나타나면, 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="336"><figcaption></figcaption></figure>
 
 4. 삭제 팝업 창이 닫히고, Subnet 목록에서 Subnet이 삭제되었는지 확인합니다.
 
