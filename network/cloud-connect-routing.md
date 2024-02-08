@@ -46,7 +46,7 @@ Tenant 내에서 Shared Colocation Gateway 를 사용하기 위해 신청하는 
 
 ### Shared Colocation Gateway 사용 신청 취소
 
-Tenant 내에서 Shared Colocation Gateway 를 사용하기 위한 신청 내역을 취소하는 기능입니다.&#x20;
+Tenant 내에서 Shared Colocation Gateway 를 사용하기 위한 신청을 취소하는 기능입니다.
 
 처리중 상태의 신청만 취소가 가능합니다.
 
