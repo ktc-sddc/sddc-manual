@@ -35,6 +35,8 @@ VPC의 IP 주소범위는 IPv4 CIDR 형식이며, RFC 1918에 명시되어 있�
 **참고**
 
 VPC IP 주소범위는 Cloud 운영 정책에 의해 변경 될 수 있습니다.
+
+VPC 최대 생성 개수는 [Quota](../management-new/quota.md) 기능을 통해 변경 할 수 있습니다.
 {% endhint %}
 
 ## 사용 가이드
