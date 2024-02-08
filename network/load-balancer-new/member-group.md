@@ -131,11 +131,13 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (649).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 정보를 입력하고, **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (652).png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Member Group 삭제
 
@@ -150,31 +152,53 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (650).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (653).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-### Listener 관리
 
-#### Listener 목록 조회
 
-1. Network > Load Balancer > Load Balancer 메뉴로 이동합니다.
-2. 대상 Load Balancer를 선택 후 목록 상단에 **\[Listener 관리]** 버튼을 클릭합니다.
+### Health Monitor 관리
 
-<figure><img src="../../.gitbook/assets/image (651).png" alt=""><figcaption></figcaption></figure>
+#### Health Monitor 수정
 
-3. 선택한 Load Balancer에서 사용 중인 Listener 목록을 확인합니다.
+1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
+2. 대상 Member Group을 선택 후 목록 상단에 **\[Health Monitor 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (654).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-#### Listener 생성
+3. 수정 정보를 입력하고, **\[수정]** 버튼을 클릭합니다.
 
-1. Network > Load Balancer > Load Balancer > Listener 관리메뉴로 이동합니다.
-2. 목록 상단에 추가할 Listener 정보를 입력하고 **\[+ 추가]** 버튼을 클릭합니다.
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (657).png" alt=""><figcaption></figcaption></figure>
+###
+
+### Member 관리
+
+#### Member 조회
+
+1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
+2. 대상 Member Group을 선택 후 목록 상단에 **\[Member 관리]** 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+3\. 선택한  Member Group 내 Member  목록을 확인한다.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+#### Member 생성
+
+{% hint style="info" %}
+참고
+
+* 동일한 Server의 경우에도 다른 Network Interface에 대해 Member를 생성할 수 있습니다.
+{% endhint %}
+
+1. 목록 상단에 추가할 Member 정보를 입력하고 **\[+ 추가]** 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### Listener 수정
 

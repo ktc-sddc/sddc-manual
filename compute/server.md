@@ -45,7 +45,7 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 2. Server 목록을 확인합니다.
 3. 조회 할 Server를 선택한 후 상세 내용을 확인합니다.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Server 신규 생성
 
@@ -65,7 +65,7 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 3. Server 생성과 관련된 **기본 사항**(Server 이름/ Server 상품 유형/ Flavor 종류 및 유형)을 입력 및 선택합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Server 생성 시 사용할 이미지를 선택합니다.
 
@@ -73,11 +73,11 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 5. **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. **추가 설정** 정보(반납보호여부, Key Pair, Init Script)를 입력 및 선택합니다.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. 입력 및 선택한 정보를 **검토** 한 뒤, **\[생성]** 버튼을 클릭합니다.
 
