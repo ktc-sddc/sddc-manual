@@ -103,4 +103,4 @@ Routing에 등록된 Routing Table 내의 Subnet 목록을 추가/삭제 할 수
 
 > **Q. Routing 생성이 되지 않습니다.**
 >
-> **A.** [Routing 생성](routing.md#routing-1) 을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> **A.** [Routing 생성](routing.md#routing-1) 을 참고해주시기 바랍니다.  Routing 생성 절차대로 진행했음에도 생성되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
