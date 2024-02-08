@@ -22,7 +22,7 @@ Colocation Gateway와 Subnet 을 연결하여, Subnet과 고객 전용 네트워
 
 ## 사용가이드
 
-### &#x20;Colocation Gateway **서비스 신청**
+### Colocation Gateway **서비스 신청**
 
 Colocation Gateway 서비스 신청 기능입니다.
 
@@ -108,6 +108,6 @@ Colocation Gateway 서비스를 해지하는 기능입니다.
 
 ## FAQ
 
-> **Q. Colocation Gateway 연결에 방화벽 를 연결하고 싶습니다.**
+> **Q. Colocation Gateway 연결에 방화벽을 연결하고 싶습니다.**
 >
 > A. Security > 방화벽 사용 가이드를 확인하시기 바랍니다.
