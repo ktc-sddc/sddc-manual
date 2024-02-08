@@ -162,7 +162,15 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 
 ### Health Monitor 관리
 
+Member Group 내 속한 Member들의 연결 상태를 체크하는 정책을 관리하는 기능입니다. 이를 통해 Load Balancer의 안정성을 확보합니다.
+
 #### Health Monitor 수정
+
+{% hint style="info" %}
+참고
+
+* Health Monitor의 경우 Protocol 수정이 불가능합니다.
+{% endhint %}
 
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 대상 Member Group을 선택 후 목록 상단에 **\[Health Monitor 관리]** 버튼을 클릭합니다.
@@ -190,6 +198,8 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 
 #### Member 생성
 
+Member Group 내 Member 추가하는 기능입니다.
+
 {% hint style="info" %}
 참고
 
@@ -200,46 +210,42 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-#### Listener 수정
+#### Member 수정
+
+Member의 가중치를 수정하거나 On/Off하는 기능입니다. 이를 통해 Member Group 분산 풀에서의 우선순위를 조정하거나  제거합니다.
 
 {% hint style="info" %}
 참고
 
-* Listener의 경우 Protocol 및 Port 수정은 불가능합니다.
-* 최대 연결 세션수는 10 \~ 60,000까지 입력 가능합니다.
+* Member의 경우 Port 수정은 불가능합니다.
 {% endhint %}
 
-1. Network > Load Balancer > Load Balancer > Listener 관리메뉴로 이동합니다.
-2. 수정할 Listner를 입력하고 **\[수정]** 버튼을 클릭합니다.
+1. 수정할 Member의 Action 칼럼에 있는 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure>
 
-3. 수정 정보를 입력하고 \[수정] 버튼을 클릭합니다.
+2. 수정 정보를 입력하고 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (660).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (703).png" alt=""><figcaption></figcaption></figure>
 
-#### Listener 삭제
+#### Member 삭제
 
-{% hint style="info" %}
-참고
+필요 없는 Member를 삭제하는 기능입니다.
 
-* Listener에 연결된 Member Group이 존재할 경우 삭제가 불가능합니다.
-* Load Balancer 삭제 시 연결된 Listener도 함께 삭제됩니다.
-{% endhint %}
+1. 삭제할 Member의 Action 칼럼에 있는 **\[삭제]** 버튼을 클릭합니다.
 
-1. Network > Load Balancer > Load Balancer > Listener 관리 메뉴로 이동합니다.
-2. 삭제할 Listener를 선택하고 **\[삭제]** 버튼을 클릭합니다.
+<figure><img src="../../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (662).png" alt=""><figcaption></figcaption></figure>
+2. 삭제 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
-3. 삭제 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
-
-<figure><img src="../../.gitbook/assets/image (661).png" alt="" width="339"><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
-
-##
+<figure><img src="../../.gitbook/assets/image (704).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
+> Q. Server를 삭제할 경우 해당 Server로 생성한 Member는 어떻게 되나요?
 >
+> A. Server 삭제 시 Member가 삭제되진 않습니다. 그러나 운영 상태가 전환되고 Member Group 분산 풀에서 제거되기 때문에 로드밸런서의 안정성은 유지됩니다.
+>
+> Q. Health Monitor의 Protocol 수정하기 위해서는 어떻게 해야되나요?
+>
+> A. 관리자에게 문의바랍니다.
