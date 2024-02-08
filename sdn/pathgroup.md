@@ -43,7 +43,7 @@ PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의�
 
 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### PathGroup 생성
 
@@ -60,7 +60,7 @@ PathGroup을 생성하는 기능입니다.
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 상단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 3. PathGroup 생성을 위한 필요정보를 입력합니다.
    * PathGroup 이름 : PathGroup의 이름을 입력합니다.
@@ -83,7 +83,7 @@ PathGroup을 수정하는 기능입니다.
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 수정하려는 PathGroup 을 선택한 후 상단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 3. PathGroup 수정에 필요한 정보를 입력합니다. [PathGroup 생성](pathgroup.md#pathgroup-2)을 참고해주십시오.
 4. 우측 하단의 **\[수정]** 버튼을 클릭합니다.
@@ -99,7 +99,7 @@ PathGroup 정보를 삭제하는 기능입니다. 단, PathGroup이 사용중인
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 수정하려는 PathGroup 을 선택한 후, 상단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 3. 우측 하단의 삭제 버튼을 클릭합니다.
 
@@ -116,7 +116,7 @@ PathGroup의 PathEndpoint를 수정한 경우, 해당 PathGroup를 사용중인 
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 동기화가 필요한 PathGroup 을 선택한 후, 상단의 **\[수동 동기화]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 3. PathGroup 수동 동기화 팝업 창이 열리면, 반영할 Subnet을 선택한 다음 팝업 창 우측 하단의 **\[동기화]** 버튼을 클릭합니다.
 

@@ -35,12 +35,12 @@ Tenant 내에서 Shared Colocation Gateway 를 사용하기 위해 신청하는 
 
 1. 메뉴에서 Network > Shared Colocation Gateway 에서 **\[서비스 신청]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. 서비스 신청 정보를 입력합니다.
 3. 팝업창 우측 하단의 **\[신청]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 4. **\[신청 내역]** 탭을 클릭하여, 신청 내역이 조회 되는지 확인합니다.
 
@@ -50,14 +50,14 @@ Tenant 내에서 Shared Colocation Gateway 를 사용하기 위한 신청을 취
 
 처리중 상태의 신청만 취소가 가능합니다.
 
-1. 메뉴에서 Network > Shared Colocation Gateway 에서  **\[신청 내역]** 탭을 클릭하여, 신청 내역을 조회합니다.
+1. 메뉴에서 Network > Shared Colocation Gateway 에서 **\[신청 내역]** 탭을 클릭하여, 신청 내역을 조회합니다.
 2. 취소할 신청 내역을 선택하여, **\[신청 취소]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업창 우측 하단의 **\[확인]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
 
 4. 신청 내역에서 취소 처리가 되었는지 확인합니다.
 

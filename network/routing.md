@@ -31,7 +31,7 @@ Tenant 내 Routing 을 조회하는 기능입니다.
 
 메뉴에서 Network > Routing 을 클릭하여 Routing 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Routing 생성
 
@@ -40,7 +40,7 @@ Tenant 내 Routing 을 조회하는 기능입니다.
 1. 메뉴에서 Network > Routing 을 클릭하여 Routing 목록을 조회합니다.
 2. 상단의 **\[생성]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Routing 생성 정보를 입력합니다.
    * Routing 이름 : Routing 이름입니다.
@@ -60,7 +60,7 @@ Routing 정보를 수정하는 기능으로, Routing 설명을 수정할 수 있
 1. 메뉴에서 Network > Routing 를 클릭하여 Routing 목록을 조회합니다.
 2. 수정할 Routing 선택 후, 상단의 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Routing 수정 정보를 입력합니다.
 4. 팝업창 우측 하단 **\[수정]** 버튼을 클릭합니다.
@@ -76,13 +76,13 @@ Routing에 등록된 Routing Table 내의 Subnet 목록을 추가/삭제 할 수
 1. 메뉴에서 Network > Routing 를 클릭하여 Routing 목록을 조회합니다.
 2. Routing Table 을 관리할 Routing 선택 후, 상단의 **\[Routing Table 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Routing Table 내 Routing 대상 Subnet 목록을 수정합니다.
    * Subnet 추가 : Subnet을 선택 후, **\[추가]** 버튼을 클릭합니다.
    * Subnet 삭제 : 삭제할 Subnet 우측 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 4. Routing Table 의 Routing 대상 Subnet 목록 수정 사항을 확인합니다.
 
@@ -91,7 +91,7 @@ Routing에 등록된 Routing Table 내의 Subnet 목록을 추가/삭제 할 수
 1. 메뉴에서 Network > Routing 를 클릭하여 Routing 목록을 조회합니다.
 2. 삭제할 Routing를 선택한 다음, 상단의 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업창 우측 하단 **\[삭제]** 버튼을 클릭합니다.
 
