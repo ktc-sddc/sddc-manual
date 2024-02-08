@@ -32,9 +32,12 @@ OpenStack으로부터 Image 목록을 동기화 하여 SDDC Platform 사용자�
 
 ### Image 목록 조회
 
-왼쪽 메뉴에서 시스템 관리 > OpenStack 관리 > Image 관리 를 클릭하여 Image 목록을 조회합니다.
+1. 시스템 관리 > OpenStack 관리 > Image 관리 메뉴를 클릭합니다.
+2. 플랫폼에서 사용 가능한 Image 목록을 조회합니다.
 
 <figure><img src="../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
+
+관리대상 여부에 따라 사용자 Server 생성 시 해당 Image 노출여부가 결정됩니다.
 
 ### Image 관리하기
 
