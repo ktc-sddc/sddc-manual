@@ -132,11 +132,11 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 정보를 입력하고, **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -153,11 +153,11 @@ Listener에서 사용할 Member Group을 생성할 수 있습니다.
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. 삭제 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -176,11 +176,11 @@ Member Group 내 속한 Member들의 연결 상태를 체크하는 정책을 관
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 대상 Member Group을 선택 후 목록 상단에 **\[Health Monitor 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 정보를 입력하고, **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 
@@ -191,11 +191,11 @@ Member Group 내 속한 Member들의 연결 상태를 체크하는 정책을 관
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 대상 Member Group을 선택 후 목록 상단에 **\[Member 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. 선택한  Member Group 내 Member  목록을 확인한다.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Member 생성
 
@@ -209,7 +209,7 @@ Member Group 내 Member 추가하는 기능입니다.
 
 1. 목록 상단에 추가할 Member 정보를 입력하고 **\[+ 추가]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Member 수정
 
