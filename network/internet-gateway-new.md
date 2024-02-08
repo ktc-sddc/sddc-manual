@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Internet Gateway
 
 ***
@@ -14,7 +28,7 @@ Internet Gateway를 통해 Internet 연결 서비스를 제공합니다. Interne
 
 ## 사용가이드
 
-### &#x20;Internet Gateway **생성**
+### Internet Gateway **생성**
 
 Internet Gateway 를 생성하는 기능입니다.
 
