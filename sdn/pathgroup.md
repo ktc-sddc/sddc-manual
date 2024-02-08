@@ -27,7 +27,7 @@ PathGroup 은 네트워크 리소스 생성에 필요한 물리 구성 정보를
 
 ### PathGroup 유형
 
-PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의미하며, 생성 가능한 PathGroup 유형에는 Subnet, NFV, Colocation Gateway, Cloud Connect 가 있습니다.&#x20;
+PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의미하며, 생성 가능한 PathGroup 유형에는 Subnet, NFV, Colocation Gateway등이 있습니다.&#x20;
 
 예로 Subnet 유형의 PathGroup 은 Subnet 생성 시 사용됩니다. 각 유형별로 연결 가능한 Domain 유형은 다음과 같습니다.
 
