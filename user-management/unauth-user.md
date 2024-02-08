@@ -24,14 +24,14 @@ layout:
 
 #### 목록 조회
 
-1. 사용자 관리 > 미승인 사용자 관리를 클릭합니다.
+1. 사용자 관리 > 미승인 사용자 관리를 클릭합니다.
 2. 미승인 사용자 목록을 조회합니다.
 
 <figure><img src="../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
 
 #### ROLE 관리
 
-ROLE이 부여되지 않은 사용자에게 ROLE을 부여하여 플랫폼 접근을 승인합니다.
+ROLE이 부여되지 않은 사용자에게 ROLE을 부여하여 플랫폼 접근을 승인합니다.
 
 {% hint style="warning" %}
 **참고**
@@ -42,7 +42,7 @@ layout:
 {% hint style="info" %}
 **참고**
 
-ROLE을 부여하는 관리자는 본인의 상위 ROLE을 부여할 수 없습니다.\
+ROLE을 부여하는 관리자는 본인의 상위 ROLE을 부여할 수 없습니다.\
 예) 관리자(ROLE\_ADMIN)가 시스템 관리자(ROLE\_SYSTEM\_ADMIN) ROLE 부여 불가능.
 {% endhint %}
 
