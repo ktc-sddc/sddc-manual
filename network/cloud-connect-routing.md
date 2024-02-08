@@ -28,12 +28,12 @@ Shared Colocation Gateway에 연결 하는 Subnet 주소 범위는 서로 달라
 
 ## 사용 가이드
 
-### Shared Colocation Gateway 사용 신청
+### Shared Colocation Gateway 서비스 신청
 
 Tenant 내에서 Shared Colocation Gateway 를 사용하기 위해 신청하는 기능입니다.\
 이미 사용 승인을 받았거나 사용 신청 처리중인 Cloud Connect 에 대한 사용 신청은 불가능합니다.
 
-1. 메뉴에서 Network > Shared Colocation Gateway 에서  **\[서비스 신청]** 버튼을 클릭합니다.
+1. 메뉴에서 Network > Shared Colocation Gateway 에서 **\[서비스 신청]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -77,13 +77,13 @@ Shared Colocation Gateway 연결된 Subnet 목록을 추가/삭제 할 수 있�
 
 <figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. 연결된 Subnet 목록을 수정합니다.
+2. 연결된 Subnet 목록을 수정합니다.
    * Subnet 추가 : Subnet을 선택 후, **\[추가]** 버튼을 클릭합니다.
    * Subnet 삭제 : 삭제할 Subnet 우측 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4. 연결된 Subnet 목록을확인합니다.
+3. 연결된 Subnet 목록을 확인합니다.
 
 ## FAQ
 
