@@ -113,11 +113,11 @@ VPC 최대 생성 개수는 [Quota](../management-new/quota.md) 기능을 통해
 
 > **Q. VPC 생성이 되지 않습니다.**
 >
-> A. [VPC 생성](vpc.md#vpc)을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [VPC 생성](vpc.md#vpc)을 참고해주시기 바랍니다. VPC 생성 절차대로 진행했음에도 생성되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. VPC 삭제가 되지 않습니다.**
 >
-> A. [VPC 삭제](vpc.md#vpc-2)를 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [VPC 삭제](vpc.md#vpc-2)를 참고해주시기 바랍니다. VPC 삭제 절차대로 진행했음에도 삭제되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. VPC 는 몇 개까지 생성 가능한가요?**
 >
