@@ -126,8 +126,8 @@ PathGroup의 PathEndpoint를 수정한 경우, 해당 PathGroup를 사용중인 
 
 > **Q. PathGroup 생성이 되지 않습니다.**
 >
-> A. [PathGroup 생성](pathgroup.md#pathgroup-1) 을 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [PathGroup 생성](pathgroup.md#pathgroup-1) 을 참고해주시기 바랍니다. PathGroup 생성 절차대로 진행했음에도 삭제되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. PathGroup 삭제가 되지 않습니다.**
 >
-> A. [PathGroup 삭제](pathgroup.md#pathgroup-3) 를 참고해주시기 바랍니다. 만약 해결 되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [PathGroup 삭제](pathgroup.md#pathgroup-3) 를 참고해주시기 바랍니다. PathGroup 삭제 절차대로 진행했음에도 삭제되지 않는다면 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
