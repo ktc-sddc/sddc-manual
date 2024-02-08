@@ -69,7 +69,7 @@
     * [Flavor 관리](management/openstack/flavor.md)
     * [Host Aggregate 관리(new)](management/openstack/host-aggregate-new.md)
     * [Volume Type 관리(수정)](management/openstack/volume.md)
-    * [Share Type 관리(new)](management/openstack/share-type-new.md)
+    * [Share Type 관리(new)](management/openstack/share-type-new.md)
     * [OpenStack 환경 설정](management/openstack/osp-connect.md)
     * [Cloud 상품 관리(new)](management/openstack/cloud-new.md)
     * [Compute Node 모니터링](management/openstack/compute-node.md)
