@@ -72,7 +72,7 @@ Cloud 상품 사용 여부, 이름 수정, type 연동 기능을 제공합니다
 
 <figure><img src="../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
 
-4. 필요한 정보를 수정한 이후, 수정 버튼을 클릭합니다.
+4. 설정된 상품 유형을 선택한 후, 수정 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (623).png" alt=""><figcaption></figcaption></figure>
 
