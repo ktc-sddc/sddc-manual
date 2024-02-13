@@ -42,10 +42,11 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 2.05.04.png" alt=""><figcaption></figcaption></figure>
 
-1. 생성 팝업 창에서 VM이 사용할 Network 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
-   * DHCP 사용/미사용 설정은 고정 IP 할당 여부를 결정합니다.
-     * DHCP 사용: 자동으로 고정 IP를 할당합니다.
-     * DHCP 미사용:사용자가 고정 IP를 지정하여 생성합니다.
+3. 생성 팝업 창에서 VM이 사용할 Network 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
+
+* DHCP 사용/미사용 설정은 고정 IP 할당 여부를 결정합니다.
+  * DHCP 사용: 자동으로 고정 IP를 할당합니다.
+  * DHCP 미사용:사용자가 고정 IP를 지정하여 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (417).png" alt="" width="375"><figcaption></figcaption></figure>
 
