@@ -258,7 +258,11 @@ Tenant 에서 사용할 방화벽을 생성하는 기능입니다.
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.30.42.png" alt=""><figcaption></figcaption></figure>
 
 4. 정책 정보를 입력합니다.
-   1. <mark style="color:red;">**상세 가이드 필요**</mark>
+   1. 정책 이름을 입력합니다.
+   2. 해당 정책을 만족하는 네트워크 패킷을 허용할 지, 차단할 지 선택합니다.
+   3. 출발지 리소스를 선택하고, 입력 유형에 맞는 IP를 입력합니다.
+   4. 도착지 리소스를 선택하고, 입력 유형에 맞는 IP를 입력합니다.
+   5. 프로토콜을 선택하고, 해당 프로토콜의 Port를 입력합니다.
 5. **\[추가]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오후 5.31.00.png" alt=""><figcaption></figcaption></figure>
