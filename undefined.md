@@ -75,7 +75,7 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 > **참고**
 >
-> * 오브젝트(Subnet, Internet Gateway, Colocation Gateway, Shared Colocation Gateway, Routing)을 클릭하면, 클릭한 리소스의 연결관계를 확인할 수 있습니다. 또는 토폴로지 좌측 하단의 눈 표시 버튼을 클릭하여 전체 리소스 연결관계를 확인할 수 있습니다.
+> * 오브젝트(Subnet, Internet Gateway, Colocation Gateway, Shared Colocation Gateway, Routing)을 클릭하면, 클릭한 리소스의 연결관계를 확인할 수 있습니다. 또는 Topology 좌측 하단의 눈 표시 버튼을 클릭하여 전체 리소스 연결관계를 확인할 수 있습니다.
 
 <figure><img src=".gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
 
