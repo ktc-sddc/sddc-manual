@@ -18,7 +18,7 @@ layout:
 
 Share 생성, 수정, 삭제, 동작 제어 등을 제공하는 기능입니다.
 
-해당 Tenant 내의 Server에 mount Path를 통해 마운트하여 사용할 수 있습니다.
+해당 Tenant 내의 Server에 Mount Path를 통해 마운트하여 사용할 수 있습니다.
 
 ## 사용 가이드
 
@@ -37,7 +37,7 @@ Tenant 내에서 사용 중인 Share 목록을 조회합니다.
 
 ### Share 생성
 
-Server에서 추가적으로 연결 가능한 Share을 생성할 수 있습니다.
+Server에서 추가적으로 연결 가능한 Share를 생성할 수 있습니다.
 
 {% hint style="info" %}
 **참고**
@@ -59,7 +59,7 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 생성된 Share 정보를 수정하는 기능입니다.
 
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
-2. 대상 Share을 선택하여 **\[수정]** 버튼을 클릭합니다.
+2. 대상 Share를 선택하여 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 2.png" alt=""><figcaption></figcaption></figure>
 
@@ -69,10 +69,10 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 
 ### Share 삭제
 
-Share을 삭제하는 기능입니다.
+Share를 삭제하는 기능입니다.
 
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
-2. 대상 Share을 선택하여 **\[삭제]** 버튼을 클릭합니다.
+2. 대상 Share를 선택하여 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -84,7 +84,7 @@ Share을 삭제하는 기능입니다.
 
 #### 마운트 경로 확인
 
-Server에 추가 Share을 연결하는 기능입니다.\
+Server에 추가 Share를 연결하는 기능입니다.\
 대상 Server에 접속하여 마운트 작업을 수행해야 사용이 가능합니다.
 
 1. Storage > Share Storage > Share 메뉴를 클릭합니다.
@@ -111,9 +111,9 @@ $ df -h
 
 #### **서버 마운트 해제**
 
-Server로부터 Share의 마운트를 해제하는 기능입니다
+Server로부터 Share의 마운트를 해제하는 기능입니다
 
-1. Server 콘솔에서 Mount된 Share을 Unmount 합니다.
+1. Server 콘솔에서 Mount된 Share를 Unmount 합니다.
 
 ```
 $ umount /mnt/share
