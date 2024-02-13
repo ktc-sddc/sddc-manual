@@ -49,7 +49,7 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 
 <figure><img src="../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 
-4. Flavor, Volume, Share의 유형에 맞게 목록을 선택한 후, 생성 버튼을 클릭합니다.
+4. 설정한 상품 유형을 선택한 후, 생성 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 
