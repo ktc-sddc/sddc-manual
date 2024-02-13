@@ -126,8 +126,8 @@ Gatway Info 를 삭제하는 기능입니다.
 
 > **Q. Gateway Info 생성이 되지 않습니다.**
 >
-> A. [Gateway Info 생성](gateway-info.md#gateway-info) 을 참고해주시기 바랍니다. Gateway Info 생성 절차대로 진행했음에도 생성되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
+> A. [Gateway Info 생성](gateway-info.md#gateway-info)을 참고해주시기 바랍니다. Gateway Info 생성 절차대로 진행했음에도 생성되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
 
 > **Q. Gateway Info 삭제가 되지 않습니다.**
 >
-> A. [Gateway Info 삭제](gateway-info.md#2.-gateway-info-2) 을 참고해주시기 바랍니다. Gateway Info 삭제 절차대로 진행했음에도 삭제되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.G
+> A. [Gateway Info 삭제](gateway-info.md#2.-gateway-info-2)를 참고해주시기 바랍니다. Gateway Info 삭제 절차대로 진행했음에도 삭제되지 않는다면 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
