@@ -45,7 +45,7 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.00.18 2.png" alt=""><figcaption></figcaption></figure>
 
-3. Cloud 상품 생성 창에서 관리대상, 상품 유형과 이름, 설명을 입력한 후 **\[다음]** 버튼을 클릭합니다.
+3. Cloud 상품 생성 창에서 관리 여부, 상품 유형, 상품 이름, 설명을 입력한 후 **\[다음]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 
