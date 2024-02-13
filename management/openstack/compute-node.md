@@ -39,4 +39,4 @@ Compute Node 모니터링 기능을 제공합니다.
 
 > **Q. Compute Node가 하나도 보이지 않아요.**
 >
-> **A.** [**OpenStack 환경설정**](undefined.md)**의 CNode 동기화를 참고하세요**
+> **A.** [**OpenStack 환경설정**](broken-reference)**의 CNode 동기화를 참고하세요**
