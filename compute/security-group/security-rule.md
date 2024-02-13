@@ -24,23 +24,17 @@ Security Rule은 stateful 방식으로 동작하며 규칙이 존재할 경우 �
 
 ### Security Rule 설정 항목
 
-방향, IP 프로토콜, Port, Ether 범위, 원격 유형, Remote (원격)으로 정책을 설정합니다.
-
-
+방향, IP 프로토콜, 포트 범위, Ether 범위, 원격 유형, Remote (원격)으로 정책을 설정합니다.
 
 #### Security Rule 예시
 
 * 원격 IP 192.168.1.56에서 TCP 프로토콜을 통해 서버로 들어오는 트래픽을 허용하는 규칙입니다.
 
-| 방향      | IP 프로토콜 | Port | Ether 범위 | Remote (원격)     |
-| ------- | ------- | ---- | -------- | --------------- |
-| inbound | TCP     | 전체   | IPv4     | 192.168.1.56/32 |
+<table><thead><tr><th width="125">방향</th><th width="108">IP 프로토콜</th><th width="104">포트 범위</th><th width="104">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>inbound</td><td>TCP</td><td>전체</td><td>IPv4</td><td>CIDR</td><td>192.168.1.56/32</td></tr></tbody></table>
 
 * 서버에서 임의의 프로토콜을 통해 나가는 모든 IPv4의 트래픽을 허용하는 규칙입니다.
 
-| 방향       | IP 프로토콜 | Port | Ether 범위 | Remote (원격) |
-| -------- | ------- | ---- | -------- | ----------- |
-| outbound | 전체      | 전체   | IPv4     | 0.0.0.0/0   |
+<table><thead><tr><th width="128">방향</th><th width="109">IP 프로토콜</th><th width="102">포트 범위</th><th width="105">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>outbound</td><td>전체</td><td>전체</td><td>IPv4</td><td>CIDR</td><td>0.0.0.0/0</td></tr></tbody></table>
 
 * ICMP 프로토콜을 통해192.168.1.0/24 에서 서버로 들어오는 트래픽을 허용하는 규칙입니다.
 
