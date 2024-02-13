@@ -20,8 +20,6 @@ layout:
 
 Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제어 및 관리를 할 수 있는 가상의 방화벽 서비스입니다. Security Group은 [Security Rule](security-rule.md)들의 집합으로, Security Rule을 통해 서버에서 발생하는 허가 받지 않은 인바운드/아웃바운드 트래픽을 제어함으로써 서버를 안전하게 보호할 수 있습니다.
 
-
-
 #### Security Group 유형
 
 <table data-full-width="false"><thead><tr><th width="159">상태(영문)</th><th width="117.72950819672133">상태(한글)</th><th>설명</th></tr></thead><tbody><tr><td>DEFAULT</td><td>기본</td><td>Tenant 생성과 동시에 기본적으로 제공되는 Security Group 입니다.</td></tr><tr><td>USER</td><td>사용자 지정</td><td>사용자가 생성한, Security Group 입니다.</td></tr></tbody></table>
@@ -106,11 +104,13 @@ Security Group의 Rule을 관리하는 기능입니다. 자세한 사항은 링�
 
 > **Q. Security Rule은 어떻게 설정해야하나요?**
 >
-> 자세한 사항은 [Security Rule](security-rule.md)을 참조해 주세요.\
+> A. 자세한 사항은 [Security Rule](security-rule.md)을 참조해 주세요.\
 > \
 > **Q. Security Group을 서버에 어떻게 적용하나요?**\
-> [Network Interface](../network-interface.md)를 참조해 주세요
+> A. [Network Interface](../network-interface.md)를 참조해 주세요
+>
+>
 >
 > **Q. Security Group은 최대 몇 개까지 생성 가능한가요?**
 >
-> Tenant 당개최대 5개까지 생성 할 수 있습니다.
+> A. Tenant 당 최대 5개까지 생성 할 수 있습니다.
