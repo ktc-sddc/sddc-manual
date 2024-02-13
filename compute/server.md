@@ -55,7 +55,7 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 **참고**
 
 * Server가 내외부 통신을 위해 필요한 Network Interface는 미리 생성하시기 바랍니다.
-* KeyPair와 Init Script의 경우 미리 준비(생성) 혹은 Server 생성을 진행하면서 동시 생성도 가능합니다.
+* Key Pair와 Init Script의 경우 미리 준비(생성) 혹은 Server 생성을 진행하면서 동시 생성도 가능합니다.
 {% endhint %}
 
 1. Compute > Server 메뉴를 클릭합니다.
@@ -63,7 +63,7 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 <figure><img src="../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
 
-3. Server 생성과 관련된 **기본 사항**(Server 이름/ Server 상품 유형/ Flavor 종류 및 유형)을 입력 및 선택합니다.
+3. Server 생성과 관련된 **기본 정보**(Server 이름/ Server 상품 유형/ Flavor 종류 및 유형)를 입력 및 선택합니다.
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,11 +71,9 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-5. **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.
-
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-5. **추가 설정** 정보(반납보호여부, Key Pair, Init Script)를 입력 및 선택합니다.
+5. **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.\
+   !수정된 스크린샷 업로드
+6. **추가 설정** 정보(반납보호 선택 여부, Key Pair, Init Script)를 입력 및 선택합니다.
 
 <figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
