@@ -98,4 +98,4 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 
 > **Q. Network Interface에 Security Group은 몇 개 까지 적용이 가능한가요??**
 >
-> **A.** Network Interface에 최대 3개 까지 Security Group 적용이 가능합니다.
+> **A. 1개의** Network Interface 당, 최대 3개 까지 Security Group 적용이 가능합니다.
