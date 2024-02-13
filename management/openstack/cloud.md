@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Cloud 상품 관리(new)
+# Cloud 상품 관리
 
 ## 개요
 
@@ -40,7 +40,7 @@ SDDC Platform 사용자에게 제공되는 상품에 대한 관리 기능을 제
 * 사용 여부를 사용으로 설정해야 사용자에게 Cloud 상품이 노출됩니다.
 {% endhint %}
 
-1. 시스템 관리 > OpenStack 관리 > Cloud 상품 메뉴를 클릭합니다.
+1. 시스템 관리 > OpenStack 관리 > Cloud 상품 관리 메뉴를 클릭합니다.
 2. 화면 왼쪽 Cloud 상품 목록 상단에 **\[생성]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 3.00.18 2.png" alt=""><figcaption></figcaption></figure>
