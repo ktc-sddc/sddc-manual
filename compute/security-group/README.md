@@ -104,7 +104,8 @@ Security Group의 Rule을 관리하는 기능입니다. 자세한 사항은 링�
 
 > **Q. Security Rule은 어떻게 설정해야하나요?**
 >
-> A. 자세한 사항은 [Security Rule](security-rule.md)을 참조해 주세요.\
+> A. 자세한 사항은 [Security Rule](security-rule.md)을 참조해 주세요.
+>
 > \
 > **Q. Security Group을 서버에 어떻게 적용하나요?**\
 > A. [Network Interface](../network-interface.md)를 참조해 주세요
