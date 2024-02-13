@@ -71,7 +71,7 @@
     * [Volume Type 관리(수정)](management/openstack/volume.md)
     * [Share Type 관리(new)](management/openstack/share-type-new.md)
     * [환경 설정](management/openstack/osp-connect.md)
-    * [Cloud 상품 관리](management/openstack/cloud.md)
+    * [Cloud 상품 관리](management/openstack/cloud.md)
     * [Compute Node 모니터링](management/openstack/compute-node.md)
   * [Backend Storage 관리(new)](management/backend-storage-new/README.md)
     * [모니터링](management/backend-storage-new/undefined.md)
