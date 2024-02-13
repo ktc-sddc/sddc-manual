@@ -46,7 +46,7 @@ Security Rule은 stateful 방식으로 동작하며 규칙이 존재할 경우 �
 
 필수적인 규칙 4건이 존재하지 않을 때, 서버 통신이 오동작 할 수 있으므로 주의해주시길 바랍니다.
 
-<table><thead><tr><th width="123">방향</th><th width="107">IP 프로토콜</th><th width="64">Port</th><th width="105">Ether 범위</th><th width="178">Remote IP</th><th>설명</th></tr></thead><tbody><tr><td>outbound</td><td>TCP</td><td>80</td><td>IPv4</td><td>169.254.169.254/32</td><td>Server에 메타 데이터 제공을 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>67</td><td>IPv4</td><td>0.0.0.0/0</td><td>DHCP 서버와 통신하기 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>68</td><td>IPv4</td><td>0.0.0.0/0</td><td>DHCP 서버와 통신하기 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>53</td><td>IPv4</td><td>DNS server address<br><em>(Google 8.8.8.8/32)</em></td><td>DNS 서버와 통신하기 위한 규칙</td></tr></tbody></table>
+<table><thead><tr><th width="123">방향</th><th width="107">IP 프로토콜</th><th width="68">Port</th><th width="105">Ether 범위</th><th width="178">Remote IP</th><th>설명</th></tr></thead><tbody><tr><td>outbound</td><td>TCP</td><td>80</td><td>IPv4</td><td>169.254.169.254/32</td><td>Server에 메타 데이터 제공을 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>67</td><td>IPv4</td><td>0.0.0.0/0</td><td>DHCP 서버와 통신하기 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>68</td><td>IPv4</td><td>0.0.0.0/0</td><td>DHCP 서버와 통신하기 위한 규칙</td></tr><tr><td>outbound</td><td>UDP</td><td>53</td><td>IPv4</td><td>DNS server address<br><em>(Google 8.8.8.8/32)</em></td><td>DNS 서버와 통신하기 위한 규칙</td></tr></tbody></table>
 
 
 
@@ -59,15 +59,11 @@ Security Rule의 원격 유형을 Remote Group으로 설정 할 수 있습니다
 * 아래는 위의 그림의 예시 입니다.
 * Server (A)에 설정된 Security Group (SG-A)
 
-| 방향       | IP 프로토콜 | Port | Ether 범위 | Remote (원격) |
-| -------- | ------- | ---- | -------- | ----------- |
-| outbound | 전체      | 전체   | IPv4     | SG-B        |
+<table><thead><tr><th width="131">방향</th><th width="115">IP 프로토콜</th><th width="96">포트 범위</th><th width="120">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>outbound</td><td>전체</td><td>전체</td><td>IPv4</td><td>Remote 그룹</td><td>SG-B</td></tr></tbody></table>
 
 * Server (B)에 설정된 Security Group (SG-B)
 
-| 방향      | IP 프로토콜 | Port | Ether 범위 | Remote (원격) |
-| ------- | ------- | ---- | -------- | ----------- |
-| inbound | 전체      | 전체   | IPv4     | SG-A        |
+<table><thead><tr><th width="135">방향</th><th width="111">IP 프로토콜</th><th width="100">포트 범위</th><th width="119">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>inbound</td><td>전체</td><td>전체</td><td>IPv4</td><td>Remote 그룹</td><td>SG-A</td></tr></tbody></table>
 
 
 
