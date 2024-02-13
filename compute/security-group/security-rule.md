@@ -30,7 +30,7 @@ Security Rule은 stateful 방식으로 동작하며 규칙이 존재할 경우 �
 
 * 원격 IP 192.168.1.56에서 TCP 프로토콜을 통해 서버로 들어오는 트래픽을 허용하는 규칙입니다.
 
-<table><thead><tr><th width="125">방향</th><th width="108">IP 프로토콜</th><th width="104">포트 범위</th><th width="104">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>inbound</td><td>TCP</td><td>전체</td><td>IPv4</td><td>CIDR</td><td>192.168.1.56/32</td></tr></tbody></table>
+<table><thead><tr><th width="125">방향</th><th width="108">IP 프로토콜</th><th width="104">포트 범위</th><th width="108">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>inbound</td><td>TCP</td><td>전체</td><td>IPv4</td><td>CIDR</td><td>192.168.1.56/32</td></tr></tbody></table>
 
 * 서버에서 임의의 프로토콜을 통해 나가는 모든 IPv4의 트래픽을 허용하는 규칙입니다.
 
@@ -38,9 +38,7 @@ Security Rule은 stateful 방식으로 동작하며 규칙이 존재할 경우 �
 
 * ICMP 프로토콜을 통해192.168.1.0/24 에서 서버로 들어오는 트래픽을 허용하는 규칙입니다.
 
-| 방향      | IP 프로토콜 | 타입 / 코드 | Ether 범위 | Remote (원격)    |
-| ------- | ------- | ------- | -------- | -------------- |
-| inbound | ICMP    | 0 / 8   | IPv4     | 192.168.1.0/24 |
+<table><thead><tr><th width="129">방향</th><th width="112">IP 프로토콜</th><th width="100">타입 / 코드</th><th width="110">Ether 범위</th><th>원격 유형</th><th>Remote (원격)</th></tr></thead><tbody><tr><td>inbound</td><td>ICMP</td><td>0 / 8</td><td>IPv4</td><td>CIDR</td><td>192.168.1.0/24</td></tr></tbody></table>
 
 #### Server를 위한 필수적인 Security Rule
 
