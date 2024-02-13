@@ -141,7 +141,7 @@ Shared Colocation Gateway 를 삭제하는 기능입니다.
 {% hint style="warning" %}
 **주의**
 
-연결된 Subnet이 있는 경우, Shared Colocation Gateway 삭제 할 수 없습니다.
+연결된 Subnet이 있는 경우, Shared Colocation Gateway 삭제 할 수 없습니다.
 {% endhint %}
 
 1. 메뉴 SDN 관리 > Shared Colocation Gateway 관리 **\[생성 내역 관리]** 탭에서 Shared Colocation Gateway 를 선택하고 좌측 상단의 **\[삭제]**버튼을 클릭합니다.
