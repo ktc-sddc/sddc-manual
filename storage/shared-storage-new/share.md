@@ -50,7 +50,7 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48.png" alt=""><figcaption></figcaption></figure>
 
-1. 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
+3. 생성 팝업 창에서 정보를 입력한 후 **\[생성]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ Share은 최소 300GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 2.png" alt=""><figcaption></figcaption></figure>
 
-1. 수정 팝업 창에서 입력 정보를 수정한 후 **\[수정]** 버튼을 클릭합니다.
+3. 수정 팝업 창에서 입력 정보를 수정한 후 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +76,7 @@ Share을 삭제하는 기능입니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2024-02-05 오후 2.25.48 3.png" alt=""><figcaption></figcaption></figure>
 
-1. 삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
+3. 삭제 팝업 창에서 삭제 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 
@@ -122,6 +122,6 @@ $ df -h
 
 ## FAQ
 
-> **Q. 최대 용량(1TB)을 초과하는 경우에는 어떻게 해야하나요?**
+> **Q. 최대 용량(1TB)을 초과하여 생성하고 싶은 경우에는 어떻게 해야하나요?**
 >
 > **A.** 시스템 관리자(sddc.ktcloud@kt.com)에게 문의 하시기 바랍니다.
