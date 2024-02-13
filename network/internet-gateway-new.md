@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Internet Gateway
+# Internet Gateway
 
 ***
 
@@ -23,7 +23,7 @@ Internet Gateway를 통해 Internet 연결 서비스를 제공합니다. Interne
 {% hint style="info" %}
 참고
 
-Tenant 당 1개의 Internet Gateway를 생성할 수 있습니다.
+Tenant 당 1개의 Internet Gateway를 생성할 수 있습니다.
 {% endhint %}
 
 ## 사용가이드
@@ -32,7 +32,7 @@ Internet Gateway를 통해 Internet 연결 서비스를 제공합니다. Interne
 
 Internet Gateway 를 생성하는 기능입니다.
 
-1. 메뉴에서 Network > Internet Gateway 에서 **\[생성]** 버튼을 클릭합니다.
+1. 메뉴에서 Network > Internet Gateway 에서 **\[생성]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ Internet Gateway 를 생성하는 기능입니다.
 
 ### Internet Gateway 목록 조회
 
-Internet Gateway를 조회하는 기능입니다.
+Internet Gateway를 조회하는 기능입니다.
 
 1. 메뉴에서 Network > Internet Gateway 에서 Internet Gateway 목록을 조회합니다.
 
