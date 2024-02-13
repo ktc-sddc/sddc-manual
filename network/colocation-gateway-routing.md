@@ -110,4 +110,4 @@ Colocation Gateway 서비스를 해지하는 기능입니다.
 
 > **Q. Colocation Gateway 연결에 방화벽을 연결하고 싶습니다.**
 >
-> A. Security > 방화벽 사용 가이드를 확인하시기 바랍니다.
+> A. A. [Security > 방화벽](../nfv/firewall.md) 사용 가이드를 확인하시기 바랍니다.
