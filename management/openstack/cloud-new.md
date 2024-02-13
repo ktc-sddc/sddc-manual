@@ -93,4 +93,4 @@ Cloud 상품 사용 여부, 이름 수정, type 연동 기능을 제공합니다
 
 > **Q. Cloud 상품을 삭제하려면, 어떻게 해야하나요?**
 >
-> **A. 해당 상품에 연결된 유형(Flavor, VolumeType, ShareType) 을 관리 대상 제외하고 삭제 하셔야 합니다.**
+> **A. 해당 상품에 연결된 유형(Flavor, Volume Type, Share Type) 을 관리 대상 제외하고 삭제 하셔야 합니다.**
