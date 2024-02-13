@@ -45,8 +45,8 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 3. 생성 팝업 창에서 VM이 사용할 Network 정보를 입력하고 **\[생성]** 버튼을 클릭합니다.
 
 * DHCP 사용/미사용 설정은 고정 IP 할당 여부를 결정합니다.
-  * DHCP 사용: 자동으로 고정 IP를 할당합니다.
-  * DHCP 미사용:사용자가 고정 IP를 지정하여 생성합니다.
+  * DHCP 사용 : 자동으로 고정 IP를 할당합니다.
+  * DHCP 미사용 : 사용자가 고정 IP를 지정하여 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (417).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -60,33 +60,33 @@ DHCP Network Interface는 수정 및 삭제가 불가능하며, Subnet을 삭제
 {% endhint %}
 
 1. Compute > Network Interface 버튼을 클릭합니다.
-2. 목록에서 삭제할 대상을 선택하고 상단에 **\[삭제]** 버튼을 클릭합니다.
+2. 목록에서 삭제할 대상을 선택 후 상단의 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 2.05.04 3.png" alt=""><figcaption></figcaption></figure>
 
-3. 삭제 팝업 창에서 대상을 확인하고 **\[삭제]** 버튼을 클릭합니다.
+3. 삭제 팝업 창에서 대상을 확인 후 **\[삭제]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/image (419).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Network Interface의 Security Group 적용
 
 1. Compute > Network Interface 버튼을 클릭합니다.
-2. Security Group을 적용할 Network Interface를 선택 후 상단에 **\[SECURITY GROUP 수정]** 버튼을 클릭합니다.
+2. Security Group을 적용할 Network Interface를 선택 후 상단에 **\[Security Group 수정]** 버튼을 클릭합니다.
 
 <figure><img src="../.gitbook/assets/스크린샷 2024-02-05 오후 2.06.47.png" alt=""><figcaption></figcaption></figure>
 
-3. SECURITY GROUP 적용 팝업 창에서 수정 사항을 입력하고 **\[저장]** 버튼을 클릭합니다.\
+3. Security Group 적용 팝업 창에서 수정 사항을 입력하고 **\[저장]** 버튼을 클릭합니다.\
    Network Interface마다 최대 3개의 Security Group을 적용할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
 
 ### Network Interface 동기화
 
-해당 Tenant 내의, 모든 Network Interface에 대해서 동기화 작업을 진행합니다.
+해당 Tenant 내의 모든 Network Interface에 대해서 동기화 작업을 진행합니다.
 
-비동기로 동작하여 바로 반영되지 않을 수 도 있습니다.
+비동기로 동작하며 바로 반영되지 않을 수 도 있습니다.
 
-사용자는 사용자가 직접 생성하지 않고, 내부적으로 생성된 Network Interface에 대해서 제어 권한이 없습니다.
+사용자는 사용자가 직접 생성하지 않고 내부적으로 생성된 Network Interface에 대해서 제어 권한이 없습니다.
 
 내부적으로 생성된 Network Interface에 대한 제어를 동기화 기능으로 제공됩니다.
 
