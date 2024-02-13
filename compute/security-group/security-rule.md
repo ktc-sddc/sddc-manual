@@ -24,7 +24,9 @@ Security Rule은 stateful 방식으로 동작하며 규칙이 존재할 경우 �
 
 ### Security Rule 설정 항목
 
-방향, IP 프로토콜, Port, Ether 범위, Remote (원격)로 정책을 설정합니다.
+방향, IP 프로토콜, Port, Ether 범위, 원격 유형, Remote (원격)으로 정책을 설정합니다.
+
+
 
 #### Security Rule 예시
 
@@ -126,6 +128,8 @@ Security Rule을 생성하려면 기본적으로 Security Group이 있어야 합
 >
 > **A.** 네. Security Group 생성시에는 변경할 수 없지만, 생성 이후에는 기본 Security Rule들을 수정, 삭제 할 수 있습니다.
 >
+>
+>
 > **Q. Security Rule은 최대 몇 개 까지 생성 가능한가요?**
 >
-> **A.** 1개의 Security Group에서 30개 까지 Security Rule을 생성 할 수 있습니다.
+> **A.** 1개의 Security Group 당, 최대 30개 까지 Security Rule을 생성 할 수 있습니다.
