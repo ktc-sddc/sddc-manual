@@ -26,7 +26,7 @@
   * [Internet Gateway](network/internet-gateway-new.md)
   * [Colocation Gateway](network/colocation-gateway-routing.md)
   * [Shared Colocation Gateway](network/cloud-connect-routing.md)
-  * [Load balancer(new)](network/load-balancer-new/README.md)
+  * [Load Balancer(new)](network/load-balancer-new/README.md)
     * [Load Balancer 관리](network/load-balancer-new/load-balancer.md)
     * [Member Group 관리](network/load-balancer-new/member-group.md)
 * [🔒 Security](nov/README.md)
