@@ -4,7 +4,7 @@
 
 Cloud Canvas는 SDDC 플랫폼 환경 내 인프라 리소스를 안전하고 반복 가능한 방식으로 프로비저닝 할 수 있는 템플릿 기능을 제공합니다.
 
-<table><thead><tr><th width="162">구분</th><th width="612">상세</th></tr></thead><tbody><tr><td><h4 id="id-sddcblueprint-2">서비스 구성요소</h4></td><td><ul><li><strong>리소스</strong><br> - VPC, Subnet, 인스턴스 등 SDDC 플랫폼에서 관리되는 클라우드 서비스 오브젝트<br> - 리소스는 필수 파라미터 정보를 가진 모듈로서 구성</li><li><strong>템플릿</strong> <br> - VPC, Subnet, 인스턴스 등 인프라를 구성하기 위한 리소스모듈과 <br>모듈 간 연관관계 정보가 있는 인프라 구성 형상</li><li><strong>아웃풋</strong><br> - 템플릿에 의해 배포된 리소스의 묶음 단위</li></ul></td></tr><tr><td><strong>대상 리소스</strong></td><td>SDDC 플랫폼에서 제공하는 Cloud Object<br> *SDDC v1.2 기준 Network 리소스 4종 제공 (VPC, Subnet, Route, VPC Peering)</td></tr></tbody></table>
+<table><thead><tr><th width="167">구분</th><th width="612">상세</th></tr></thead><tbody><tr><td><h4 id="id-sddcblueprint-2">서비스 구성요소</h4></td><td><ul><li><strong>리소스</strong><br> - VPC, Subnet, 인스턴스 등 SDDC 플랫폼에서 관리되는 클라우드 서비스 오브젝트<br> - 리소스는 필수 파라미터 정보를 가진 모듈로서 구성</li><li><strong>템플릿</strong> <br> - VPC, Subnet, 인스턴스 등 인프라를 구성하기 위한 리소스모듈과 <br>모듈 간 연관관계 정보가 있는 인프라 구성 형상</li><li><strong>아웃풋</strong><br> - 템플릿에 의해 배포된 리소스의 묶음 단위</li></ul></td></tr><tr><td><strong>대상 리소스</strong></td><td>SDDC 플랫폼에서 제공하는 Cloud Object<br> *SDDC v1.2 기준 Network 리소스 4종 제공 (VPC, Subnet, Route, VPC Peering)</td></tr></tbody></table>
 
 
 
@@ -49,17 +49,17 @@ SDDC 플랫폼 내 관리자 권한을 가진 사용자는 SDDC 플랫폼 내에
 
 
 {% hint style="info" %}
-리소스 모듈을 추가할때는, 리소스간의 연관관계를 고려하여 순서대로 생성합니다.\
+리소스 모듈을 추가할때는 리소스간의 연관관계를 고려하여 순서대로 생성합니다.\
 \
 예시) \
-Case 1. VPC 1개, Subnet 1개\
-&#x20;    step 1) VPC 모듈 1개 추가\
-&#x20;    step 2) Subnet 모듈 1개 추가\
+Case 1 : VPC 1개, Subnet 1개\
+&#x20;    1\. VPC 모듈 1개 추가\
+&#x20;    2\. Subnet 모듈 1개 추가\
 \
-Case 2. VPC 1개, Subnet 2개, Routing 1개\
-&#x20;    step 1) VPC 모듈 1개 추가\
-&#x20;    step 2) Subnet 모듈 2개 추가 \
-&#x20;    step 3) Routing 모듈 1개 추가
+Case 2 : VPC 1개, Subnet 2개, Routing 1개\
+&#x20;    1\. VPC 모듈 1개 추가\
+&#x20;    2\. Subnet 모듈 2개 추가 \
+&#x20;    3\. Routing 모듈 1개 추가
 {% endhint %}
 
 * Network 리소스 모듈 에서 VPC와 Subnet 모듈을 한번씩 클릭합니다.
@@ -125,7 +125,7 @@ Case 2. VPC 1개, Subnet 2개, Routing 1개\
 
 ### 템플릿 배포
 
-사용자는 사전에 정의된 템플릿을 사용하여 인프라 리소스를 프로비저닝 할 수 있습니다.
+사용자는 사전에 정의된 템플릿을 사용하여 인프라 리소스를 프로비저닝 할 수 있습니다.
 
 {% hint style="info" %}
 템플릿 배포 기능은 테넌트 소유자 (Tenant Owner) 권한을 가진 사용자만 사용할 수 있습니다.
@@ -174,15 +174,15 @@ Case 2. VPC 1개, Subnet 2개, Routing 1개\
 
 
 {% hint style="info" %}
-리소스는 템플릿에 정의된 리소스간의 연관관계에 따라 순차적으로 배포되며, 프로세스 중간에 리소스 배포가 실패하는 경우 배포 프로세스는 중단됩니다.&#x20;
+리소스는 템플릿에 정의된 리소스간의 연관관계에 따라 순차적으로 배포되며, 프로세스 중간에 리소스 배포가 실패하는 경우 배포 프로세스는 중단됩니다.&#x20;
 
-이 경우, 프로세스 중 생성에 성공한 리소스는 자동으로 삭제되지 않습니다. 삭제를 희망하는 경우 각 리소스 별 메뉴  (Ex - Network > VPC 메뉴)로 이동하여 Object를 직접 삭제하여야 합니다.
+이 경우, 프로세스 중 생성에 성공한 리소스는 자동으로 삭제되지 않습니다. 삭제를 희망하는 경우 각 리소스 별 메뉴 (Ex - Network > VPC 메뉴)로 이동하여 Object를 직접 삭제하여야 합니다.
 {% endhint %}
 
 {% hint style="info" %}
 배포가 실패하는 경우는 다음과 같습니다.\
 \
-1\)  배포대상 리소스가 Tenant 내 기 생성된 리소스 정보와 중복되는 경우 (리소스 이름 / Cidr 대역 등)
+1\)  배포대상 리소스가 Tenant 내 기 생성된 리소스 정보와 중복되는 경우 (리소스 이름 / CIDR 대역 등)
 
 2\) Tenant 내 정의된 리소스 Quota를 초과하여 배포를 시도한 경우
 {% endhint %}
