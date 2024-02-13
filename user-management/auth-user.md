@@ -25,7 +25,7 @@ layout:
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. 사용자 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (719).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -36,7 +36,7 @@ layout:
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. 목록 상단에 **\[등록]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (720).png" alt=""><figcaption></figcaption></figure>
 
 3. 등록 팝업 창에서 정보를 입력합니다.
    * 아이디 : 아이디를 입력합니다.
@@ -58,7 +58,7 @@ layout:
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. 수정 할 사용자를 선택 후 목록 상단에 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (332).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (721).png" alt=""><figcaption></figcaption></figure>
 
 3. 수정 팝업 창에서 정보를 입력 및 선택합니다.
    * 이메일 : 이메일 규칙에 맞게 작성합니다.
@@ -85,7 +85,7 @@ layout:
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. 비밀번호 초기화 할 일반 사용자를 선택 후 목록 상단에 **\[비밀번호 초기화]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (722).png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업 창 우측 하단의 **\[초기화]** 버튼을 클릭합니다.
 
@@ -100,7 +100,7 @@ layout:
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. 삭제 할 사용자를 선택 후 목록 상단에 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (723).png" alt=""><figcaption></figcaption></figure>
 
 3. 팝업 창 우측 하단의 **\[삭제]** 버튼을 클릭합니다.
 
@@ -121,7 +121,7 @@ ROLE이 회수 된 사용자는 미승인 사용자 관리 화면에서 ROLE을 
 1. 사용자 관리 > 사용자 관리 메뉴를 클릭합니다.
 2. ROLE을 회수 할 사용자를 선택 후 **\[ROLE 회수]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (724).png" alt=""><figcaption></figcaption></figure>
 
 3. 선택한 사용자의 아이디, 이름 및 적용된 ROLE 유형을 확인할 수 있습니다.
 4.  팝업 창 우측 하단의 **\[회수]** 버튼을 클릭합니다.\
