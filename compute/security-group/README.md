@@ -22,7 +22,7 @@ Security Group은 서버 간 송수신을 제어하여 네트워크 접근 제�
 
 #### Security Group 유형
 
-<table data-full-width="false"><thead><tr><th width="159">상태(영문)</th><th width="117.72950819672133">상태(한글)</th><th>설명</th></tr></thead><tbody><tr><td>DEFAULT</td><td>기본</td><td>Tenant 생성과 동시에 기본적으로 제공되는 Security Group 입니다.</td></tr><tr><td>USER</td><td>사용자 지정</td><td>사용자가 생성한, Security Group 입니다.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="159">유형(영문)</th><th width="117.72950819672133">유형(한글)</th><th>설명</th></tr></thead><tbody><tr><td>DEFAULT</td><td>기본</td><td>Tenant 생성과 동시에 기본적으로 제공되는 Security Group 입니다.</td></tr><tr><td>USER</td><td>사용자 지정</td><td>사용자가 생성한, Security Group 입니다.</td></tr></tbody></table>
 
 #### Default Security Group
 
