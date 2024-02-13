@@ -59,15 +59,15 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 
 1. Today, 최근 30일 정보를 확인합니다.
 
-<figure><img src=".gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (728).png" alt=""><figcaption></figcaption></figure>
 
 2. Today 시간별 트래픽 발생 현황을 확인합니다.
 
-<figure><img src=".gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (727).png" alt=""><figcaption></figcaption></figure>
 
 3. 최근 30일 일별 트래픽 발생 현황을 확인합니다.
 
-<figure><img src=".gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (725).png" alt=""><figcaption></figcaption></figure>
 
 ### Topology
 
@@ -77,13 +77,13 @@ Tenant에 속한 리소스 현황, Network 트래픽 정보 및 Topology 연결 
 >
 > * 오브젝트(Subnet, Internet Gateway, Colocation Gateway, Shared Colocation Gateway, Routing)을 클릭하면, 클릭한 리소스의 연결관계를 확인할 수 있습니다. 또는 토폴로지 좌측 하단의 눈 표시 버튼을 클릭하여 전체 리소스 연결관계를 확인할 수 있습니다.
 
-<figure><img src=".gitbook/assets/image (571).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
 
 #### Topology 영역
 
 다음 4가지 영역으로 나뉩니다.
 
-<table><thead><tr><th width="146">종류</th><th>설명</th></tr></thead><tbody><tr><td>Pane 영역</td><td>현재 선택된 Tenant의 네트워크 현황을 Topology 형태로 확인 할 수 있습니다.</td></tr><tr><td>Left Bar 영역</td><td><p>각 오브젝트, 연결 관계에 대한 아이콘을 나타냅니다.</p><ul><li><p>오브젝트</p><ul><li>Tenant</li><li>VPC</li><li>Subnet</li><li>Internet Gateway</li><li>Colocation Gateway</li><li>Shared Colocation Gateway</li><li>Routing</li><li>Server</li></ul></li><li><p>연결 관계</p><ul><li>Internet Gateway : Internet Gateway와 Subnet의 연결은 빨간색 선으로 표시합니다.</li><li>Colocation Gateway 연결 : Clocation Gateway와 Subnet의 연결은 초록색 선으로 표시합니다.</li><li>Shared Colocation Gateway 연결 : Shared Colocation Gateway와 Subnet의 연결은 노란색 선으로 표시합니다.</li><li>VPC Peering : 서로 다른 VPC에 속한 Subnet과 Subnet의 연결은 파란색 선으로 표시합니다.</li><li>Routing : 동일한 VPC 에 속한 Subnet 간의 연결은 회색 선으로 표시합니다.</li></ul></li></ul></td></tr><tr><td>Minimap 영역</td><td>현재 선택된 Tenant의 네트워크 현황을 축소된 미니맵 형태로 확인 할 수 있습니다.</td></tr><tr><td>Control 영역</td><td><p>6개의 기능을 갖고 있습니다.</p><ul><li>+ 버튼 : Topology를 확대 시킵니다.</li><li>- 버튼 : Topology를 축소 시킵니다.</li><li>맞춤 버튼 : Topology를 화면 크기에 맞게 맞춥니다.</li><li>잠금 버튼 : Topology의 각 요소들의 클릭드래그 기능을 잠금/해제 합니다.</li><li>눈 표시 버튼 : 각 요소들의 연결 관계를 show/hide 처리합니다.</li><li>새로고침 버튼 : Topology를 새로고침 합니다.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="146">종류</th><th>설명</th></tr></thead><tbody><tr><td>Pane 영역</td><td>현재 선택된 Tenant의 네트워크 현황을 Topology 형태로 확인 할 수 있습니다.</td></tr><tr><td>Left Bar 영역</td><td><p>각 오브젝트, 연결 관계에 대한 아이콘을 나타냅니다.</p><ul><li><p>오브젝트</p><ul><li>Tenant</li><li>VPC</li><li>Subnet</li><li>Internet Gateway</li><li>Colocation Gateway</li><li>Shared Colocation Gateway</li><li>Routing</li><li>Server</li></ul></li><li><p>연결 관계</p><ul><li>Internet Gateway : Internet Gateway와 Subnet의 연결은 빨간색 선으로 표시합니다.</li><li>Colocation Gateway 연결 : Clocation Gateway와 Subnet의 연결은 초록색 선으로 표시합니다.</li><li>Shared Colocation Gateway 연결 : Shared Colocation Gateway와 Subnet의 연결은 노란색 선으로 표시합니다.</li><li>VPC Peering : 서로 다른 VPC에 속한 Subnet과 Subnet의 연결은 파란색 선으로 표시합니다.</li><li>Routing : 동일한 VPC 에 속한 Subnet 간의 연결은 회색 선으로 표시합니다.</li></ul></li></ul></td></tr><tr><td>Minimap 영역</td><td>현재 선택된 Tenant의 네트워크 현황을 축소된 미니맵 형태로 확인 할 수 있습니다.</td></tr><tr><td>Control 영역</td><td><p>6개의 기능을 갖고 있습니다.</p><ul><li>+ 버튼 : Topology를 확대 시킵니다.</li><li>- 버튼 : Topology를 축소 시킵니다.</li><li>맞춤 버튼 : Topology를 화면 크기에 맞게 맞춥니다.</li><li>눈 표시 버튼 : 각 요소들의 연결 관계를 show/hide 처리합니다.</li><li>새로고침 버튼 : Topology를 새로고침 합니다.</li></ul></td></tr></tbody></table>
 
 ## FAQ
 
