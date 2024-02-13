@@ -24,7 +24,7 @@ SDDC Platform과 Backend Storage 간의 연동을 위한 설정정보를 관리�
 
 ### Backend Storage 환경설정 조회
 
-<mark style="color:blue;">**\[사진 첨부 예정]**</mark>
+<figure><img src="../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,7 +41,12 @@ OpenStack 연결을 위한 환경설정 정보에 대해 JSON 포맷으로 추�
 
 1. 시스템 관리 > Backend Storage 관리 > 환경 설정 메뉴를 클릭합니다.
 2. 왼쪽 상단에 **\[생성]** 버튼을 클릭합니다.
-3. <mark style="color:blue;">**\[사진 첨부 예정]**</mark>
+
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-13 오전 10.12.39.png" alt=""><figcaption></figcaption></figure>
+
+3. JSON 형식의 데이터를 입력 후, 생성 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -49,4 +54,9 @@ OpenStack 연결을 위한 환경설정 정보에 대해 JSON 포맷으로 추�
 
 1. 시스템 관리 > Backend Storage 관리 > 환경 설정 메뉴를 클릭합니다.
 2. 왼쪽 상단에 **\[수정]** 버튼을 클릭합니다.
-3. <mark style="color:blue;">**\[사진 첨부 예정]**</mark>
+
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-13 오전 10.12.39 2.png" alt=""><figcaption></figcaption></figure>
+
+3. JSON 형식의 데이터를 입력 후, 수정 버튼을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
