@@ -41,6 +41,8 @@ layout:
 
 <figure><img src="../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
+<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>카테고리</td><td>CPU, Memory 조합에 따라 정의되는 서버타입 정보입니다.</td></tr><tr><td>상품</td><td>해당 Flavor로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Flavor 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Flavor의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
+
 ### Flavor 관리하기
 
 Openstack과 동기화된 Flavor 목록 중 사용자에게 제공할 Flavor를 제어하는 기능입니다.
