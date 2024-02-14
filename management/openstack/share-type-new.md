@@ -10,7 +10,7 @@ Share Type 관리 기능에서는 Openstack에서 정의한 Share Type 정보를
 
 ### OpenStack의 Share Type(<mark style="color:red;">상용기준 재작성 필요</mark>)
 
-<table><thead><tr><th width="216.12538651196826">이름</th><th width="120">종류</th><th>설명</th></tr></thead><tbody><tr><td>NetApp-Share-Thin</td><td>NetApp</td><td></td></tr><tr><td>NetApp-Share-Thick</td><td>NetApp</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="216.12538651196826">이름</th><th width="90">종류</th><th>설명</th></tr></thead><tbody><tr><td>NetApp-Share-Thin</td><td>NetApp</td><td></td></tr><tr><td>NetApp-Share-Thick</td><td>NetApp</td><td></td></tr></tbody></table>
 
 
 
