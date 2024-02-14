@@ -18,7 +18,7 @@ layout:
 
 ## 개요
 
-SDDC Platform 사용자에게 제공되는 Volume 상품에 대한 관리 기능을 제공합니다.
+Volume TYpe
 
 플랫폼에서 제공하는 Volume 상품과 OpenStack Volume Type과 연결을 관리합니다.
 
