@@ -111,8 +111,6 @@ PathGroup 정보를 삭제하는 기능입니다. 단, PathGroup이 사용중인
 
 PathGroup의 PathEndpoint를 수정한 경우, 해당 PathGroup를 사용중인 기존 리소스에 PathGroup의 변경사항을 수동으로 반영할 수 있는 기능입니다.
 
-동기화 상태가 "미완료"인 경우, 수동 동기화 버튼이 활성화됩니다.
-
 1. 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 2. 동기화가 필요한 PathGroup 을 선택한 후, 상단의 **\[수동 동기화]** 버튼을 클릭합니다.
 
