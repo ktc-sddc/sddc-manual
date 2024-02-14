@@ -4,7 +4,7 @@
 
 Share Type은 Openstack 에서 Share 스토리지 볼륨을 생성할 때 어떤 백엔드 스토리지 또는 드라이버와 연결할지 결정합니다. 예를 들어 SSD, HDD로 백엔드가 다르게 구성된 스토리지 시스템이 있다면 각각에 대한 Share Type을 생성하여 사용자가 원하는 백엔드 스토리지를 선택할 수 있도록 제공합니다.
 
-Share Type 관리 기능에서는 Openstack에서 정의한 Share Type 정보를 동기화하는 기능을 제공합니다. SDDC Platform 관리자는 해당 정보를 활용하여 Block Storage 상품을 정의하고 관리합니다.
+Share Type 관리 기능에서는 Openstack에서 정의한 Share Type 정보를 동기화하는 기능을 제공합니다. SDDC Platform 관리자는 해당 정보를 활용하여 Share Storage 상품을 정의하고 관리합니다.
 
 
 
@@ -25,7 +25,7 @@ Openstack의 Share Type 정보를 SDDC 플랫폼으로 동기화하는 기능입
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>상품</td><td>해당 Share Type으로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Share Type 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Share Type의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="149">속성</th><th>설명</th></tr></thead><tbody><tr><td>상품</td><td>해당 Share Type으로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Share Type 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Share Type의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
 
 3. 목록 상단에 **\[동기화]** 버튼을 클릭합니다.
 
@@ -40,8 +40,9 @@ Openstack의 Share Type 정보를 SDDC 플랫폼으로 동기화하는 기능입
 {% hint style="info" %}
 **참고**
 
-* 최초 동기화된 Share Type의 관리대상 정보 기본값은 해 상태입니다. 상품으로 사용하기 위해서는 설정이 필요합니다.
+* 최초 동기화된 Share Type의 관리대상 정보 기본값은 **"해지"** 상태입니다. 상품으로 사용하기 위해서는 설정이 필요합니다.
 * 기존에 상품으로 등록된 Share Type은 해지가 불가능합니다.
+* Share Type은 중복으로 상품 등록이 불가능합니다.
 {% endhint %}
 
 1. 관리대상 설정할 Share Type을 선택한 후 상단에 **\[설정]** 버튼을 클릭합니다.
