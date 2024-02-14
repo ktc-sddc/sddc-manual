@@ -64,7 +64,7 @@ OpenStack과 동기화된 Image 목록 중 사용자에게 서비스 할 Image�
 
 ### 신규 Image 추가하기
 
-SDDC Platform에서 사용할 Image를 새로 추가할 수 있습니다. 이를 위해서는 Openstack 관리자를 통해 신규 Image 업로드 및 메타 데이터 설정 등이 필요합니다.
+SDDC Platform에서 사용할 Image를 새로 추가할 수 있습니다. 이를 위해서는 OpenStack 관리자를 통해 신규 Image 업로드 및 메타 데이터 설정 등이 필요합니다.
 
 {% hint style="danger" %}
 **주의**

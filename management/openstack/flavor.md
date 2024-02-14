@@ -20,7 +20,7 @@ layout:
 
 컴퓨팅, 메모리와 같이 자주 사용하는 서버 구성 요소 정보를 미리 정의하는 서비스입니다.
 
-서버를 생성할 때, 미리 정의한 Flavor를 이용해 동일한 타입의 서버를 간편하게 구성하여 생성할 수 있습니다. 이 때 사전 정의한 리소스 정보가 적절한 Host와 연결될 수 있도록 Openstack 관리자를 통한Host Aggregate 맵핑이 필요합니다.
+서버를 생성할 때, 미리 정의한 Flavor를 이용해 동일한 타입의 서버를 간편하게 구성하여 생성할 수 있습니다. 이 때 사전 정의한 리소스 정보가 적절한 Host와 연결될 수 있도록 OpenStack 관리자를 통한 Host Aggregate 맵핑이 필요합니다.
 
 
 
@@ -41,11 +41,11 @@ layout:
 
 <figure><img src="../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>카테고리</td><td>CPU, Memory 조합에 따라 정의되는 서버타입 정보입니다.</td></tr><tr><td>상품</td><td>해당 Flavor로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Flavor 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Flavor의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>카테고리</td><td>CPU, Memory 조합에 따라 정의되는 서버타입 정보입니다.</td></tr><tr><td>상품</td><td>해당 Flavor로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>OpenStack에서 정의한 Flavor 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Flavor의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
 
 ### Flavor 관리하기
 
-Openstack과 동기화된 Flavor 목록 중 사용자에게 제공할 Flavor를 제어하는 기능입니다.
+OpenStack과 동기화된 Flavor 목록 중 사용자에게 제공할 Flavor를 제어하는 기능입니다.
 
 {% hint style="info" %}
 **참고**
@@ -57,7 +57,7 @@ Openstack과 동기화된 Flavor 목록 중 사용자에게 제공할 Flavor를 
 {% hint style="danger" %}
 **주의**
 
-* Flavor를 사용하기 위해서는 연결할 Host Aggregate 맵핑 정보가 Openstack에 제대로 정의되었는지 확인해야 합니다.
+* Flavor를 사용하기 위해서는 연결할 Host Aggregate 맵핑 정보가 OpenStack에 제대로 정의되었는지 확인해야 합니다.
 {% endhint %}
 
 1. 관리자 기능 > OpenStack 관리 > Flavor 관리 메뉴를 클릭합니다.
@@ -73,7 +73,7 @@ Openstack과 동기화된 Flavor 목록 중 사용자에게 제공할 Flavor를 
 
 ### 신규 Flavor 추가하기
 
-SDDC 플랫폼에서 사용할 Flavor를 새로 추가할 수 있습니다. 이를 위해서는 Openstack 관리자를 통해 신규 Flavor 등록 및 메타 데이터 설정 등이 필요합니다.
+SDDC 플랫폼에서 사용할 Flavor를 새로 추가할 수 있습니다. 이를 위해서는 OpenStack 관리자를 통해 신규 Flavor 등록 및 메타 데이터 설정 등이 필요합니다.
 
 {% hint style="danger" %}
 **주의**

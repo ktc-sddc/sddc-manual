@@ -18,9 +18,9 @@ layout:
 
 ## 개요
 
-Volume Type은 Openstack 에서 블록 스토리지 볼륨을 생성할 때 어떤 백엔드 스토리지 또는 드라이버와 연결할지 결정합니다. 예를 들어 SSD, HDD로 백엔드가 다르게 구성된 스토리지 시스템이 있다면 각각에 대한 볼륨 타입을 생성하여 사용자가 원하는 백엔드 스토리지를 선택할 수 있도록 제공합니다.
+Volume Type은 OpenStack 에서 블록 스토리지 볼륨을 생성할 때 어떤 백엔드 스토리지 또는 드라이버와 연결할지 결정합니다. 예를 들어 SSD, HDD로 백엔드가 다르게 구성된 스토리지 시스템이 있다면 각각에 대한 볼륨 타입을 생성하여 사용자가 원하는 백엔드 스토리지를 선택할 수 있도록 제공합니다.
 
-Volume Type 관리 기능에서는 Openstack에서 정의한 Volume Type 정보를 동기화하는 기능을 제공합니다. SDDC Platform 관리자는 해당 정보를 활용하여 Block Storage 상품을 정의하고 관리합니다.
+Volume Type 관리 기능에서는 OpenStack에서 정의한 Volume Type 정보를 동기화하는 기능을 제공합니다. SDDC Platform 관리자는 해당 정보를 활용하여 Block Storage 상품을 정의하고 관리합니다.
 
 
 
@@ -34,20 +34,20 @@ Volume Type 관리 기능에서는 Openstack에서 정의한 Volume Type 정보�
 
 ### Volume Type 동기화
 
-Openstack의 Volume Type 정보를 SDDC 플랫폼으로 동기화하는 기능입니다.
+OpenStack의 Volume Type 정보를 SDDC 플랫폼으로 동기화하는 기능입니다.
 
-1. 시스템 관리 > Openstack 관리 > Volume Type 관리 메뉴를 클릭합니다.
+1. 시스템 관리 > OpenStack 관리 > Volume Type 관리 메뉴를 클릭합니다.
 2. Volume Type 목록 정보를 확인합니다.
 
 <figure><img src="../../.gitbook/assets/image (741).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>상품</td><td>해당 Volume Type으로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Volume Type 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Volume Type의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="243">속성</th><th>설명</th></tr></thead><tbody><tr><td>상품</td><td>해당 Volume Type으로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>OpenStack에서 정의한 Volume Type 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Volume Type의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
 
 3. 목록 상단에 **\[동기화]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (740).png" alt=""><figcaption></figcaption></figure>
 
-4. Openstack에 추가 또는 제거된 Volume Type 정보가 동기화 되었는지 확인합니다.
+4. OpenStack에 추가 또는 제거된 Volume Type 정보가 동기화 되었는지 확인합니다.
 
 
 
@@ -79,6 +79,6 @@ Openstack의 Volume Type 정보를 SDDC 플랫폼으로 동기화하는 기능�
 >
 > **A.** 변경된 상품 정보로 제공됩니다.
 
-> **Q. 상품으로 사용 중인 Volume Type이 Openstack에서 제거될 경우 어떻게 되나요?**
+> **Q. 상품으로 사용 중인 Volume Type이 OpenStack에서 제거될 경우 어떻게 되나요?**
 >
-> **A.** 상품 정보 표기에 오류가 생길 수 있습니다. Openstack에서 Volume Type을 삭제하기 전에 반드시 기존에 사용 중인 리소스가 있는지 확인해야합니다.
+> **A.** 상품 정보 표기에 오류가 생길 수 있습니다. OpenStack에서 Volume Type을 삭제하기 전에 반드시 기존에 사용 중인 리소스가 있는지 확인해야 합니다.
