@@ -71,17 +71,19 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-5. **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.\
-   <img src="https://www.gitbook.com/cdn-cgi/image/width=32,dpr=2,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%2FSBrlEFsh2W0VvTDLLSZd%2Fuploads%2FeLWnRsw5tKHjLCvH4iwZ%2FCompute_Server_Server%E1%84%89%E1%85%B5%E1%86%AB%E1%84%80%E1%85%B2%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC.png%3Falt%3Dmedia%26token%3D72e54d0f-8eed-43b0-b398-df3b4613c878" alt="Compute_Server_Server신규생성.png" data-size="line">
-6. **추가 설정** 정보(반납보호 선택 여부, Key Pair, Init Script)를 입력 및 선택합니다.
+5.  **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.\
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-6. 입력 및 선택한 정보를 **검토** 한 뒤, **\[생성]** 버튼을 클릭합니다.
+    <figure><img src="../.gitbook/assets/image (736).png" alt=""><figcaption></figcaption></figure>
+6.  **추가 설정** 정보(반납보호 선택 여부, Key Pair, Init Script)를 입력 및 선택합니다.\
 
-<figure><img src="../.gitbook/assets/image (368).png" alt="" width="375"><figcaption></figcaption></figure>
 
-7. Server 생성 결과를 확인합니다.
+    <figure><img src="../.gitbook/assets/image (738).png" alt=""><figcaption></figcaption></figure>
+7.  입력 및 선택한 정보를 **검토** 한 뒤, **\[생성]** 버튼을 클릭합니다.\
+
+
+    <figure><img src="../.gitbook/assets/image (368).png" alt="" width="375"><figcaption></figcaption></figure>
+8. Server 생성 결과를 확인합니다.
 
 ### Server 동작 제어
 
