@@ -22,7 +22,7 @@ Server 생성 시 활용할 수 있는 Image 목록을 관리합니다.
 
 OpenStack으로부터 Image 목록을 동기화 하여 SDDC Platform 사용자에게 서비스할 Image를 관리합니다.
 
-### 제공 Image 목록
+### 제공 Image 목록(상용 기준 업데이트 예정)
 
 <table><thead><tr><th width="355.73003581868903">Image 명</th><th width="183">OS</th><th>비고</th></tr></thead><tbody><tr><td>ipc-golden-centos74-ca-20230627</td><td>CentOs 7.4</td><td></td></tr><tr><td>ipc-golden-ubuntu2004-ca-20230627</td><td>Ubunut2004</td><td></td></tr><tr><td>ipc-golden-rocky86-ca-20230627</td><td>Rocky Linux 8.6</td><td></td></tr><tr><td>ipc-golden-redhat74-ca-20230627</td><td>RHEL 7.4</td><td>라이선스 필요</td></tr><tr><td>ipc-golden-redhat84-ca-20230627</td><td>RHEL 8.4</td><td>라이선스 필요</td></tr></tbody></table>
 
@@ -35,13 +35,17 @@ OpenStack으로부터 Image 목록을 동기화 하여 SDDC Platform 사용자�
 1. 시스템 관리 > OpenStack 관리 > Image 관리 메뉴를 클릭합니다.
 2. 플랫폼에서 사용 가능한 Image 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
-
-관리대상 여부에 따라 사용자 Server 생성 시 해당 Image 노출여부가 결정됩니다.
+<figure><img src="../../.gitbook/assets/image (744).png" alt=""><figcaption></figcaption></figure>
 
 ### Image 관리하기
 
 OpenStack과 동기화된 Image 목록 중 사용자에게 서비스 할 Image를 제어하는 기능을 제공합니다.
+
+{% hint style="info" %}
+**참고**
+
+* 관리대상 여부에 따라 사용자 Server 생성 시 해당 Image 노출 여부가 결정됩니다.
+{% endhint %}
 
 {% hint style="danger" %}
 **주의**
@@ -52,7 +56,7 @@ OpenStack과 동기화된 Image 목록 중 사용자에게 서비스 할 Image�
 1. 관리자 기능 > OpenStack 관리 > Image 관리 메뉴를 클릭합니다.
 2. 변경할 Image를 선택 후 상단에 **\[설정]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (746).png" alt=""><figcaption></figcaption></figure>
 
 3. Image 관리 팝업 창에서 **\[해지]** 또는 **\[설정]** 버튼을 클릭합니다.
 
@@ -60,14 +64,15 @@ OpenStack과 동기화된 Image 목록 중 사용자에게 서비스 할 Image�
 
 ### 신규 Image 추가하기
 
+SDDC Platform에서 사용할 Image를 새로 추가할 수 있습니다. 이를 위해서는 Openstack 관리자를 통해 신규 Image 업로드 및 메타 데이터 설정 등이 필요합니다.
+
 {% hint style="danger" %}
 **주의**
 
-* 해당 작업은 OpenStack Dashboard-> SDDC Platform순으로 수행합니다.
+* 해당 작업은 OpenStack Dashboard -> SDDC Platform순으로 수행합니다.
 * 사전 작업으로 OpenStack 내 실제 Image 는 사전 업로드 되어 있어야 합니다.
+* 최소 디스크가 제대로 설정되지 않을 경우, 서버 생성 시 에러가 발생할 수 있습니다.
 {% endhint %}
-
-SDDC Platform에서 사용할 Image를 새로 추가할 수 있습니다.
 
 1. **\[OpenStack Dashboard]** Image 속성값 설정
 
@@ -80,7 +85,7 @@ SDDC Platform에서 사용할 Image를 새로 추가할 수 있습니다.
 3. **\[SDDC Platform]** 관리자 기능 > OpenStack 관리 > Image 관리 메뉴를 클릭합니다.
 4. **\[SDDC Platform]** 상단에 **\[동기화]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (745).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
