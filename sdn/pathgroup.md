@@ -43,7 +43,7 @@ PathGroup 유형은 서비스 생성 시 참고할 물리 구성 정보를 의�
 
 메뉴에서 SDN 관리 > PathGroup을 클릭하여 PathGroup 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### PathGroup 생성
 

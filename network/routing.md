@@ -31,7 +31,7 @@ Tenant 내 Routing 을 조회하는 기능입니다.
 
 메뉴에서 Network > Routing 을 클릭하여 Routing 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Routing 생성
 

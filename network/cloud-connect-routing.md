@@ -35,7 +35,7 @@ Tenant 내에서 Shared Colocation Gateway 를 사용하기 위해 신청하는 
 
 1. 메뉴에서 Network > Shared Colocation Gateway 에서 **\[서비스 신청]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. 서비스 신청 정보를 입력합니다.
 3. 팝업창 우측 하단의 **\[신청]** 버튼을 클릭합니다.

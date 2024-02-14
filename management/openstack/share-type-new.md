@@ -23,13 +23,13 @@ Openstack의 Share Type 정보를 SDDC 플랫폼으로 동기화하는 기능입
 1. 시스템 관리 > Openstack 관리 > Share Type 관리 메뉴를 클릭합니다.
 2. Share Type 목록 정보를 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="149">속성</th><th>설명</th></tr></thead><tbody><tr><td>상품</td><td>해당 Share Type으로 정의된 상품 정보를 표기합니다.</td></tr><tr><td>이름</td><td>Openstack에서 정의한 Share Type 이름입니다.</td></tr><tr><td>관리대상</td><td>사용자 노출 여부를 결정합니다. 해지된 Share Type의 경우 상품 등록이 불가능합니다.</td></tr></tbody></table>
 
 3. 목록 상단에 **\[동기화]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Openstack에 추가 또는 제거된 Share Type 정보가 동기화 되었는지 확인합니다.
 

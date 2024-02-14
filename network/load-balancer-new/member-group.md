@@ -191,7 +191,7 @@ Member Group 내 속한 Member들의 연결 상태를 체크하는 정책을 관
 1. Network > Load Balancer > Member Group 관리 메뉴로 이동합니다.
 2. 대상 Member Group을 선택 후 목록 상단에 **\[Member 관리]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. 선택한  Member Group 내 Member  목록을 확인한다.
 

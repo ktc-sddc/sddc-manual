@@ -14,24 +14,24 @@ Host Aggregate 관리 기능에서는 Openstack에서 정의한 Host 그룹 정�
 
 <table><thead><tr><th width="158.12538651196826">이름</th><th width="454">Hosts</th><th>설명</th></tr></thead><tbody><tr><td>MD-STG-HDD</td><td><p>1. csnode-ovs-1-8a1803c29-md-staging-sddc.ipc.kt.com</p><p>2. csnode-ovs-2-8a1803c27-md-staging-sddc.ipc.kt.com</p><p>3. csnode-ovs-3-8a1803c31-md-staging-sddc.ipc.kt.com</p></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-Adsd
+
 
 ## 사용가이드
 
 ### Share Type 동기화
 
-Openstack의 Share Type 정보를 SDDC 플랫폼으로 동기화하는 기능입니다.
+Openstack의 Host Aggregate 정보를 SDDC 플랫폼으로 동기화하는 기능입니다.
 
-1. 시스템 관리 > Openstack 관리 > Share Type 관리 메뉴를 클릭합니다.
-2. Share Type 목록 정보를 확인합니다.
+1. 시스템 관리 > Openstack 관리 > Host Aggregate 관리 메뉴를 클릭합니다.
+2. Host Aggregate 목록 정보를 확인합니다.
 
 <figure><img src="../../.gitbook/assets/image (734).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="149">속성</th><th>설명</th></tr></thead><tbody><tr><td>이름</td><td>Openstack에서 정의한 Host Aggregate 이름입니다.</td></tr><tr><td>Metadata</td><td>Host 그</td></tr><tr><td>Hosts</td><td></td></tr><tr><td>관리대상</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="149">속성</th><th>설명</th></tr></thead><tbody><tr><td>이름</td><td>Openstack에서 정의한 Host Aggregate 이름입니다.</td></tr><tr><td>Metadata</td><td>HA와 Flavor를 연결하는 속성이며, Host 그룹 구분의 기준을 의미합니다.</td></tr><tr><td>Hosts</td><td>HA에 속한 Host 리스트입니다.</td></tr></tbody></table>
 
 3. 목록 상단에 **\[동기화]** 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-4. Openstack에 추가 또는 제거된 Share Type 정보가 동기화 되었는지 확인합니다.
+4. Openstack에 추가 또는 제거된 Host Aggregate 정보가 동기화 되었는지 확인합니다.
 

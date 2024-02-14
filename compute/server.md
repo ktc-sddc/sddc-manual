@@ -69,7 +69,7 @@ Server 목록 화면에서 특정 Server를 선택하면 해당 Server의 상세
 
 4. Server 생성 시 사용할 이미지를 선택합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5.  **Server 설정** 정보(Volume 상품, Network Interface 등)를 선택합니다.\
 
