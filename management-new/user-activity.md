@@ -22,7 +22,7 @@ SDDC 플랫폼 사용자가 작업한 이력을 수집하여 제공하는 서비
 
 <figure><img src="../.gitbook/assets/image (639).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="160">조건</th><th>설명 </th></tr></thead><tbody><tr><td>Site</td><td>SDDC 플랫폼내 제공하는 Site 단위로 검색합니다.</td></tr><tr><td>서비스 유형</td><td>SDDC 플랫폼에서 제공하는 서비스 단위로 검색합니다. (예시 - Compute, Storage, Network 등)</td></tr><tr><td>상품명</td><td>서비스 별 제공되는 상품 별로 검색합니다 (예시 - Compute 서비스 유형 하위에서 선택가능한 상품 리스트 - Server, Key Pair, Init Script 등)</td></tr><tr><td>작업 결과</td><td>특정 작업 결과를 검색합니다. (예시 - 전체, 성공, 실패)</td></tr><tr><td>조회 시작일 / 조회 종료일</td><td>검색 범주를 지정합니다.</td></tr><tr><td>초기화</td><td>입력한 검색 조건을 초기화합니다.</td></tr></tbody></table>
+<table><thead><tr><th width="160">조건</th><th>설명 </th></tr></thead><tbody><tr><td>Site</td><td>SDDC 플랫폼내 제공하는 Site 단위로 검색합니다.</td></tr><tr><td>서비스 유형</td><td>SDDC 플랫폼에서 제공하는 서비스 단위로 검색합니다. (예시 - Compute, Storage, Network 등)</td></tr><tr><td>상품명</td><td>서비스 별 제공되는 상품 별로 검색합니다 (예시 - Compute 서비스 유형 하위에서 선택가능한 상품 리스트 - Server, Key Pair, Init Script 등)</td></tr><tr><td>작업 결과</td><td>특정 작업 결과를 검색합니다. (예시 - 전체, 성공, 실패)</td></tr><tr><td>조회 시작일 </td><td>활동 일시에 대한 조회 시작일을 의미합니다.</td></tr><tr><td>조회 종료일</td><td>활동 일시에 대한 조회 종료일을 의미합니다.</td></tr><tr><td>초기화</td><td>입력한 검색 조건을 초기화합니다.</td></tr></tbody></table>
 
 
 
