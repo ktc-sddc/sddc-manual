@@ -18,9 +18,11 @@ layout:
 
 ## 개요
 
-Volume TYpe
+Volume Type이란 Openstack에서 블록 스토리지 볼륨을 생성할 때&#x20;
 
-플랫폼에서 제공하는 Volume 상품과 OpenStack Volume Type과 연결을 관리합니다.
+예를 들어 SSD, HDD로 백엔드가 다르게 구성된 스토리지 시스템이 있다면 각각에 대한 볼륨 타입을 생성하여 사용자가 원하는 백엔드 스토리지를 선택할 수 있도록 제공합니다.
+
+Volume Type 관리 기능에서는 Openstack에서 정의한 Volume Type 정보를 동기화하는 기능을 제공합니다.
 
 ### 구성
 
