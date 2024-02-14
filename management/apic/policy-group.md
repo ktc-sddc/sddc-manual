@@ -28,7 +28,7 @@ Policy Group은 SDDC 플랫폼 내 Leaf 스위치 내 포트정보를 의미하�
 
 1. 왼쪽 메뉴에서 SDN 관리 > Policy Group 를 클릭하여 Policy Group 목록을 조회합니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Policy Group 상세 조회
 
@@ -37,4 +37,4 @@ Policy Group 을 상세 조회하는 기능입니다. Policy Group 과 연관된
 1. 왼쪽 메뉴에서 SDN 관리 > Policy Group 를 클릭하여 Policy Group 목록을 조회합니다.
 2. 상세 조회할 Policy Group 을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -30,7 +30,7 @@ Tenant 내 전체 VPC Peering 목록을 조회하는 기능입니다.
 
 1. 메뉴에서 Network > VPC Peering 을 클릭하여 VPC Peering 목록을 조회합니다.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### VPC Peering 생성
 
@@ -70,7 +70,7 @@ VPC Peering 정보를 수정하는 기능입니다. VPC Peering 설명을 수정
 3. VPC Peering 수정 정보를 입력합니다.
 4. 팝업창 우측 하단 **\[수정]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. VPC Peering 목록에서 수정한 VPC Peering 의 수정 사항을 확인합니다.
 
@@ -93,7 +93,7 @@ VPC Peering 내에 연결할 Subnet 목록을 추가/삭제 할 수 있습니다
    * Subnet 추가 : Subnet을 선택 후, **\[추가]** 버튼을 클릭합니다.
    * Subnet 삭제 : 삭제할 Subnet 우측 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 5. Peering 관리 팝업에서 Routing 대상 Subnet 목록 수정 사항을 확인합니다.
 
@@ -108,7 +108,7 @@ VPC Peering 정보를 삭제하는 기능입니다.
 
 3. 팝업창 우측 하단 **\[삭제]** 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="336"><figcaption></figcaption></figure>
 
 4. VPC Peering 목록에서 VPC Peering 삭제 여부를 확인합니다.
 

@@ -80,4 +80,4 @@ Openstack의 Volume Type 정보를 SDDC 플랫폼으로 동기화하는 기능�
 
 > **Q. 상품으로 사용 중인 Volume Type이 Openstack에서 제거될 경우 어떻게 되나요?**
 >
-> **A.**&#x20;
+> **A.** 상품 정보 표기에 오류가 생길 수 있습니다. Openstack에서 Volume Type을 삭제하기 전에 반드시 기존에 사용 중인 리소스가 있는지 확인해야합니다.

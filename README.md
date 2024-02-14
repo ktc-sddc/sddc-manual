@@ -26,7 +26,7 @@ SDDC Platform은 다음과 같은 서비스로 구성되어 있습니다.
 
 ## 화면 구성
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Tenant : Tenant 선택 기능 및 Tenant 단위의 리소스 관리 기능 제공
 2. 네비게이션 메뉴 : Tenant와 사용자 권한에 따른 제공 서비스 목록 제공
