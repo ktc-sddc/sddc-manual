@@ -46,7 +46,7 @@ Tenant 내에서 사용 중인 Volume 목록을 조회합니다.
 
 Volume 목록 화면에서 특정 Volume을 선택하면 상세 정보를 확인할 수 있습니다.
 
-* **연결된 Server 정보: 연결된 서버명과 디바이스명**\
+* **연결된 Server 정보:** 연결된 Server 이름과 Volume Device\
   연결된 Server가 없으면 "연결된 Server가 존재하지 않습니다."라고 보여집니다.
 * **연결된 Server Snapshot 정보: 연결된 Server를 통해 생성한 Server Snapshot 정보**\
   연결된 Server Snapshot이 없으면 "연결된 Server Snapshot이 존재하지 않습니다."라고 보여줍니다.
@@ -88,7 +88,7 @@ DATA Volume은 최소 10GB부터 최대 1TB까지 지원합니다.
 
 <figure><img src="../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
 
-3. 수정 팝업 창에서 입력 정보(Storage 이름 / 설명 / 반납보호 여부)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
+3. 수정 팝업 창에서 입력 정보(Volume Storage 이름 / 설명 / 반납보호 선택여부)를 수정한 후 **\[수정]** 버튼을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
 
@@ -178,7 +178,7 @@ Server로부터 Volume을 연결 해제하는 기능입니다.
 ### **Volume 크기 확장**
 
 Volume의 크기를 확장하는 기능입니다.\
-Volume 연결 시와 동일하게 확장 후 대상 Server에 접속하여 파트션 작업 및 마운트 작업을 수행해야 합니다.
+Volume 연결 시와 동일하게 확장 후 대상 Server에 접속하여 파티션 작업 및 마운트 작업을 수행해야 합니다.
 
 {% hint style="danger" %}
 **주의**
