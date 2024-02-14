@@ -6,13 +6,13 @@
 
 로드 밸런서는 사용자 요청을 여러 대의 서버로 효과적으로 분배하는 역할을 합니다. 이를 위해서 Listener, Member Group, Health Monitor, Member를 정의하며 각 객체는 아래와 같은 기능을 수행한다.
 
-* Load Balancer: 사용자 요청을 수신할 IP 주소를 가지며, 여러 Listener를 정의할 수 있습니다.
-* Listener: 사용자 요청을 수신할 Port를 정의하며, 해당 Port로 수신된 사용자 요청을 연결된 Member Group 내 Member로 분산합니다.
-* Member Group: 사용자 요청을 처리할 서버(Member)의 집합이며 분배 정책을 정의하고 Health Monitor를 통해 Member 상태를 주기적으로 체크하여 정상적인 서버로만 트래픽이 전달될 수 있도록 관리합니다.
-* Health Monitor: Member 상태를 체크하기 위한 체크 주기, 응답 대기 시간 등을 정의합니다.
-* Member: 실제 사용자 요청을 처리하는 역할을 수행하는 서버에 해당하며, 서버에서 수신할 포트 등을 정의합니다.
+* Load Balancer : 사용자 요청을 수신할 IP 주소를 가지며, 여러 Listener를 정의할 수 있습니다.
+* Listener : 사용자 요청을 수신할 Port를 정의하며, 해당 Port로 수신된 사용자 요청을 연결된 Member Group 내 Member로 분산합니다.
+* Member Group : 사용자 요청을 처리할 서버(Member)의 집합이며 분배 정책을 정의하고 Health Monitor를 통해 Member 상태를 주기적으로 체크하여 정상적인 서버로만 트래픽이 전달될 수 있도록 관리합니다.
+* Health Monitor : Member 상태를 체크하기 위한 체크 주기, 응답 대기 시간 등을 정의합니다.
+* Member : 실제 사용자 요청을 처리하는 역할을 수행하는 서버에 해당하며, 서버에서 수신할 포트 등을 정의합니다.
 
-Load Balancer 관리 기능에서는 Loadbalancer에 대한 생성, 수정, 삭제 및 Listener 관리 등을 제공하는 기능을 제공합니다.
+Load Balancer 관리 기능에서는 Load Balancer에 대한 생성, 수정, 삭제 및 Listener 관리 등을 제공하는 기능을 제공합니다.
 
 
 
@@ -70,7 +70,7 @@ Tenant에서 사용할 Load Balancer를 생성할 수 있습니다.
 
 * Load Balancer 생성을 위해서는 할당될 Subnet 내 3개 이상의 Network Interface가 필요합니다.
 * Load Balancer 생성 시 할당된 IP는 이후 변경이 불가능합니다.
-* Load Balancer 사용을  위해서는 출발지와 Loadbalancer가 속한 서브넷과의  네트워크 설정이 선행되어야 합니다.
+* Load Balancer 사용을 위해서는 출발지와 Load Balancer가 속한 서브넷과의  네트워크 설정이 선행되어야 합니다.
 * Listener의 경우 하나의 Load Balancer에서 동일한 Port 사용은 불가능합니다.
 {% endhint %}
 
@@ -120,7 +120,7 @@ Load Balacner는 사용자가 정의한 IP 외에도 총 3개의 인터페이스
 **참고**
 
 * Load Balancer 삭제 시 하위 Listener도 함께 삭제됩니다.
-* Load Balacner에 할당된 Network Interface는 자동으로 반환됩니다.
+* Load Balancer에 할당된 Network Interface는 자동으로 반환됩니다.
 * Load Balancer에 연결된 Member Group이 존재할 경우 삭제가 불가합니다.
 {% endhint %}
 
@@ -190,5 +190,3 @@ Load Balacner는 사용자가 정의한 IP 외에도 총 3개의 인터페이스
 <figure><img src="../../.gitbook/assets/image (661).png" alt="" width="339"><figcaption></figcaption></figure>
 
 ## FAQ
-
->
